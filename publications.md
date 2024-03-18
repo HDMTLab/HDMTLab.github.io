@@ -22,6 +22,12 @@ matrix and mean vector. _Under revision in Journal of Statistical Planning and I
 
 *Kim, Y.,  Baek, S., Lee, D. and Park, J.  A Group Sequential Procedure to Control FDR for Group Margin and Its Application to GWAS with Linkage Disequilibrium Scores. _Submitted_. 
 
+*Hwang, S., Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E.  Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4$\Delta$ Mutant Data. _Submitted_. 
+
+*Jung, D., Kim, Y. and Park, J. FDR controlling procedures with dimension
+reduction and their application to GWAS with
+Linkage Disequilibrium score. _Submitted_. 
+
 ### _Accepted Papers_ 
 
 Kim, J. and Park, J. Combining  p-values using heavy tailed distributions and their asymptotic 
