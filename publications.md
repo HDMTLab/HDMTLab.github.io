@@ -12,9 +12,7 @@ permalink: /publication/
 ###  _Revision_/_Submitted_
 
  
-Baek, S., Park, H. and Park, J.  Variable Selection Using Data Splitting and Projection for 
-Principal Fitted Component Models in High Dimension. 
-_Under revision in Computational Statistics and Data Analysis_.
+
 
 
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
@@ -36,6 +34,9 @@ results with applications to genomic data. _Accepted in Statistica Sinica_. [Art
 
 Park, H. and Park, J.   A robust false discovery rate controlling procedure using empirical likelihood with a fast algorithm. _Accepted in Journal of Statistical Computation and Simulation_.  [Article Link](https://www.tandfonline.com/doi/full/10.1080/00949655.2023.2280916) 
 
+Baek, S., Park, H. and Park, J.  Variable Selection Using Data Splitting and Projection for 
+Principal Fitted Component Models in High Dimension. 
+_Accepted in Computational Statistics and Data Analysis_.
 
 
 ### 2022 
