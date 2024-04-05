@@ -52,8 +52,8 @@ permalink: /people/
 
 <br>
 
-| Who are they &nbsp;&nbsp;&nbsp;&nbsp; | When were they here &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Where they went |
-| :------------- |:-------------| :-----------|
+| <span style="display: inline-block; width:115px">Who are they</span> | <span style="display: inline-block; width:175px">When were they here</span> | Where they went |
+| :------------- |:-------------| :----------|
 | [Hoyoung Park](http://hdmtlab.github.io/people/hoyoung_park/index.html) | Ph.D. Student (2020 - 2021) | Assistant Professor, Department of Statistics at Sookmyung Women's University |
 | [Soyeon Lim](http://hdmtlab.github.io/people/soyeon_lim/index.html) | MS Student (2020 - 2023) | |
 | [Dohyup Shin](http://hdmtlab.github.io/people/dohyup_shin/index.html) | MS Student (2021 - 2023) | LG U+ |
