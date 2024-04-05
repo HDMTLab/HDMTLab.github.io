@@ -23,9 +23,9 @@ Hi! My name is Kyuhwan Kim and I am a Ph.D candidate in statistics. I’ve had i
 
 * Seoul National University (2021.09 ~ Present)
     - Ph.D Candidate in Statistics
-* Chung-Ang University(2019.03 ~ 2021.02)
+* Chung-Ang University (2019.03 ~ 2021.02)
     - M.A. in  Statistics
-* Chung-Ang University(2015.03 ~ 2019.02)
+* Chung-Ang University (2015.03 ~ 2019.02)
     - B.A. in Applied Statistics
 
 <hr>

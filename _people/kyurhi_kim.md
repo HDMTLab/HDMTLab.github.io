@@ -1,6 +1,6 @@
 ---
 name: Kyurhi Kim
-position: ms
+position: alumni
 avatar: kyurhi_kim.jpeg
 twitter:
 joined: 2022
