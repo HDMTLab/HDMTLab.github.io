@@ -23,7 +23,7 @@ Hi! My name is Yeji Seong and I am a graduate student in High Dimensional Multip
 
 * Seoul National University (2023.03 ~ Present)
     - M.S. in Statistics
-* Yonsei University (2023.2)
+* Kyunghee University (2023.02)
     - B.S in Applied Mathematics
 
 <hr>

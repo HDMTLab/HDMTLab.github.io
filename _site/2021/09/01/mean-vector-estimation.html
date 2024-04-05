@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="aSoPdESQFn8tbJg0HUTpmjSlG-FVdvf1QAVgNiGzb9U" /> 
+  <meta name="keywords" content="junyongpark, Seoul National University, Statistics, 서울대학교, 통계학과, 박준용, multiple testing, high-dimensional classification, mean vector estimation">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mean Vector Estimation</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://localhost:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/zoom.js"></script>
+  <script src="http://localhost:4000/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/2021/09/01/mean-vector-estimation.html">
+  <meta property="og:title" content="Mean Vector Estimation">
+  <meta property="og:site_name" content="High Dimensional Multiple Testing Lab">
+  <meta property="og:description" content="Mean Vector Estimation" />
+  <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 7em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand page-scroll' href='/'>
+              <span style='font-family:"Open Sans" font-weight:300'>HDMT Lab</span>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a class='name' href="/">Home</a></li>
+                      
+                      <li><a class='name' href="/research">Research</a></li>
+                      
+                      <li><a class='name' href="/publication">Publications</a></li>
+                      
+                      <li><a class='name' href="/people">People</a></li>
+                      
+                      <li><a class='name' href="/gallery">Gallery</a></li>
+                      
+                    </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content post">
+  <h3><strong>Mean Vector Estimation</strong><br/>
+  <small>posted on September 1, 2021</small></h3>
+  <hr>
+  <h2 id="mean-vector-estimation">Mean Vector Estimation</h2>
+
+<p><img src="/images/mve.png" width="100%" height="100%" /></p>
+
+<p>Estimation of mean vector is a classical problem which includes <a href="http://www.statslab.cam.ac.uk/~rjs57/SteinParadox.pdf">Stein’s paradox</a>.    There are many approahces in estimating mean vecotr such as linear estimator and approximate Bayes estimator using nonparametric empirical Bayes or nonparametric maximum likelihood estimation.  <a href="https://projecteuclid.org/journals/statistical-science/volume-29/issue-2/Two-Modeling-Strategies-for-Empirical-Bayes-Estimation/10.1214/13-STS455.full">Efron (2014)</a> categorized nonparametric empirical Bayes 
+estimation by introducing f-modeling and g-modeling.  Its application  area is very broad including small area estimation and high dimensional classification.</p>
+
+<h2 id="related-publications">Related Publications</h2>
+
+<p>*Park, H. and Park, J. (2021+) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. <em>Submitted</em>.</p>
+
+<p>Park, J.  (2018). Simultaneous Estimation based on Empirical Likelihood and Nonparametric Maximum Likelihood Estimation, 
+   <em>Computational Statistics and Data Analysis</em>, 117, 19-31. <a href="https://www.sciencedirect.com/science/article/pii/S016794731730172X?via%3Dihub">Article Link</a></p>
+
+<p>Park, J. (2014). Shrinkage Estimator in Normal Mean Vector Estimation based on Conditional Maximum Likelihood, <em>Statistics and Probability Letters</em>, 93, 1-6.</p>
+
+<p>Park, J.  (2012). Nonparametric Empirical Bayes Estimator in Simultaneous Estimation of Poisson Means and Application to Mass Spectrometry Data, <em>Journal of Nonparametric Statistics</em>, 24, 245-265.</p>
+
+<p>Park, J. and Davis, W. (2011). Estimating and testing conditional sums of means in high dimensional multivariate binary data, <em>Journal of Statistical Planning and Inference</em>, 141,  1021-1030.</p>
+
+<p>Greenshtein, E., Park, J. and Ritov, Y. (2008). Estimating the mean of high valued observations in high dimensions, <em>Journal of Statistical Theory and Practice</em>, 2, 407-418.</p>
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 name: Dayeon Jung
-position: ms
+position: alumni
 avatar: dayeon_jung.jpeg
 twitter:
 joined: 2022

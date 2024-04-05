@@ -23,7 +23,7 @@ Hello, my name is Seohwa Hwang and I am a Ph.D. candidate in statistics. My rese
 
 * Seoul National University (2022.03 ~ )
     - Ph.D Candidate in Statistics
-* Seoul National University (2020.03 ~ 2022.2)
+* Seoul National University (2020.03 ~ 2022.02)
     - M.S. in Bioinformatics
 * Seoul National University (2012.03 ~ 2018.02)
     - B.S. in Nursing, minor in Statistics and Bioethics

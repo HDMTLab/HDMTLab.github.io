@@ -52,12 +52,14 @@ permalink: /people/
 
 <br>
 
-| Who are they | When were they here | Where they went |
+| Who are they &nbsp;&nbsp;&nbsp;&nbsp; | When were they here &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Where they went |
 | :------------- |:-------------| :-----------|
 | [Hoyoung Park](http://hdmtlab.github.io/people/hoyoung_park/index.html) | Ph.D. Student (2020 - 2021) | Assistant Professor, Department of Statistics at Sookmyung Women's University |
-| [Soyeon Lim](http://hdmtlab.github.io/people/soyeon_lim/index.html) | MS Student (2020 - 2022) | |
-| [Dohyup Shin](http://hdmtlab.github.io/people/dohyup_shin/index.html) | MS Student (2021 - 2022) | LG U+ |
-| [Myungjun Kim](http://hdmtlab.github.io/people/myungjun_kim/index.html) | MS Student (2021 - 2022) | Samsung Electronics |
-
+| [Soyeon Lim](http://hdmtlab.github.io/people/soyeon_lim/index.html) | MS Student (2020 - 2023) | |
+| [Dohyup Shin](http://hdmtlab.github.io/people/dohyup_shin/index.html) | MS Student (2021 - 2023) | LG U+ |
+| [Myungjun Kim](http://hdmtlab.github.io/people/myungjun_kim/index.html) | MS Student (2021 - 2023) | Samsung Electronics |
+| [Seungyeop Hyun](https://hdmtlab.github.io/people/seungyeop_hyun/index.html) | MS Student (2021 - 2023) |  |
+| [Dayeon Jung](https://hdmtlab.github.io/people/dayeon_jung/index.html) | MS Student (2022 - 2024) | Samsung Electronics |
+| [Kyurhi Kim](https://hdmtlab.github.io/people/kyurhi_kim/index.html) | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
 {% endif %}
 {% endfor %}
