@@ -6,8 +6,54 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2024 Graduation Ceremony</title>
+        <description>&lt;h3 id=&quot;kyurhi-and-dayeon-are-graduated-our-lab-congratulations&quot;&gt;Kyurhi and Dayeon are graduated our lab. Congratulations!&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 015.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 002.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 006.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 010.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 014.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-16-22-08.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 29 Feb 2024 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2024/02/29/2024-graduation.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2024/02/29/2024-graduation.html</guid>
+			</item>
+		
+			<item>
+				<title>2023 Welcome Party</title>
+        <description>&lt;h3 id=&quot;yeji-has-joined-our-lab-welcome&quot;&gt;Yeji has joined our lab. Welcome!&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2023_summer/KakaoTalk_Photo_2024-04-09-16-23-01.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2023_summer/KakaoTalk_Photo_2024-04-09-16-23-01.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2023_summer/KakaoTalk_Photo_2024-04-09-16-23-04.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2023_summer/KakaoTalk_Photo_2024-04-09-16-23-08.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 29 Jun 2023 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2023/06/29/2023-welcome.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2023/06/29/2023-welcome.html</guid>
+			</item>
+		
+			<item>
 				<title>2023 Graduation Ceremony</title>
-        <description>&lt;h3 id=&quot;three-ms-students-are-graduated-our-lab-congratulations&quot;&gt;Three M.S. students are graduated our lab! Congratulations!&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;soyeon-dohyup-and-myungjun-are-graduated-our-lab-congratulations&quot;&gt;Soyeon, Dohyup, and Myungjun are graduated our lab. Congratulations!&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
@@ -17,27 +63,29 @@
 &lt;!-- ### Photos --&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_1.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_1.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_2.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_3.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_4.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_5.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_3.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_4.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_5.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_6.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_15.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_13.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_7.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_8.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_9.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_10.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 
 &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_11.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_12.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_13.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_14.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_15.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_16.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_17.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_18.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_19.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_20.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_12.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_14.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+
+&lt;!-- &lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_16.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_17.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_18.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_19.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2023_Spring_grad/2023_spring_20.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;/div&gt;
 </description>
 				<pubDate>Wed, 01 Mar 2023 00:00:00 +0900</pubDate>
@@ -55,24 +103,23 @@
 
 &lt;div&gt;
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_1.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_2.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_2.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_3.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_4.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_3.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_4.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_5.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_5.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_6.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_7.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_8.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_9.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_10.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_10.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_11.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_12.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 
-&lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_13.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_13.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_14.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 
 &lt;img src=&quot;/gallery/2022_Winter_KSS/2022_winter_15.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
@@ -92,6 +139,31 @@
 				<pubDate>Sat, 03 Dec 2022 00:00:00 +0900</pubDate>
 				<link>http://localhost:4000/2022/12/03/2022-winter-KSS.html</link>
 				<guid isPermaLink="true">http://localhost:4000/2022/12/03/2022-winter-KSS.html</guid>
+			</item>
+		
+			<item>
+				<title>2022 Welcome Party</title>
+        <description>&lt;h3 id=&quot;kyurhi-and-dayeon-have-joined-our-lab-welcome&quot;&gt;Kyurhi and Dayeon have joined our lab. Welcome!&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-58.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-24-01.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-24-11.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-47.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-50.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-54.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-58.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2022/06/29/2022-welcome.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2022/06/29/2022-welcome.html</guid>
 			</item>
 		
 			<item>
