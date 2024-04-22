@@ -36,7 +36,7 @@ Park, H. and Park, J.   A robust false discovery rate controlling procedure usin
 
 Baek, S., Park, H. and Park, J.  Variable Selection Using Data Splitting and Projection for 
 Principal Fitted Component Models in High Dimension. 
-_Accepted in Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) 
+_Accepted in Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) [supplementary](https://ars.els-cdn.com/content/image/1-s2.0-S0167947324000446-mmc1.pdf)
 
 
 ### 2022 
