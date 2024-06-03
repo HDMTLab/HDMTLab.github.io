@@ -15,8 +15,7 @@ permalink: /publication/
 
 
 
-*Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
-matrix and mean vector. _Under revision in Journal of Statistical Planning and Inference_. 
+
 
 *Kim, Y.,  Baek, S., Lee, D. and Park, J.  A Group Sequential Procedure to Control FDR for Group Margin and Its Application to GWAS with Linkage Disequilibrium Scores. _Submitted_. 
 
@@ -27,6 +26,9 @@ reduction and their application to GWAS with
 Linkage Disequilibrium score. _Submitted_. 
 
 ### _Accepted Papers_ 
+
+*Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
+matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. 
 
 Kim, J. and Park, J. Combining  p-values using heavy tailed distributions and their asymptotic 
 results with applications to genomic data. _Accepted in Statistica Sinica_. [Article Link](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0117_na.pdf)  [supplementary](https://www3.stat.sinica.edu.tw/preprint/supp/2023-0117_supp.pdf) 
