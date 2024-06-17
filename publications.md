@@ -28,7 +28,7 @@ Linkage Disequilibrium score. _Submitted_.
 ### _Accepted Papers_ 
 
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
-matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. 
+matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
 
 Kim, J. and Park, J. Combining  p-values using heavy tailed distributions and their asymptotic 
 results with applications to genomic data. _Accepted in Statistica Sinica_. [Article Link](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0117_na.pdf)  [supplementary](https://www3.stat.sinica.edu.tw/preprint/supp/2023-0117_supp.pdf) 
