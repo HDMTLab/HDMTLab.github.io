@@ -18,7 +18,7 @@ joined: 2023
 
 My name is Hyunsung Kim and I am a Ph.D student in Statistics.
 My research interests include functional, high-dimensional data analysis, and multiple testing.
-Currently, my main research lies in variable selection and inference for high-dimensional / multivariate functional data controlling the FDR
+Currently, my main research lies in variable selection and inference for high-dimensional / multivariate functional data controlling the FDR.
 
 <hr>
 
