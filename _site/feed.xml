@@ -200,13 +200,13 @@ genetics such as GWAS and protein domain data.  One major issue in multiple test
 
 &lt;h2 id=&quot;related-publications&quot;&gt;Related Publications&lt;/h2&gt;
 
-&lt;p&gt;*Park, H. and Park, J. (2021+)  A robust false discovery rate controlling procedure using  empirical likelihood with a fast algorithm. &lt;em&gt;Submitted&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;*Park, H. and Park, J. (2024)  A robust false discovery rate controlling procedure using  empirical likelihood with a fast algorithm. &lt;em&gt;Journal of Statistical Computation and Simulation&lt;/em&gt;, 94(5), 1097-1120.&lt;/p&gt;
 
-&lt;p&gt;*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2021+) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains. &lt;em&gt;Accepted in Annals of Applied Statistics.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2022) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains. &lt;em&gt;Annals of Applied Statistics&lt;/em&gt;, 16(3), 1459-1475.&lt;/p&gt;
 
-&lt;p&gt;Ramos, M.L., Park, D., Lim, J., Park, J., Tran, K.,  Garcia, E. and  Green, E. (2021+)
+&lt;p&gt;Ramos, M.L., Park, D., Lim, J., Park, J., Tran, K.,  Garcia, E. and  Green, E. (2021)
 Adaptive local false discovery rate procedures for highly spiky data and their application to protein Set4Δ data, 
-&lt;em&gt;Biometrical Journal&lt;/em&gt;   &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000256&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
+&lt;em&gt;Biometrical Journal&lt;/em&gt;, 63(8), 1729-1744.   &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000256&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;*Gauran, I.I., Park, J.,  Lim, J.,  Park,  D., Zylstra, J.,  Peterson, T., Kann, M. and  Spouge, J. (2018)
   Empirical Null Estimation using Discrete Mixture Distributions and its Application to Protein Domain Data, 
@@ -230,7 +230,7 @@ estimation by introducing f-modeling and g-modeling.  Its application  area is v
 
 &lt;h2 id=&quot;related-publications&quot;&gt;Related Publications&lt;/h2&gt;
 
-&lt;p&gt;*Park, H. and Park, J. (2021+) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. &lt;em&gt;Submitted&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;*Park, H. and Park, J. (2022) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. &lt;em&gt;Electronic Journal of Statistics&lt;/em&gt;, 16(2), 3789-3835.&lt;/p&gt;
 
 &lt;p&gt;Park, J.  (2018). Simultaneous Estimation based on Empirical Likelihood and Nonparametric Maximum Likelihood Estimation, 
    &lt;em&gt;Computational Statistics and Data Analysis&lt;/em&gt;, 117, 19-31. &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S016794731730172X?via%3Dihub&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
@@ -300,16 +300,15 @@ In meta analysis, testing the homogeneity of effect sizes or distributions from 
 
 &lt;h2 id=&quot;related-publications&quot;&gt;Related Publications&lt;/h2&gt;
 
-&lt;p&gt;*Park, H.,  Baek, S. and Park, J. (2021+) High Dimensional Classification Based on Nonparametric Maximum Likelihood Estimation Under Unknown and Inhomogeneous Variances.  &lt;em&gt;Minor revision in Statistical Analysis and Data Mining&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;*Park, H.,  Baek, S. and Park, J. (2022) High Dimensional Classification Based on Nonparametric Maximum Likelihood Estimation Under Unknown and Inhomogeneous Variances.  &lt;em&gt;Statistical Analysis and Data Mining&lt;/em&gt;, 15(2), 193-205.&lt;/p&gt;
 
-&lt;p&gt;*Park, H.,  Baek, S. and Park, J. (2021+) High-dimensional linear discriminant analysis using nonparametric methods, 
-&lt;em&gt;Accepted in Journal of Multivariate Analysis.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*Park, H.,  Baek, S. and Park, J. (2022) High-dimensional linear discriminant analysis using nonparametric methods, &lt;em&gt;Journal of Multivariate Analysis&lt;/em&gt;, 188, 104836.&lt;/p&gt;
 
-&lt;p&gt;Baek, S., *Park, H., and Park, J.  (2021+) A High-Dimensional Classification Rule Using Sample Covariance Matrix Equipped With Adjusted Estimated Eigenvalues, 
- &lt;em&gt;STAT&lt;/em&gt; &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.358&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Baek, S., *Kim, Y.,  Park, J. and Lee, J.  (2022) Revisit to Functional Data Analysis of Sleeping Energy Expenditure, 
+&lt;em&gt;Journal of Applied Statistics&lt;/em&gt;, 49(4), 988-1002. &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/02664763.2020.1838457&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Baek, S., *Kim, Y.,  Park, J. and Lee, J.  (2021+) Revisit to Functional Data Analysis of Sleeping Energy Expenditure, 
-&lt;em&gt;Journal of Applied Statistics&lt;/em&gt; &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/02664763.2020.1838457&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Baek, S., *Park, H., and Park, J.  (2021) A High-Dimensional Classification Rule Using Sample Covariance Matrix Equipped With Adjusted Estimated Eigenvalues, 
+ &lt;em&gt;STAT&lt;/em&gt;, 10(1), e358. &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.358&quot;&gt;Article Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Park, J. and Park, D. (2015). Stein’s method in High Dimensional Classification and Applications. &lt;em&gt;Computational Statistics and Data Analysis&lt;/em&gt;, 82, 110-125.&lt;/p&gt;
 

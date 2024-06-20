@@ -15,7 +15,7 @@ joined: 2023
 
 <hr>
 
-Hi! My name is Yeji Seong and I am a graduate student in High Dimensional Multiple Testing Lab(2023.06~). I was awarded a bachelor’s degree in applied mathematics from Kyunghee University(2023.03). I’m interested in Multiple testing and Classification in high dimension.
+Hi! My name is Yeji Seong and I am a graduate student in High Dimensional Multiple Testing Lab (2023.06~). I was awarded a bachelor’s degree in applied mathematics from Kyunghee University (2023.03). I’m interested in Multiple testing and Classification in high dimension.
 
 <hr>
 

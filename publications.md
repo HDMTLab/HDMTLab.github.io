@@ -43,22 +43,22 @@ _Accepted in Computational Statistics and Data Analysis_. [Article Link](https:/
 
 ### 2022 
 
-*Hong, S., Coelho, A.C., Park, J. (2022+) An Exact and Near-Exact Distribution Approach to the Behrens–Fisher Problem. _Mathematics._
+*Hong, S., Coelho, A.C., Park, J. (2022) An Exact and Near-Exact Distribution Approach to the Behrens–Fisher Problem. _Mathematics._
 [Article Link](https://www.mdpi.com/2227-7390/10/16/2953)  
 
-*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2022+) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains.  _Annals of Applied Statistics._   [Article Link](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-16/issue-3/Bayesian-local-false-discovery-rate-for-sparse-count-data-with/10.1214/21-AOAS1551.full)
+*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2022) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains.  _Annals of Applied Statistics._   [Article Link](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-16/issue-3/Bayesian-local-false-discovery-rate-for-sparse-count-data-with/10.1214/21-AOAS1551.full)
 
 
-*Park, H. and Park, J. (2022+) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. _Electronic Journal of Statistics_. [Ariticle Link](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-2/Poisson-mean-vector-estimation-with-nonparametric-maximum-likelihood-estimation-and/10.1214/22-EJS2029.full)
+*Park, H. and Park, J. (2022) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. _Electronic Journal of Statistics_. [Ariticle Link](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-2/Poisson-mean-vector-estimation-with-nonparametric-maximum-likelihood-estimation-and/10.1214/22-EJS2029.full)
 
-*Agarwala, N.,  Park, J. and Roy, A. (2022+) Efficient Integration of Aggregate Data and Individual Patient Data in One-Way Mixed Models. 
+*Agarwala, N.,  Park, J. and Roy, A. (2022) Efficient Integration of Aggregate Data and Individual Patient Data in One-Way Mixed Models. 
 _Statistics in Medicine_.[Ariticle Link](https://onlinelibrary.wiley.com/doi/10.1002/sim.9307)
 
-Baek, S.  and  Park, J.  (2022+) A Computationally Efficient Approach to Estimating Species Richness and Rarefaction Curve.
+Baek, S.  and  Park, J.  (2022) A Computationally Efficient Approach to Estimating Species Richness and Rarefaction Curve.
   _Computational Statistics._  [Ariticle Link](https://link.springer.com/article/10.1007/s00180-021-01185-1)
 
 
-*Park, H.,  Baek, S. and Park, J. (2022+) High Dimensional Classification Based on Nonparametric Maximum Likelihood Estimation Under Unknown and Inhomogeneous Variances. 
+*Park, H.,  Baek, S. and Park, J. (2022) High Dimensional Classification Based on Nonparametric Maximum Likelihood Estimation Under Unknown and Inhomogeneous Variances. 
 _Statistical Analysis and Data Mining_. [Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.11554)
 
 

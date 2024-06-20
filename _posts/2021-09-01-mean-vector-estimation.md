@@ -15,7 +15,7 @@ estimation by introducing f-modeling and g-modeling.  Its application  area is v
 
 ## Related Publications
 
-*Park, H. and Park, J. (2021+) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. _Submitted_.
+*Park, H. and Park, J. (2022) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. _Electronic Journal of Statistics_, 16(2), 3789-3835.
 
 Park, J.  (2018). Simultaneous Estimation based on Empirical Likelihood and Nonparametric Maximum Likelihood Estimation, 
    _Computational Statistics and Data Analysis_, 117, 19-31. [Article Link](https://www.sciencedirect.com/science/article/pii/S016794731730172X?via%3Dihub) 

@@ -9,45 +9,43 @@ layout: default
       width = "100%" height = "100%" />
 
       <p> 
-      서울대학교 통계학과 박준용 교수님 연구실 (Junyong Park, Statistics, Seoul National University) <br>
-      <i>
-        Hypothesis Testing in High Dimension. <br>
-        Multiple Testing. <br>
-        Classification in High Dimension.
-      </i>
+        High-Dimensional Multiple Testing Lab <br>
+        서울대학교 통계학과 박준용 교수님 연구실 (Junyong Park, Statistics, Seoul National University) <br>
+        <i>
+          Hypothesis Testing in High Dimension. <br>
+          Multiple Testing. <br>
+          Classification in High Dimension.
+        </i>
 
         <span style="display: block; margin-bottom: 3em"></span>
 
-      <a href="https://github.com/HDMTLab"><i class="fa fa-github"></i> HDMT Lab.</a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:junyongpark@snu.ac.kr"><i class="fa fa-envelope-o"></i> junyongpark@snu.ac.kr</a>
+        <a href="https://github.com/HDMTLab"><i class="fa fa-github"></i> HDMT Lab.</a>&nbsp;&nbsp;&nbsp;
+        <a href="mailto:junyongpark@snu.ac.kr"><i class="fa fa-envelope-o"></i> junyongpark@snu.ac.kr</a>
       </p>
 
       <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
         <div style="text-align:left">
-          <h3> Recent News </h3>
+          <h3> Recent News <a href="/news/">(More News)</a></h3>
           <u> Happenings of the last six months. 
             Updated {{'now' | date: '%Y'}}-{{'now' | date: '%m'}}-{{'now' | date: '%d'}}</u>
             <!-- Updated {{'now' | date: '%d'}}/{{'now' | date: '%m'}}/{{'now' | date: '%Y'}}</u> -->
           <!-- <u> Happenings of the last two months. Updated 07/12/2022</u> -->
-          <span style="display: block; margin-bottom: 1em"></span>
+          <span style="display: block; margin-bottom: 0em"></span>
           <div class="news">
               {% capture now %}{{'now' | date: '%s' | minus: 15811200 }}{% endcapture %}
               <ul style="list-style-position:outside;padding:20px" >
-                <!-- {% for new in site.data.news %}
-                  {{now}}
-                  {{new.date}} | {{new.details}} <br>
-                {% endfor %} -->
                 {% for new in site.data.news %}
                   {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
-                  {% if date > now %}
-                    <li> {{ new.date }} | 
+                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+                  {% if date > now and forloop.index < 4 %}
+                    <li> {{ new.date }} |
                       <span>
                         {{ new.details }}
                       </span>
                     </li>
                   {% endif %}
                 {% endfor %}
-              </ul>
+              </ul>              
           </div>
         </div >
       </div>
