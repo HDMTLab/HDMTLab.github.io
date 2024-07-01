@@ -13,7 +13,7 @@ permalink: /publication/
 
  
 
-
+Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Submitted_
 
 *Hwang, S. and Park, J. Online Anomaly Detection: Revisiting Storey's Procedure with Adaptive Quantile Sketching. _Submitted_.
 
