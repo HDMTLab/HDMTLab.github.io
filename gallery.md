@@ -24,7 +24,8 @@ permalink: /gallery/
 <header class="masthead text-center">
     <h1>Gallery</h1>
   </header>
-  <br>
+
+------
 
 <div class="content list">
   {% for post in site.posts %}

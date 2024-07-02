@@ -15,13 +15,13 @@ genetics such as GWAS and protein domain data.  One major issue in multiple test
 
 ## Related Publications
 
-*Park, H. and Park, J. (2021+)  A robust false discovery rate controlling procedure using  empirical likelihood with a fast algorithm. _Submitted_. 
+*Park, H. and Park, J. (2024)  A robust false discovery rate controlling procedure using  empirical likelihood with a fast algorithm. _Journal of Statistical Computation and Simulation_, 94(5), 1097-1120.
 
-*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2021+) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains. _Accepted in Annals of Applied Statistics._   
+*Gauran, I.I., Park, J., Rattsev, I., Peterson, T.A., Kann, M.G. and  Park, D. (2022) Bayesian Local False Discovery Rate for sparse count data with application to the discovery of hotspots in protein domains. _Annals of Applied Statistics_, 16(3), 1459-1475.   
 
-Ramos, M.L., Park, D., Lim, J., Park, J., Tran, K.,  Garcia, E. and  Green, E. (2021+)
+Ramos, M.L., Park, D., Lim, J., Park, J., Tran, K.,  Garcia, E. and  Green, E. (2021)
 Adaptive local false discovery rate procedures for highly spiky data and their application to protein Set4Δ data, 
-_Biometrical Journal_   [Article Link](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000256) 
+_Biometrical Journal_, 63(8), 1729-1744.   [Article Link](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202000256) 
 
 *Gauran, I.I., Park, J.,  Lim, J.,  Park,  D., Zylstra, J.,  Peterson, T., Kann, M. and  Spouge, J. (2018)
   Empirical Null Estimation using Discrete Mixture Distributions and its Application to Protein Domain Data, 
