@@ -12,6 +12,8 @@ permalink: /publication/
 ###  _Revision_/_Submitted_
 
  
+*Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
+Models via Data Splitting. _Submitted_ 
 
 Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Submitted_
 
