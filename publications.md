@@ -11,7 +11,10 @@ permalink: /publication/
 
 ###  _Revision_/_Submitted_
 
- 
+*Seong, Y., Gauran, I. I., *Kim, H., Ombao, H. and Park, J.   Classification of Multivariate Functional Data with an application to ADHD fMRI Data. 
+_Submitted_
+
+
 *Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
 Models via Data Splitting. _Submitted_ 
 
