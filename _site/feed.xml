@@ -6,8 +6,30 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>2024.05 Teacher&apos;s Day</title>
-        <description>&lt;h3 id=&quot;teachers-day&quot;&gt;Teacher’s day&lt;/h3&gt;
+				<title>2024 The Korean Statistical Society Winter Conference</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-13-18 001.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-13-06 001.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-13-07 004.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;img src=&quot;/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-02 004.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-03 010.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;/div&gt;
+</description>
+				<pubDate>Fri, 22 Nov 2024 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2024/11/22/2024-winter-KSS.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2024/11/22/2024-winter-KSS.html</guid>
+			</item>
+		
+			<item>
+				<title>Teacher&apos;s Day</title>
+        <description>&lt;!-- ### Teacher&apos;s day --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
@@ -29,8 +51,8 @@
 			</item>
 		
 			<item>
-				<title>2024 Graduation Ceremony</title>
-        <description>&lt;h3 id=&quot;kyurhi-and-dayeon-are-graduated-our-lab-congratulations&quot;&gt;Kyurhi and Dayeon are graduated our lab. Congratulations!&lt;/h3&gt;
+				<title>Kyurhi and Dayeon are graduated our Lab.</title>
+        <description>&lt;!-- ### Kyurhi and Dayeon are graduated our lab. Congratulations! --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
@@ -53,8 +75,8 @@
 			</item>
 		
 			<item>
-				<title>2023 Welcome Party</title>
-        <description>&lt;h3 id=&quot;yeji-has-joined-our-lab-welcome&quot;&gt;Yeji has joined our lab. Welcome!&lt;/h3&gt;
+				<title>Yeji has joined our Lab.</title>
+        <description>&lt;!-- ### Yeji has joined our lab. Welcome! --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
@@ -75,8 +97,8 @@
 			</item>
 		
 			<item>
-				<title>2023 Graduation Ceremony</title>
-        <description>&lt;h3 id=&quot;soyeon-dohyup-and-myungjun-are-graduated-our-lab-congratulations&quot;&gt;Soyeon, Dohyup, and Myungjun are graduated our lab. Congratulations!&lt;/h3&gt;
+				<title>Soyeon, Dohyup, and Myungjun are graduated our Lab.</title>
+        <description>&lt;!-- ### Soyeon, Dohyup, and Myungjun are graduated our lab. Congratulations! --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
@@ -165,8 +187,8 @@
 			</item>
 		
 			<item>
-				<title>2022 Welcome Party</title>
-        <description>&lt;h3 id=&quot;kyurhi-and-dayeon-have-joined-our-lab-welcome&quot;&gt;Kyurhi and Dayeon have joined our lab. Welcome!&lt;/h3&gt;
+				<title>Kyurhi and Dayeon have joined our Lab.</title>
+        <description>&lt;!-- ### Kyurhi and Dayeon have joined our lab. Welcome! --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- ## Event 1 --&gt;
