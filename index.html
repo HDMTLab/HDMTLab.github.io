@@ -9,14 +9,24 @@ layout: default
       width = "100%" height = "100%" /> -->
       
       <!-- 메인 이미지 슬라이드 -->
+      <!-- https://velog.io/@wswy17/CSS-animation-%ED%99%9C%EC%9A%A9%ED%95%B4-slider-%EB%A7%8C%EB%93%A4%EA%B8%B0 -->
       <div class="slider">
+        <!-- <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div> -->
         <div class="slide"><img src="/gallery/2024_Winter_KSS/main.png"></div>
-        <!-- <div class="slide"><img src="/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-13-07 004.jpeg"></div> -->
         <div class="slide"><img src="/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-02 004.jpeg" ></div>
         <div class="slide"><img src="/gallery/2024_teachers_day/KakaoTalk_Photo_2024-05-20-11-00-47 003.jpeg"></div>
       </div>
 
       <style>
+        img{
+          /* position: absolute;  */
+          /* top:0; left: 0; */
+          width: auto;
+          height: 100%;
+          margin: auto;
+        }
         .slider {
           position: relative;
           overflow: hidden;
@@ -24,7 +34,8 @@ layout: default
           /* width: 800px; */
           /* height: 600px; */
           width: 100%;
-          padding-bottom:80%;
+          /* height: 80%; */
+          padding-bottom: 80%;
         }
 
         .slide {
@@ -33,18 +44,18 @@ layout: default
           left: 0;
           width: 100%;
           height: 100%;
-          background-size: cover;
-          background-position: center;
+          /* background-size: cover; */
+          /* background-position: center; */
 
           animation: slider 7.5s infinite linear;
         }
 
         .slide:nth-child(1) {
-          /* background-image: url("/gallery/2024_teachers_day/KakaoTalk_Photo_2024-05-20-11-00-47 003.jpeg"); */
+          /* background-image: url("/gallery/2024_Winter_KSS/main.png"); */
           animation-delay: 0s;
         }
         .slide:nth-child(2) {
-          /* background-image: url("/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-47.jpeg"); */
+          /* background-image: url("/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-02 004.jpeg"); */
           animation-delay: -5s;
         }
         .slide:nth-child(3) {
@@ -75,7 +86,7 @@ layout: default
       </style>
      
      
-     
+     <br>
       <p> 
         High-Dimensional Multiple Testing Lab <br>
         서울대학교 통계학과 박준용 교수님 연구실 (Junyong Park, Statistics, Seoul National University) <br>
