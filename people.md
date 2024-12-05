@@ -66,12 +66,22 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
+| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Department of Statistics at Sookmyung Women's University |
+| Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
+| Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
+| [Myungjun Kim](https://j0shuajun.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
+| [Seungyeop Hyun](https://hsy5830.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
+| Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
+| Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
+
+<!-- | Who are they | When were they here | Where they went |
+| :------------- |:-------------| :----------|
 | [Hoyoung Park](http://hdmtlab.github.io/people/hoyoung_park/index.html) | Ph.D. Student (2020 - 2021) | Assistant Professor, Department of Statistics at Sookmyung Women's University |
 | [Soyeon Lim](http://hdmtlab.github.io/people/soyeon_lim/index.html) | MS Student (2020 - 2023) | |
 | [Dohyup Shin](http://hdmtlab.github.io/people/dohyup_shin/index.html) | MS Student (2021 - 2023) | LG U+ |
 | [Myungjun Kim](http://hdmtlab.github.io/people/myungjun_kim/index.html) | MS Student (2021 - 2023) | Samsung Electronics |
 | [Seungyeop Hyun](https://hdmtlab.github.io/people/seungyeop_hyun/index.html) | MS Student (2021 - 2023) | Samsung Electronics |
 | [Dayeon Jung](https://hdmtlab.github.io/people/dayeon_jung/index.html) | MS Student (2022 - 2024) | Samsung Electronics |
-| [Kyurhi Kim](https://hdmtlab.github.io/people/kyurhi_kim/index.html) | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
+| [Kyurhi Kim](https://hdmtlab.github.io/people/kyurhi_kim/index.html) | MS Student (2022 - 2024) | Ph.D. Student at Emory University | -->
 {% endif %}
 {% endfor %}
