@@ -66,7 +66,7 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
-| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Department of Statistics at Sookmyung Women's University |
+| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Dept. of Statistics at Sookmyung Women's Univ. |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
 | [Myungjun Kim](https://j0shuajun.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
