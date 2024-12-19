@@ -11,14 +11,13 @@ permalink: /publication/
 
 ###  _Revision_/_Submitted_
 
+
+
 *Seong, Y., Gauran, I. I., *Kim, H., Ombao, H. and Park, J.   Classification of Multivariate Functional Data with an application to ADHD fMRI Data. 
 _Submitted_
 
-
 *Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
 Models via Data Splitting. _Submitted_ 
-
-Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Under Revision_
 
 *Hwang, S. and Park, J. Online Anomaly Detection: Revisiting Storey's Procedure with Adaptive Quantile Sketching. _Submitted_.
 
@@ -31,6 +30,8 @@ reduction and their application to GWAS with
 Linkage Disequilibrium score. _Submitted_. 
 
 ### _Accepted Papers_ 
+
+Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Accepted in Survey Methodology_.
 
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
 matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
