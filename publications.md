@@ -11,7 +11,7 @@ permalink: /publication/
 
 ###  _Revision_/_Submitted_
 
-
+Cao, M., Qiu, Y. and Park, J.  General linear hypothesis testing of high-dimensional mean vectors based on random integration. _Submitted_.
 
 *Seong, Y., Gauran, I. I., *Kim, H., Ombao, H. and Park, J.   Classification of Multivariate Functional Data with an application to ADHD fMRI Data. 
 _Submitted_
