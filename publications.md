@@ -43,16 +43,16 @@ results with applications to genomic data. _Accepted in Statistica Sinica_. [Art
 ### 2025
 
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
-matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
+matrix and mean vector. _Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
 
 
 ### 2024
 
-Park, H. and Park, J.   A robust false discovery rate controlling procedure using empirical likelihood with a fast algorithm. _Accepted in Journal of Statistical Computation and Simulation_.  [Article Link](https://www.tandfonline.com/doi/full/10.1080/00949655.2023.2280916) 
+Park, H. and Park, J.   A robust false discovery rate controlling procedure using empirical likelihood with a fast algorithm. _Journal of Statistical Computation and Simulation_.  [Article Link](https://www.tandfonline.com/doi/full/10.1080/00949655.2023.2280916) 
 
 Baek, S., Park, H. and Park, J.  Variable Selection Using Data Splitting and Projection for 
 Principal Fitted Component Models in High Dimension. 
-_Accepted in Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) [supplementary](https://ars.els-cdn.com/content/image/1-s2.0-S0167947324000446-mmc1.pdf)
+_Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) [supplementary](https://ars.els-cdn.com/content/image/1-s2.0-S0167947324000446-mmc1.pdf)
 
 
 ### 2022 
