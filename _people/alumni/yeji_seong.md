@@ -1,6 +1,6 @@
 ---
 name: Yeji Seong
-position: ms
+position: alumni
 avatar: yeji_seong.jpeg
 twitter:
 joined: 2023
