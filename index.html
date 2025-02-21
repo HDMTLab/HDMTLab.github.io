@@ -117,7 +117,7 @@ layout: default
                   {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
                   <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
                   {% if date > now and forloop.index < 4 %}
-                    <li> {{ new.date }} |
+                    <li> {{ new.date }}.
                       <span>
                         {{ new.details }}
                       </span>

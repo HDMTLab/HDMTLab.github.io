@@ -11,7 +11,7 @@ joined: 2024
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `kjh1017@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room 306 <br> 
+<i class="fa fa-building"></i> Building 25 Room 307 <br> 
 
 <hr>
 
