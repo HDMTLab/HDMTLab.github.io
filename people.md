@@ -50,8 +50,12 @@ permalink: /people/
 
 {% else %}
 
-<br>
+{% endif %}
+{% endfor %}
 
+
+
+<!-- Alumni parts; Extract it from "if" and "for loop" -->
 <style>
 table th:first-of-type {
     width: 18%;
@@ -63,6 +67,12 @@ table th:nth-of-type(3) {
     width: 55%;
 }
 </style>
+
+<div class="pos_header">
+
+<h3>Alumni</h3>
+<br>
+</div>
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
@@ -84,5 +94,3 @@ table th:nth-of-type(3) {
 | [Seungyeop Hyun](https://hdmtlab.github.io/people/seungyeop_hyun/index.html) | MS Student (2021 - 2023) | Samsung Electronics |
 | [Dayeon Jung](https://hdmtlab.github.io/people/dayeon_jung/index.html) | MS Student (2022 - 2024) | Samsung Electronics |
 | [Kyurhi Kim](https://hdmtlab.github.io/people/kyurhi_kim/index.html) | MS Student (2022 - 2024) | Ph.D. Student at Emory University | -->
-{% endif %}
-{% endfor %}
