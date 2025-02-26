@@ -3,7 +3,7 @@ name: Hyunsung Kim
 position: phd
 avatar: hyunsung_kim.jpg
 twitter:
-joined: 2023
+joined: 2023-1
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -18,7 +18,7 @@ joined: 2023
 
 My name is Hyunsung Kim and I am a Ph.D. candidate in Statistics.
 My research interests include functional, high-dimensional data analysis, and multiple testing.
-<!-- Currently, my main research lies in variable selection and inference for high-dimensional / multivariate functional data controlling the FDR. -->
+
 
 <hr>
 

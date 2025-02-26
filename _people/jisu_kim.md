@@ -3,7 +3,7 @@ name: Jisu Kim
 position: ms
 avatar: jisu_kim.jpeg
 twitter:
-joined: 2024
+joined: 2024-1
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

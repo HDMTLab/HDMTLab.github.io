@@ -3,7 +3,7 @@ name: Hwijong Song
 position: ms
 avatar: hwijong_song.jpeg
 twitter:
-joined: 2024
+joined: 2024-2
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

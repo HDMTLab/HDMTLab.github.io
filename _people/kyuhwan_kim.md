@@ -3,7 +3,7 @@ name: Kyuhwan Kim
 position: phd
 avatar: kyuhwan_kim.png
 twitter:
-joined: 2021 
+joined: 2021-2
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
