@@ -41,6 +41,15 @@ Department of Statistics, Seoul National University, Building 25 Room 326 <br>
 
 <hr>
 
+**Research Grants**
+- Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2025.03 ~ 2030.02)
+- Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2020.03 ~ 2025.02)
+
+<!-- - 한국연구재단 중견연구 (2020.03 ~ 2025.02)
+- 한국연구재단 중견연구 (2025.03 ~ 2030.02) -->
+
+<hr>
+
 
 **Current Graduate Students (SNU)** <br>
 

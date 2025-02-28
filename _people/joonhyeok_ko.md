@@ -34,3 +34,9 @@ Hello, my name is Joonhyeok Ko and I’m a graduate student in High Dimensional 
 
 * Multiple Testing
 * High Dimensional Classification
+
+
+<hr>
+
+### Research Grants
+- 서울대학교 기초학문분야 학문후속세대 유형 C (2024.03 ~ 2026.02)
