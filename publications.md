@@ -11,6 +11,8 @@ permalink: /publication/
 
 ###  _Revision_/_Submitted_
 
+Park, H. and Park, J.†, Semiparametric empirical Bayes method for Normal mean estimation of the hierarchical Normal model with unknown heteroscedastic variances. _Submitted_
+
 Park, H. and Park, J. Semiparametric empirical Bayes method for Normal mean estimation of the hierarchical Normal model with unknown heteroscedastic variances. _Submitted_
 
 *Hwang, S. and Park, J.  Hierarchical Remedian Estimation
