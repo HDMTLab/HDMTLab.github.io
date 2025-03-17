@@ -40,18 +40,26 @@ Linkage Disequilibrium score. _Submitted_.
 
 Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Accepted in Survey Methodology_.
 
-*Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
-matrix and mean vector. _Accepted in Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
+
 
 Kim, J. and Park, J. Combining  p-values using heavy tailed distributions and their asymptotic 
 results with applications to genomic data. _Accepted in Statistica Sinica_. [Article Link](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0117_na.pdf)  [supplementary](https://www3.stat.sinica.edu.tw/preprint/supp/2023-0117_supp.pdf) 
  
 
-Park, H. and Park, J.   A robust false discovery rate controlling procedure using empirical likelihood with a fast algorithm. _Accepted in Journal of Statistical Computation and Simulation_.  [Article Link](https://www.tandfonline.com/doi/full/10.1080/00949655.2023.2280916) 
+
+### 2025
+
+*Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
+matrix and mean vector. _Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
+
+
+### 2024
+
+Park, H. and Park, J.   A robust false discovery rate controlling procedure using empirical likelihood with a fast algorithm. _Journal of Statistical Computation and Simulation_.  [Article Link](https://www.tandfonline.com/doi/full/10.1080/00949655.2023.2280916) 
 
 Baek, S., Park, H. and Park, J.  Variable Selection Using Data Splitting and Projection for 
 Principal Fitted Component Models in High Dimension. 
-_Accepted in Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) [supplementary](https://ars.els-cdn.com/content/image/1-s2.0-S0167947324000446-mmc1.pdf)
+_Computational Statistics and Data Analysis_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0167947324000446?dgcid=author) [supplementary](https://ars.els-cdn.com/content/image/1-s2.0-S0167947324000446-mmc1.pdf)
 
 
 ### 2022 
@@ -65,7 +73,7 @@ _Accepted in Computational Statistics and Data Analysis_. [Article Link](https:/
 *Park, H. and Park, J. (2022) Poisson mean vector estimation with Nonparametric Maximum Likelihood Estimation and Application to Protein Domain Data. _Electronic Journal of Statistics_. [Ariticle Link](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-2/Poisson-mean-vector-estimation-with-nonparametric-maximum-likelihood-estimation-and/10.1214/22-EJS2029.full)
 
 *Agarwala, N.,  Park, J. and Roy, A. (2022) Efficient Integration of Aggregate Data and Individual Patient Data in One-Way Mixed Models. 
-_Statistics in Medicine_.[Ariticle Link](https://onlinelibrary.wiley.com/doi/10.1002/sim.9307)
+_Statistics in Medicine_. [Ariticle Link](https://onlinelibrary.wiley.com/doi/10.1002/sim.9307)
 
 Baek, S.  and  Park, J.  (2022) A Computationally Efficient Approach to Estimating Species Richness and Rarefaction Curve.
   _Computational Statistics._  [Ariticle Link](https://link.springer.com/article/10.1007/s00180-021-01185-1)

@@ -3,7 +3,7 @@ name: Seohwa Hwang
 position: phd
 avatar: seohwa_hwang.jpeg
 twitter:
-joined: 2022
+joined: 2022-1
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

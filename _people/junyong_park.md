@@ -41,13 +41,24 @@ Department of Statistics, Seoul National University, Building 25 Room 326 <br>
 
 <hr>
 
+**Research Grants**
+- Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2025.03 ~ 2030.02)
+- Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2020.03 ~ 2025.02)
+
+<!-- - 한국연구재단 중견연구 (2020.03 ~ 2025.02)
+- 한국연구재단 중견연구 (2025.03 ~ 2030.02) -->
+
+<hr>
+
 
 **Current Graduate Students (SNU)** <br>
 
-* Kyuhwan Kim (Ph.D. candidate at SNU) <br>
-* Seohwa Hwang (Ph.D. candidate at SNU) <br>
-* Hyunsung Kim (Ph.D. student at SNU) <br>
-* Yeji Seong (M.S. student at SNU) <br>
+* Kyuhwan Kim (Ph.D. candidate)
+* Seohwa Hwang (Ph.D. candidate)
+* Hyunsung Kim (Ph.D. candidate)
+* Joonhyeok Ko (M.S. student)
+* Jisu Kim (M.S. student)
+* Hwijong Song (M.S. student)
 
 
 <hr>
@@ -55,17 +66,18 @@ Department of Statistics, Seoul National University, Building 25 Room 326 <br>
 
 **Past Students (SNU, UMBC)** <br>
 
-* Kyurhi Kim (Ph.D. Student at Emory University, M.S. SNU, 2024) <br>
-* Dayeon Jung (Samsung Electronics, M.S. SNU, 2024)<br>
-* Seungyup Hyun (Samsung Electronics, M.S. SNU, 2023) <br>
-* Myungjun Kim (Samsung Electronics, M.S. SNU, 2023) <br>
-* Dohyup Shin (LG U+, M.S. SNU, 2023) <br>
-* Soyeon Lim (M.S. SNU, 2023) <br>
-* Yewon Kim (Ph.D. UMBC, 2022) <br>
-* Neha Agarwala (Post doctoral Fellow, National Cancer Institute (NCI), Ph.D. UMBC, 2022) <br>
-* Hoyoung Park (Assistant Professor in Sookmyung Women's University, Ph.D. SNU, 2021) <br>
-* Iris Ivy Gauran (Postdoc fellow, KAUST, Ph.D. UMBC, 2018, joint with Dr. Dohwan Park)  <br>
-* Amanda Plunkett (National Security Agency in the U.S.  Ph.D. UMBC, 2015)   <br>
-* Sungwoo Choi (Food and Drug Administration  in the U.S.  Ph.D. UMBC, 2014)  <br>
+* Yeji Seong (LG CNS, M.S. SNU, 2025)
+* Kyurhi Kim (Ph.D. Student at Emory University, M.S. SNU, 2024) 
+* Dayeon Jung (Samsung Electronics, M.S. SNU, 2024)
+* Seungyup Hyun (Samsung Electronics, M.S. SNU, 2023)
+* Myungjun Kim (Samsung Electronics, M.S. SNU, 2023) 
+* Dohyup Shin (LG U+, M.S. SNU, 2023)
+* Soyeon Lim (M.S. SNU, 2023) 
+* Yewon Kim (Ph.D. UMBC, 2022)
+* Neha Agarwala (Post doctoral Fellow, National Cancer Institute (NCI), Ph.D. UMBC, 2022)
+* Hoyoung Park (Assistant Professor in Sookmyung Women's University, Ph.D. SNU, 2021)
+* Iris Ivy Gauran (Postdoc fellow, KAUST, Ph.D. UMBC, 2018, joint with Dr. Dohwan Park) 
+* Amanda Plunkett (National Security Agency in the U.S.  Ph.D. UMBC, 2015) 
+* Sungwoo Choi (Food and Drug Administration  in the U.S.  Ph.D. UMBC, 2014) 
 * Deepak Ayyala (Augusta University in the U.S. Ph.D. UMBC, 2013,  joint with Dr. Anindya Roy) 
 

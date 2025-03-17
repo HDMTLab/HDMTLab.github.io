@@ -21,7 +21,7 @@ permalink: /people/
 {% elsif role == 'postdoc' %}
 <h3>Postdoctoral Fellows</h3>
 {% elsif role == 'phd' %}
-<h3>Ph. D. Course Students</h3>
+<h3>Ph.D. Course Students</h3>
 {% elsif role == 'ms' %}
 <h3>Master Course Students</h3>
 {% elsif role == 'alumni' %}
@@ -50,8 +50,12 @@ permalink: /people/
 
 {% else %}
 
-<br>
+{% endif %}
+{% endfor %}
 
+
+
+<!-- Alumni parts; Extract it from "if" and "for loop" -->
 <style>
 table th:first-of-type {
     width: 18%;
@@ -64,6 +68,12 @@ table th:nth-of-type(3) {
 }
 </style>
 
+<div class="pos_header">
+
+<h3>Alumni</h3>
+<br>
+</div>
+
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
 | [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Dept. of Statistics at Sookmyung Women's Univ. |
@@ -73,6 +83,7 @@ table th:nth-of-type(3) {
 | [Seungyeop Hyun](https://hsy5830.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
 | Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
 | Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
+| Yeji Seong | MS Student (2023 - 2025) | LG CNS |
 
 <!-- | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
@@ -83,5 +94,3 @@ table th:nth-of-type(3) {
 | [Seungyeop Hyun](https://hdmtlab.github.io/people/seungyeop_hyun/index.html) | MS Student (2021 - 2023) | Samsung Electronics |
 | [Dayeon Jung](https://hdmtlab.github.io/people/dayeon_jung/index.html) | MS Student (2022 - 2024) | Samsung Electronics |
 | [Kyurhi Kim](https://hdmtlab.github.io/people/kyurhi_kim/index.html) | MS Student (2022 - 2024) | Ph.D. Student at Emory University | -->
-{% endif %}
-{% endfor %}
