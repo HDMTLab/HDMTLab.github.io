@@ -30,7 +30,7 @@ Models via Data Splitting. _Submitted_
 
 *Jung, D., Kim, Y. and Park, J. FDR controlling procedures with dimension
 reduction and their application to GWAS with
-Linkage Disequilibrium score. _Submitted_. 
+Linkage Disequilibrium score. _Under Revision_. 
 
 ### _Accepted Papers_ 
 
