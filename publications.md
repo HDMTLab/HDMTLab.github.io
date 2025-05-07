@@ -21,7 +21,7 @@ Cao, M., Qiu, Y. and Park, J.  General linear hypothesis testing of high-dimensi
 _Submitted_
 
 *Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
-Models via Data Splitting. _Submitted_ 
+Models via Data Splitting. _Under Revision_ 
 
 *Hwang, S. and Park, J. Online Anomaly Detection: Revisiting Storey's Procedure with Adaptive Quantile Sketching. _Submitted_.
 
