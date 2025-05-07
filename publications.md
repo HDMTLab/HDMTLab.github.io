@@ -11,6 +11,7 @@ permalink: /publication/
 
 ###  _Revision_/_Submitted_
 
+Kim, J. and Park, J. Combining dependent $p$-values with transformation using empirical distribution of correlated variables. _Submitted_
 
 Park, H. and Park, J. Semiparametric empirical Bayes method for Normal mean estimation of the hierarchical Normal model with unknown heteroscedastic variances. _Submitted_
 
