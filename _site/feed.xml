@@ -6,6 +6,29 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2025 Teacher&apos;s Day</title>
+        <description>&lt;!-- ### Teacher&apos;s day --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-57-14.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+&lt;p&gt;&lt;img src=&quot;/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-57-46.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- &lt;div&gt;
+&lt;img src=&quot;/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-57-14.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-57-46.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-58-18.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;/div&gt; --&gt;
+</description>
+				<pubDate>Wed, 14 May 2025 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2025/05/14/2024-teachers-day.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2025/05/14/2024-teachers-day.html</guid>
+			</item>
+		
+			<item>
 				<title>Yeji graduated our Lab.</title>
         <description>&lt;!-- ## Event 1 --&gt;
 
@@ -49,7 +72,7 @@
 			</item>
 		
 			<item>
-				<title>Teacher&apos;s Day</title>
+				<title>2024 Teacher&apos;s Day</title>
         <description>&lt;!-- ### Teacher&apos;s day --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
