@@ -10,6 +10,8 @@ permalink: /publication/
 (* denotes advisee co-author at SNU/UMBC)
 
 ###  _Revision_/_Submitted_
+*Hwang, S. and Park, J. Online FDR Controlling procedures for 
+statistical SIS Model and its application to COVID19 data.  _Submitted_
 
 Kim, J. and Park, J. Combining dependent $p$-values with transformation using empirical distribution of correlated variables. _Submitted_
 
