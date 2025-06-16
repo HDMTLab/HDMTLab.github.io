@@ -27,13 +27,14 @@ _Submitted_
 
 *Kim, Y.,  Baek, S., Lee, D. and Park, J.  A Group Sequential Procedure to Control FDR for Group Margin and Its Application to GWAS with Linkage Disequilibrium Scores. _Submitted_. 
 
-*Hwang, S., Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E.  Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4$\Delta$ Mutant Data. _Under Revision_. 
-
 *Jung, D., Kim, Y. and Park, J. FDR controlling procedures with dimension
 reduction and their application to GWAS with
 Linkage Disequilibrium score. _Under Revision_. 
 
 ### _Accepted Papers_ 
+
+*Hwang, S., Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E.  Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4$\Delta$ Mutant Data. _Accepted in Biometrical Journal_. 
+
 
 *Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
 Models via Data Splitting. _Accepted in Statistical Analysis and Data Mining_ 
