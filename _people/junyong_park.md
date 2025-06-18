@@ -11,7 +11,7 @@ avatar: junyong_park.png
 <i class="fa fa-envelope-o"></i> `junyongpark@snu.ac.kr`
 
 **Office**<br>
-Department of Statistics, Seoul National University, Building 25 Room 326 <br>
+Department of Statistics, Seoul National University, Building 25 Room 325 <br>
 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea <br>
 
 <hr>
