@@ -6,6 +6,25 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2025 The Korean Statistical Society Summer Conference</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 005.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 004.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 006.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 19 Jun 2025 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2025/06/19/2025-summer-KSS.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2025/06/19/2025-summer-KSS.html</guid>
+			</item>
+		
+			<item>
 				<title>2025 Teacher&apos;s Day</title>
         <description>&lt;!-- ### Teacher&apos;s day --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
