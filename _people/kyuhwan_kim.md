@@ -11,7 +11,7 @@ joined: 2021-2
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `yhji0509@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room 305 <br>
+<i class="fa fa-building"></i> Building 25 Room 326 <br>
 
 <hr>
 
