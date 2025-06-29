@@ -19,8 +19,7 @@ Park, H. and Park, J. Semiparametric empirical Bayes method for Normal mean esti
 
 Cao, M., Qiu, Y. and Park, J.  General linear hypothesis testing of high-dimensional mean vectors based on random integration. _Submitted_.
 
-*Seong, Y., Gauran, I. I., *Kim, H., Ombao, H. and Park, J.   Classification of Multivariate Functional Data with an application to ADHD fMRI Data. 
-_Submitted_
+
 
 
 *Hwang, S. and Park, J. Online Anomaly Detection: Revisiting Storey's Procedure with Adaptive Quantile Sketching. _Submitted_.
@@ -30,6 +29,9 @@ _Submitted_
 *Jung, D., Kim, Y. and Park, J. FDR controlling procedures with dimension
 reduction and their application to GWAS with
 Linkage Disequilibrium score. _Under Revision_. 
+
+*Seong, Y., Gauran, I. I., *Kim, H., Ombao, H. and Park, J.   Classification of Multivariate Functional Data with an application to ADHD fMRI Data. 
+_Under Revision_
 
 ### _Accepted Papers_ 
 
