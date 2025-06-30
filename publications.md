@@ -38,13 +38,7 @@ _Under Revision_
 *Hwang, S., Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E.  Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4$\Delta$ Mutant Data. _Accepted in Biometrical Journal_. 
 [Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.70025) 
 
-
-*Kim, K. and Park, J.  Variable Selection in Nonparametric Additive
-Models via Data Splitting. _Accepted in Statistical Analysis and Data Mining_ 
-
 Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Accepted in Survey Methodology_.
-
-
 
 Kim, J. and Park, J. Combining  p-values using heavy tailed distributions and their asymptotic 
 results with applications to genomic data. _Accepted in Statistica Sinica_. [Article Link](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0117_na.pdf)  [supplementary](https://www3.stat.sinica.edu.tw/preprint/supp/2023-0117_supp.pdf) 
@@ -52,6 +46,8 @@ results with applications to genomic data. _Accepted in Statistica Sinica_. [Art
 
 
 ### 2025
+
+*Kim, K. and Park, J.  Variable Selection in Nonparametric Additive Models via Data Splitting. _Statistical Analysis and Data Mining_. [Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.70025)
 
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
 matrix and mean vector. _Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
