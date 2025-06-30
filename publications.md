@@ -36,7 +36,10 @@ _Under Revision_
 ### _Accepted Papers_ 
 
 *Hwang, S., Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E.  Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4$\Delta$ Mutant Data. _Accepted in Biometrical Journal_. 
-[Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.70025) 
+
+*Kim, K. and Park, J. Variable Selection in Nonparametric Additive Models via Data Splitting. _Accepted in Statistical Analysis and Data Mining_. 
+[Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.70025)
+
 
 Kim, J., Kwon, Y., Qiu, Y. and Park, J.  Model-assisted calibration estimation using Generalized entropy calibration in survey sampling. _Accepted in Survey Methodology_.
 
