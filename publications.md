@@ -50,8 +50,6 @@ results with applications to genomic data. _Accepted in Statistica Sinica_. [Art
 
 ### 2025
 
-*Kim, K. and Park, J.  Variable Selection in Nonparametric Additive Models via Data Splitting. _Statistical Analysis and Data Mining_. [Article Link](https://onlinelibrary.wiley.com/doi/10.1002/sam.70025)
-
 *Kim, J., Park, J. and Park, H. High dimensional discriminant rules with shrinkage estimators of the covariance 
 matrix and mean vector. _Journal of Statistical Planning and Inference_. [Article Link](https://www.sciencedirect.com/science/article/pii/S0378375824000569)
 
