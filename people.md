@@ -21,9 +21,9 @@ permalink: /people/
 {% elsif role == 'postdoc' %}
 <h3>Postdoctoral Fellows</h3>
 {% elsif role == 'phd' %}
-<h3>Ph.D. Course Students</h3>
+<h3>Ph.D. Students</h3>
 {% elsif role == 'ms' %}
-<h3>Master Course Students</h3>
+<h3>M.S. Students</h3>
 {% elsif role == 'alumni' %}
 <h3>Alumni</h3>
 {% endif %}
@@ -79,8 +79,8 @@ table th:nth-of-type(3) {
 | [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Dept. of Statistics at Sookmyung Women's Univ. |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
-| [Myungjun Kim](https://j0shuajun.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
-| [Seungyeop Hyun](https://hsy5830.github.io/) | MS Student (2021 - 2023) | Samsung Electronics |
+| Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
+| Seungyeop Hyun | MS Student (2021 - 2023) | Samsung Electronics |
 | Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
 | Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
 | Yeji Seong | MS Student (2023 - 2025) | LG CNS |

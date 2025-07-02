@@ -31,5 +31,6 @@ Hello, my name is Hwijong Song and I'm graduate student in High Dimensional Mult
 
 ### Research Interests
 
+* High Dimensional Testing
 * Mean Vector Theory
 * Multiple Testing

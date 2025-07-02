@@ -45,13 +45,9 @@ Department of Statistics, Seoul National University, Building 25 Room 325 <br>
 - Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2025.03 ~ 2030.02)
 - Consolidator Grants (중견연구), National Research Foundation (NRF) of Korea (2020.03 ~ 2025.02)
 
-<!-- - 한국연구재단 중견연구 (2020.03 ~ 2025.02)
-- 한국연구재단 중견연구 (2025.03 ~ 2030.02) -->
-
 <hr>
 
-
-**Current Graduate Students (SNU)** <br>
+<!-- **Current Graduate Students (SNU)** <br>
 
 * Kyuhwan Kim (Ph.D. candidate)
 * Seohwa Hwang (Ph.D. candidate)
@@ -60,9 +56,7 @@ Department of Statistics, Seoul National University, Building 25 Room 325 <br>
 * Jisu Kim (M.S. student)
 * Hwijong Song (M.S. student)
 
-
 <hr>
-
 
 **Past Students (SNU, UMBC)** <br>
 
@@ -79,5 +73,20 @@ Department of Statistics, Seoul National University, Building 25 Room 325 <br>
 * Iris Ivy Gauran (Postdoc fellow, KAUST, Ph.D. UMBC, 2018, joint with Dr. Dohwan Park) 
 * Amanda Plunkett (National Security Agency in the U.S.  Ph.D. UMBC, 2015) 
 * Sungwoo Choi (Food and Drug Administration  in the U.S.  Ph.D. UMBC, 2014) 
+* Deepak Ayyala (Augusta University in the U.S. Ph.D. UMBC, 2013,  joint with Dr. Anindya Roy)  -->
+
+
+**Graduate Students (UMBC)** <br>
+
+* Yewon Kim (Ph.D. UMBC, 2022)
+* Neha Agarwala (Postdoctoral Fellow, National Cancer Institute (NCI), Ph.D. UMBC, 2022)
+* Iris Ivy Gauran (Postdoctoral Fellow, KAUST, Ph.D. UMBC, 2018, joint with Dr. Dohwan Park) 
+* Amanda Plunkett (National Security Agency in the U.S.  Ph.D. UMBC, 2015) 
+* Sungwoo Choi (Food and Drug Administration  in the U.S.  Ph.D. UMBC, 2014) 
 * Deepak Ayyala (Augusta University in the U.S. Ph.D. UMBC, 2013,  joint with Dr. Anindya Roy) 
 
+<hr>
+
+**Graduate Students (SNU)** <br>
+
+See <a href="/people/">People</a>.

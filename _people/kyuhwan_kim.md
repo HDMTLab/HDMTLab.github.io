@@ -33,7 +33,6 @@ Hi! My name is Kyuhwan Kim and I am a Ph.D candidate in statistics. I’ve had i
 ### Research Interests
 
 * Multiple hypothese testing
-* Sufficient dimension reduction
 * Variable selection
 
 

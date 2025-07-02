@@ -12,12 +12,12 @@ joined: 2023-1
 
 <i class="fa fa-envelope-o"></i>  `hyunsung1021@snu.ac.kr`<br>
 <i class="fa fa-building"></i> Building 25 Room 326 <br>
-<i class="fa fa-bar-chart"></i> [Personal homepage](http://statkim.github.io/hyunsungkim)
+<i class="fa fa-external-link"></i> [Personal homepage](http://statkim.github.io/hyunsungkim)
 
 <hr>
 
 My name is Hyunsung Kim and I am a Ph.D. candidate in Statistics.
-My research interests include functional, high-dimensional data analysis, and multiple testing.
+My research interests include functional, high-dimensional data analysis.
 
 
 <hr>
@@ -36,6 +36,6 @@ My research interests include functional, high-dimensional data analysis, and mu
 ### Research Interests
 
 * Functional data analysis
-* High-dimensional data analysis
-* Multiple testing
+* Two-sample test for high-dimensional functional data
+* Discriminant analysis for high-dimensional functional data
 
