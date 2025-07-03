@@ -17,7 +17,8 @@ permalink: /people/
 
 <div class="pos_header">
 {% if role == 'pi' %}
-<h3>Principal Investigator</h3>
+<h3>Professor</h3>
+<!-- <h3>Principal Investigator</h3> -->
 {% elsif role == 'postdoc' %}
 <h3>Postdoctoral Fellows</h3>
 {% elsif role == 'phd' %}
@@ -76,7 +77,7 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
-| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor, Dept. of Statistics at Sookmyung Women's Univ. |
+| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor of Statistics at Sookmyung Women's University |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
 | Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
