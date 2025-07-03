@@ -207,6 +207,7 @@ Biometrics, 74, 458-471. [[Article Link]](https://onlinelibrary.wiley.com/doi/fu
 _Simultaneous Estimation based on Empirical Likelihood and Nonparametric Maximum Likelihood Estimation_ <br>
 Park, J. <br>
 Computational Statistics and Data Analysis, 117, 19-31. [[Article Link]](https://www.sciencedirect.com/science/article/pii/S016794731730172X?via%3Dihub) 
+
 <hr>
 
 ### 2017
@@ -235,6 +236,8 @@ _Tolerance Limit and Ridge Regression in the presence of Mulicollinearity and Hi
 Park, J. <br>
 Statistics and Probability Letters, 121, 128-135. [[Article Link]](https://www.sciencedirect.com/science/article/pii/S0167715216302152)
 
+
+<hr>
 
 ### ~2016
 [ResearchGate](https://www.researchgate.net/profile/Junyong-Park-10)
