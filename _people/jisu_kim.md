@@ -15,7 +15,7 @@ joined: 2024-1
 
 <hr>
 
-Hello! My name is Jisu Kim and I’m a graduate student in High Dimensional Multiple Testing Lab (2024.06~). I’m interested in High Dimensional Classification and Functional Data Analysis. 
+Hello! My name is Jisu Kim and I’m a graduate student in High Dimensional Multiple Testing Lab (2024.06~). I’m interested in Conformal Prediction, Distribution-free Statistical Inference and High-dimensional Learning Theory. 
 
 <hr>
 
@@ -30,6 +30,6 @@ Hello! My name is Jisu Kim and I’m a graduate student in High Dimensional Mult
 
 ### Research Interests
 
-* High Dimensional Classification
-* Multiple Testing
-* Functional Data Analysis
+* Conformal Prediction
+* Distribution-free Statistical Inference
+* High-dimensional Learning Theory
