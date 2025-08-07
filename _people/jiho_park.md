@@ -11,7 +11,7 @@ joined: 2025-1
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `fisnu1030@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room TBA <br> 
+<i class="fa fa-building"></i> Building 25 Room 307 <br> 
 
 <hr>
 
