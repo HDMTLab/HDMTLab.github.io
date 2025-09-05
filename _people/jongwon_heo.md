@@ -1,7 +1,7 @@
 ---
 name: Jongwon Heo
 position: ms
-avatar: jongwon_heo.png
+avatar: jongwon_heo.jpeg
 twitter:
 joined: 2025-1
 ---
