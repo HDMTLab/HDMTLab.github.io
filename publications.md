@@ -39,12 +39,14 @@ Linkage Disequilibrium score_ <br>
 Jung, D.<sup>*</sup>, Kim, Y. and Park, J. <br>
 Under Revision. 
 
+
+### _Accepted Papers_ 
+
 _Classification of Multivariate Functional Data with an application to ADHD fMRI Data_
 <br>
 Seong, Y.<sup>*</sup>, Gauran, I. I., Kim, H.<sup>*</sup>, Ombao, H. and Park, J. <br>
-Under Revision.
+Journal of Applied Statistics.
 
-### _Accepted Papers_ 
 
 _Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
 Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
