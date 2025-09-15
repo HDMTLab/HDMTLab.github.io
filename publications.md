@@ -10,6 +10,11 @@ permalink: /publication/
 (* denotes advisee co-author at SNU/UMBC)
 
 ### _Submitted_ / _Revision_
+
+_Conformal Outlier Detection for Multivariate Functional Data_<br>
+Kim, H. <sup>*</sup> and Park, J. <br>
+Submitted.
+
 _Online FDR Controlling procedures for statistical SIS Model and its application to COVID19 data_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
 Submitted.
