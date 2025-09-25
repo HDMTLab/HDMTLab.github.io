@@ -23,7 +23,7 @@ Hello, my name is Joonhyeok Ko and I’m a graduate student in High Dimensional 
 ### Education
 
 * Seoul National University (2024.03 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
     
 * Sungkyunkwan University (2018.03 ~ 2024.02)
     - B.S. in Statistics

@@ -20,11 +20,13 @@ permalink: /people/
 <h3>Professor</h3>
 <!-- <h3>Principal Investigator</h3> -->
 {% elsif role == 'postdoc' %}
-<h3>Postdoctoral Fellows</h3>
+<h3>Postdoctoral Researcher</h3>
 {% elsif role == 'phd' %}
 <h3>Ph.D. Students</h3>
 {% elsif role == 'ms' %}
 <h3>Master Students</h3>
+{% elsif role == 'visiting' %}
+<h3>Visiting Students</h3>
 {% elsif role == 'alumni' %}
 <h3>Alumni</h3>
 {% endif %}

@@ -22,7 +22,7 @@ Hello! My name is Jisu Kim and I’m a graduate student in High Dimensional Mult
 ### Education
 
 * Seoul National University (2024.03 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
 * Korea University (2024.02)
     - B.S. in Statistics
 

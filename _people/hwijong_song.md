@@ -22,7 +22,7 @@ Hello, my name is Hwijong Song and I'm graduate student in High Dimensional Mult
 ### Education
 
 * Seoul National University (2024.09 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
 * Hanyang University (2021.03 ~ 2024.08)
 	- B.S. in Mathematics (minor in Finance)
 	- Summa Cum Laude

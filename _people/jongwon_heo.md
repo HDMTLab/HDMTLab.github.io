@@ -22,7 +22,7 @@ Hello, my name is Jongwon Heo and I’m a graduate student in High Dimensional M
 ### Education
 
 * Seoul National University (2025.03 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
 * Seoul National University (2019.03 ~ 2023.02)
     - B.S. in Mathematics Education
 

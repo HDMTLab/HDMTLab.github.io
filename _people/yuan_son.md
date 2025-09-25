@@ -3,7 +3,7 @@ name: YuAn Son
 position: phd
 avatar: yuan_son.jpeg
 twitter:
-joined: 2025-2
+joined: 2027-2
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -11,7 +11,7 @@ joined: 2025-2
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `thsdbdks@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room TBA <br> 
+<i class="fa fa-building"></i> Building 25 Room 301 <br> 
 
 <hr>
 
@@ -23,7 +23,7 @@ I'm interested in research that deals with high-dimensional data.
 ### Education
 
 * Seoul National University (2025.09 ~ Present)
-    - Ph.D. in Statistics (Integrated M.S.-Ph.D.)
+    - Ph.D. Student in Statistics (Integrated M.S.-Ph.D.)
 * Inha University (2021.03 ~ 2025.02)
     - B.S. in Data Science
 

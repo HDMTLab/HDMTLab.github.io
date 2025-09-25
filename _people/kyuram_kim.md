@@ -22,7 +22,7 @@ Hello, my name is Kyuram Kim and I’m graduate student in High Dimensional Mult
 ### Education
 
 * Seoul National University (2025.03 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
 * Konkuk University (2019.03 ~ 2025.02)
     - B.S. in Applied Statistics
     - Summa Cum Laude

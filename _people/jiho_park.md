@@ -22,7 +22,7 @@ Hello, my name is Jiho Park and I’m graduate student in High Dimensional Multi
 ### Education
 
 * Seoul National University (2025.03 ~ Present)
-    - M.S. in Statistics
+    - M.S. Student in Statistics
 * Sungshin Women’s University (2021.03 ~ 2025.02)
     - B.S. in Statistics and AI
 
