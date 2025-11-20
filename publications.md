@@ -57,12 +57,12 @@ _Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and 
 Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
 Biometrical Journal. 
 
-_Combining p-values using heavy tailed distributions and their asymptotic results with applications to genomic data_ <br>
-Kim, J. and Park, J. <br>
-Statistica Sinica. [[Article Link]](https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0117_na.pdf)  [[supplementary]](https://www3.stat.sinica.edu.tw/preprint/supp/2023-0117_supp.pdf) 
-
 
 ### 2025
+
+_Combining p-values using heavy tailed distributions and their asymptotic results with applications to genomic data_ <br>
+Kim, J. and Park, J. <br>
+Statistica Sinica, 35(4), 2137-2158. [[Article Link]](https://www3.stat.sinica.edu.tw/statistica/oldpdf/A35n410.pdf)  [[supplementary]](https://www3.stat.sinica.edu.tw/statistica/oldpdf/A35n410s.pdf) 
 
 _Model-assisted calibration estimation using Generalized entropy calibration in survey sampling_ <br>
 Kim, J., Kwon, Y., Qiu, Y. and Park, J. <br>
