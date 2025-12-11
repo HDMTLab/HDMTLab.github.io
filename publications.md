@@ -11,6 +11,10 @@ permalink: /publication/
 
 ### _Submitted_ / _Revision_
 
+_FDR Control via Neural Networks under Covariate-Dependent Symmetric Nulls_<br>
+Kim, T.<sup>*</sup>, Hwang, S.<sup>*</sup> and Park, J. <br>
+Submitted.
+
 _Conformal Outlier Detection for Multivariate Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Submitted.

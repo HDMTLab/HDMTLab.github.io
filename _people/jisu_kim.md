@@ -1,6 +1,6 @@
 ---
 name: Jisu Kim
-position: ms
+position: phd
 avatar: jisu_kim.jpeg
 twitter:
 joined: 2024-1
@@ -21,8 +21,10 @@ Hello! My name is Jisu Kim and I’m a graduate student in High Dimensional Mult
 
 ### Education
 
-* Seoul National University (2024.03 ~ Present)
-    - M.S. Student in Statistics
+* Seoul National University (2026.03 ~ Present)
+    - Ph.D. Student in Statistics
+* Seoul National University (2024.03 ~ 2026.02)
+    - M.S. in Statistics
 * Korea University (2024.02)
     - B.S. in Statistics
 

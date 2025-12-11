@@ -76,14 +76,15 @@ Department of Statistics, Seoul National University, Building 25 Room 325 <br>
 * Deepak Ayyala (Augusta University in the U.S. Ph.D. UMBC, 2013,  joint with Dr. Anindya Roy)  -->
 
 
-**Graduate Students (UMBC)** <br>
+<!-- **Graduate Students (UMBC)** <br> -->
+**Ph.D. Alumni (UMBC)** <br>
 
-* Yewon Kim (Ph.D. UMBC, 2022)
-* Neha Agarwala (Postdoctoral Fellow, National Cancer Institute (NCI), Ph.D. UMBC, 2022)
-* Iris Ivy Gauran (Postdoctoral Fellow, KAUST, Ph.D. UMBC, 2018, joint with Dr. Dohwan Park) 
-* Amanda Plunkett (National Security Agency in the U.S.  Ph.D. UMBC, 2015) 
-* Sungwoo Choi (Food and Drug Administration  in the U.S.  Ph.D. UMBC, 2014) 
-* Deepak Ayyala (Augusta University in the U.S. Ph.D. UMBC, 2013,  joint with Dr. Anindya Roy) 
+* Yewon Kim (Ph.D. 2022)
+* Neha Agarwala (Ph.D. 2022), Postdoctoral Fellow, National Cancer Institute (NCI)
+* Iris Ivy Gauran (Ph.D. 2018, joint with Dr. Dohwan Park), Postdoctoral Fellow, KAUST
+* Amanda Plunkett (Ph.D. 2015), National Security Agency in the U.S.
+* Sungwoo Choi (Ph.D. 2014), Food and Drug Administration  in the U.S.
+* Deepak Ayyala (Ph.D. 2013,  joint with Dr. Anindya Roy), Augusta University in the U.S. 
 
 <hr>
 
