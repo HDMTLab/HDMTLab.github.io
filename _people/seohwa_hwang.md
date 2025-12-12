@@ -15,7 +15,7 @@ joined: 2022-1
 
 <hr>
 
-Hello, my name is Seohwa Hwang and I am a post-doctoral researcher in Department of Statistics at Seoul National University. My research interests include multiple hypotheses testing, online inference, and statistical methods for small sample sizes.  I am highly motivated to conduct research that can help make meaningful contributions to the field.
+Hello, my name is Seohwa Hwang and I am a post-doctoral researcher of Statistics at Seoul National University. My research interests include multiple hypotheses testing, online inference, and statistical methods for small sample sizes.  I am highly motivated to conduct research that can help make meaningful contributions to the field.
 
 <hr>
 

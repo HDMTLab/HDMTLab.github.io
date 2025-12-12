@@ -77,6 +77,7 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
+| Seohwa Hwang | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher of Statistics at SNU |
 | [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor of Statistics at Sookmyung Women's University |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
