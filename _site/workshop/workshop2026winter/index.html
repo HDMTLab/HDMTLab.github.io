@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="aSoPdESQFn8tbJg0HUTpmjSlG-FVdvf1QAVgNiGzb9U" /> 
+  <meta name="keywords" content="junyongpark, Seoul National University, Statistics, 서울대학교, 통계학과, 박준용, multiple testing, high-dimensional classification, mean vector estimation">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 HDMT Winter Workshop</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://localhost:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/zoom.js"></script>
+  <script src="http://localhost:4000/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/workshop/workshop2026winter/">
+  <meta property="og:title" content="2026 HDMT Winter Workshop">
+  <meta property="og:site_name" content="High Dimensional Multiple Testing Lab">
+  <meta property="og:description" content="
+  
+  
+
+2026 HDMT Winter Workshop
+
+
+
+Introduction
+
+The 2026 HDMT Winter Workshop is organized to promote academic and personal interaction among cu..." />
+  <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 7em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand page-scroll' href='/'>
+              <span style='font-family:"Open Sans" font-weight:300'>HDMT Lab</span>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a class='name' href="/">Home</a></li>
+                      
+                      <li><a class='name' href="/research">Research</a></li>
+                      
+                      <li><a class='name' href="/publication">Publications</a></li>
+                      
+                      <li><a class='name' href="/people">People</a></li>
+                      
+                      <li><a class='name' href="/gallery">Gallery</a></li>
+                      
+                      <li><a class='name' href="/workshop">Workshop</a></li>
+                      
+                    </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content page">
+  <!-- <h1 class="page-title">2026 HDMT Winter Workshop</h1> -->
+  <style>
+.talk-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.6em 1em;
+  margin: 1em 0;
+  background: #fafafa;
+  transition: box-shadow 0.2s ease;
+}
+
+.talk-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.talk-card summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.talk-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.talk-title {
+  font-weight: 600;
+}
+
+.talk-speaker {
+  /* font-style: italic; */
+  color: #555;
+}
+
+.talk-abstract {
+  margin-top: 0.8em;
+  padding-top: 0.8em;
+  border-top: 1px solid #ddd;
+  line-height: 1.6;
+}
+.talk-abstract {
+  animation: fadeIn 0.25s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.session-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #ddd;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+
+.session-time {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #666;
+  white-space: nowrap;
+}
+
+.day-title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 700;
+  border-bottom: 3px solid #000;
+}
+</style>
+
+<h1 id="2026-hdmt-winter-workshop">2026 HDMT Winter Workshop</h1>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The <em>2026 HDMT Winter Workshop</em> is organized to promote academic and personal interaction among current members and alumni of the <em>High-Dimensional Multiple Testing Lab</em>. Through this workshop, participants are expected to gain a better understanding of each other’s research topics and engage in active discussions.</p>
+
+<p>Each participant will give a presentation of approximately <em>25 minutes</em> on their research, followed by a question-and-answer session.</p>
+
+<hr />
+
+<h2 id="date--venue">Date &amp; Venue</h2>
+
+<ul>
+  <li>January 21, 2026, 13:00 – January 22, 2026, 12:00
+<!-- - 2026.01.21 13:00 - 2026.01.22 12:00 -->
+<!-- - 13:00, Jan 21, 2026 – 12:00, Jan 22, 2026 --></li>
+  <li>Room 806-1, Convention Center, Siheung Campus, Seoul National University</li>
+</ul>
+
+<hr />
+
+<!--
+# 2026 고차원 다중검정 연구실 겨울 워크샵
+
+<br>
+
+--- 
+
+## 소개
+
+고차원 다중검정 연구실 구성원과 졸업생들의 연구실 구성원이 인적, 학문적 교류를 하기 위한 워크샵을 개최한다. 이를 통해 서로의 연구 주제에 대해 이해하고 논의해볼 수 있을 것으로 기대한다. 각자의 연구 주제에 대해 25분에 걸쳐 발표하고, 질의응답을 진행한다.
+
+고차원 다중검정 연구실 구성원과 졸업생들의 연구실 구성원이 인적·학문적 교류를 할 수 있도록 HDMT Winter Workshop 2026을 개최한다. 본 워크숍을 통해 서로의 연구 주제에 대해 이해하고 자유롭게 논의할 수 있을 것으로 기대한다.
+
+워크숍에서는 각 참여자가 자신의 연구 주제에 대해 약 25분간 발표를 진행하며, 발표 후에는 질의응답 시간을 통해 연구 내용과 방법론에 대해 토론한다.
+
+---
+
+## 일시 및 장소
+
+- 2026년 1월 21일(수) 오후 1시 ~ 1월 22일(목) 오후 12시
+- 서울대학교 시흥캠퍼스 컨벤션센터 806-1호
+
+--- -->
+
+<h2 id="programs">Programs</h2>
+
+<!-- site.data.{yml 파일명}만 수정해서 사용 (원본 파일은 data/workshop_2026winter.yml) -->
+
+<h1 class="day-title">Day 1 (January 21)</h1>
+
+<h2 class="session-title">
+<span class="session-name">Registration</span>
+
+<span class="session-time">13:00–13:20</span>
+
+</h2>
+
+<h2 class="session-title">
+<span class="session-name">Opening Remark</span>
+
+<span class="session-time">13:20–13:30</span>
+
+</h2>
+
+<h2 class="session-title">
+<span class="session-name">Session 1: TBA</span>
+
+<span class="session-time">13:30–14:45</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    Abstract
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    Abstract
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    Abstract
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">☕ Coffee Break</span>
+
+<span class="session-time">14:45–15:00</span>
+
+</h2>
+
+<h2 class="session-title">
+<span class="session-name">Session 2: TBA</span>
+
+<span class="session-time">15:00–16:15</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">☕ Coffee Break</span>
+
+<span class="session-time">16:15–16:30</span>
+
+</h2>
+
+<h2 class="session-title">
+<span class="session-name">Session 3: TBA</span>
+
+<span class="session-time">16:30–17:45</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h1 class="day-title">Day 2 (January 22)</h1>
+
+<h2 class="session-title">
+<span class="session-name">Session 4: TBA</span>
+
+<span class="session-time">09:30–10:45</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">☕ Coffee Break</span>
+
+<span class="session-time">10:45–11:00</span>
+
+</h2>
+
+<h2 class="session-title">
+<span class="session-name">Session 5: TBA</span>
+
+<span class="session-time">11:00–11:50</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">TBA</span>
+    <span class="talk-speaker">OOO (서울대 통계학과)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">Closing Remark</span>
+
+<span class="session-time">11:50–12:00</span>
+
+</h2>
+
+<hr />
+
+<p><em>This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (RS-2025-00556575).</em></p>
+
+<!-- 이 성과는 정부(과학기술정보통신부)의 재원으로 한국연구재단의 지원을 받아 수행된 연구임(No. RS-2025-00556575) -->
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>

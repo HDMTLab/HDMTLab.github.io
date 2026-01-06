@@ -1,0 +1,185 @@
+- day: "Day 1 (January 21)"
+  # session: "현장등록"
+  session: "Registration"
+  session_id: "register"
+  type: "break"
+  session_time: "13:00–13:20"
+
+- day: "Day 1 (January 21)"
+  # session: "현장등록"
+  session: "Opening Remark"
+  session_id: "opening"
+  type: "break"
+  session_time: "13:20–13:30"
+
+
+# Session 1
+- day: "Day 1 (January 21)"
+  session: "Session 1: TBA"
+  session_id: "session-1"
+  session_time: "13:30–14:45"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    Abstract
+
+- day: "Day 1 (January 21)"
+  session: "Session 1: TBA"
+  session_id: "session-1"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    Abstract
+
+- day: "Day 1 (January 21)"
+  session: "Session 1: TBA"
+  session_id: "session-1"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    Abstract
+
+
+# Coffee break
+- day: "Day 1 (January 21)"
+  session: "☕ Coffee Break"
+  session_id: "coffee-1"
+  type: "break"
+  session_time: "14:45–15:00"
+
+
+# Session 2
+- day: "Day 1 (January 21)"
+  session: "Session 2: TBA"
+  session_id: "session-2"
+  session_time: "15:00–16:15"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 1 (January 21)"
+  session: "Session 2: TBA"
+  session_id: "session-2"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 1 (January 21)"
+  session: "Session 2: TBA"
+  session_id: "session-2"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+
+# Coffee break
+- day: "Day 1 (January 21)"
+  session: "☕ Coffee Break"
+  session_id: "coffee-2"
+  type: "break"
+  session_time: "16:15–16:30"
+
+
+# Session 3
+- day: "Day 1 (January 21)" 
+  session: "Session 3: TBA"
+  session_id: "session-3"
+  session_time: "16:30–17:45"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 1 (January 21)"
+  session: "Session 3: TBA"
+  session_id: "session-3"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 1 (January 21)"
+  session: "Session 3: TBA"
+  session_id: "session-3"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+    
+    
+# Session 4
+- day: "Day 2 (January 22)"
+  session: "Session 4: TBA"
+  session_id: "session-4"
+  session_time: "09:30–10:45"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 2 (January 22)"
+  session: "Session 4: TBA"
+  session_id: "session-4"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 2 (January 22)"
+  session: "Session 4: TBA"
+  session_id: "session-4"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+
+# Coffee break
+- day: "Day 2 (January 22)"
+  session: "☕ Coffee Break"
+  session_id: "coffee-3"
+  type: "break"
+  session_time: "10:45–11:00"
+
+
+# Session 5
+- day: "Day 2 (January 22)"
+  session: "Session 5: TBA"
+  session_id: "session-5"
+  session_time: "11:00–11:50"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 2 (January 22)"
+  session: "Session 5: TBA"
+  session_id: "session-5"
+  session_time: "11:00–11:50"
+  type: "talk"
+  title: "TBA"
+  speaker: "OOO (서울대 통계학과)"
+  abstract: >
+    TBA
+
+- day: "Day 2 (January 22)"
+  session: "Closing Remark"
+  session_id: "closing"
+  type: "break"
+  session_time: "11:50–12:00"

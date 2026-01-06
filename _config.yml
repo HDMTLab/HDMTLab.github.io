@@ -28,8 +28,10 @@ nav:
     href:           "/people"  
   - name:           "Gallery"
     href:           "/gallery"    
-  - name:           "News"
-    href:           "/news"    
+  # - name:           "News"
+  #   href:           "/news"   
+  - name:           "Workshop"
+    href:           "/workshop"    
 
 # Sass
 sass:
