@@ -106,7 +106,7 @@ Each participant will give a presentation of approximately *25 minutes* on their
 - January 21, 2026, 13:00 – January 22, 2026, 12:00
 <!-- - 2026.01.21 13:00 - 2026.01.22 12:00 -->
 <!-- - 13:00, Jan 21, 2026 – 12:00, Jan 22, 2026 -->
-- Room 806-1, Convention Center, Siheung Campus, Seoul National University
+- Room 806, Convention Center, Siheung Campus, Seoul National University
 
 ---
 
