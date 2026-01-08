@@ -106,7 +106,8 @@ Each participant will give a presentation of approximately *25 minutes* on their
 - January 21, 2026, 13:00 – January 22, 2026, 12:00
 <!-- - 2026.01.21 13:00 - 2026.01.22 12:00 -->
 <!-- - 13:00, Jan 21, 2026 – 12:00, Jan 22, 2026 -->
-- Room 806, Convention Center, Siheung Campus, Seoul National University
+<!-- - Room 806, Convention Center, Siheung Campus, Seoul National University -->
+- 서울대학교 시흥캠퍼스 컨벤션센터 806호
 
 ---
 
@@ -137,7 +138,8 @@ Each participant will give a presentation of approximately *25 minutes* on their
 
 
 
-## Programs
+## Program and Schedule
+
 
 <!-- site.data.{yml 파일명}만 수정해서 사용 (원본 파일은 data/workshop_2026winter.yml) -->
 {% assign days = site.data.workshop_2026winter | group_by: "day" %}

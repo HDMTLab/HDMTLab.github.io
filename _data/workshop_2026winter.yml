@@ -117,7 +117,15 @@
   speaker: "OOO (서울대 통계학과)"
   abstract: >
     TBA
-    
+
+
+# 저녁식사
+- day: "Day 1 (January 21)"
+  session: "Dinner"
+  session_id: "dinner"
+  type: "break"
+  session_time: "돝집 거북섬점"
+
     
 # Session 4
 - day: "Day 2 (January 22)"
@@ -183,3 +191,11 @@
   session_id: "closing"
   type: "break"
   session_time: "11:50–12:00"
+
+
+# 점심식사
+- day: "Day 2 (January 22)"
+  session: "Lunch"
+  session_id: "lunch"
+  type: "break"
+  session_time: "투파인드피터 배곧점"
