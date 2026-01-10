@@ -20,7 +20,7 @@
   session_time: "13:30–14:45"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     Abstract
 
@@ -29,7 +29,7 @@
   session_id: "session-1"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     Abstract
 
@@ -38,9 +38,9 @@
   session_id: "session-1"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
-    Abstract
+    
 
 
 # Coffee break
@@ -58,7 +58,7 @@
   session_time: "15:00–16:15"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -67,7 +67,7 @@
   session_id: "session-2"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -76,7 +76,7 @@
   session_id: "session-2"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -96,7 +96,7 @@
   session_time: "16:30–17:45"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -105,7 +105,7 @@
   session_id: "session-3"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -114,7 +114,7 @@
   session_id: "session-3"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -126,6 +126,20 @@
   type: "break"
   session_time: "돝집 거북섬점"
 
+# 숙박
+- day: "Day 1 (January 21)"
+  session: "Accommodation"
+  session_id: "ㅁccommodation"
+  type: "break"
+  session_time: "시흥 웨이브 엠 호텔 웨스트 호텔"
+
+
+# 아침식사
+- day: "Day 2 (January 22)"
+  session: "Breakfast"
+  session_id: "breakfast"
+  type: "break"
+  session_time: "시흥 웨이브 엠 호텔 웨스트 호텔"
     
 # Session 4
 - day: "Day 2 (January 22)"
@@ -134,7 +148,7 @@
   session_time: "09:30–10:45"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -143,7 +157,7 @@
   session_id: "session-4"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -152,7 +166,7 @@
   session_id: "session-4"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -172,7 +186,7 @@
   session_time: "11:00–11:50"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
@@ -182,7 +196,7 @@
   session_time: "11:00–11:50"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (서울대 통계학과)"
+  speaker: "OOO (SNU)"
   abstract: >
     TBA
 
