@@ -31,7 +31,7 @@
   title: "Projection tests for mean vector in high dimension"
   speaker: "송휘종 (서울대)"
   abstract: >
-    Abstract
+    TBA
 
 - day: "Day 1 (January 21)"
   # session: "Session 1: TBA"
@@ -42,12 +42,12 @@
   abstract: >
     We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions.
 
-# Coffee break
-- day: "Day 1 (January 21)"
-  session: "☕ Coffee Break"
-  session_id: "coffee-1"
-  type: "break"
-  session_time: "14:35–14:45"
+# # Coffee break
+# - day: "Day 1 (January 21)"
+#   session: "☕ Coffee Break"
+#   session_id: "coffee-1"
+#   type: "break"
+#   session_time: "14:35–14:45"
 
 
 # Session 2
@@ -80,12 +80,12 @@
     TBA
 
 
-# Coffee break
-- day: "Day 1 (January 21)"
-  session: "☕ Coffee Break"
-  session_id: "coffee-2"
-  type: "break"
-  session_time: "16:00–16:10"
+# # Coffee break
+# - day: "Day 1 (January 21)"
+#   session: "☕ Coffee Break"
+#   session_id: "coffee-2"
+#   type: "break"
+#   session_time: "16:00–16:10"
 
 
 # Session 3
@@ -97,7 +97,7 @@
   title: "Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary"
   speaker: "손유안 (서울대)"
   abstract: >
-    TBA
+    In contemporary research, data scientists often test an infinite sequence of hypotheses $H_1, H_2, \dots$ one by one, requiring real-time decisions without knowledge of future hypotheses or data. This presentation reviews recent developments in online multiple testing, specifically focusing on the goal of providing simultaneous lower bounds for the number of true discoveries in data-adaptively chosen rejection sets.While it has been established in offline multiple testing that simultaneous inference is admissible if and only if it proceeds through closed testing, this talk discusses the extension of this result to the online setting using the recent online closure principle. We explore the key theoretical insight that utilizing an anytime-valid test for each intersection hypothesis is necessary, thereby connecting two distinct branches of literature: online testing of multiple hypotheses and sequential anytime-valid testing of a single hypothesis.The review further covers the construction of a new online closed testing procedure and a corresponding short-cut with a true discovery guarantee based on multiplying sequential e-values. We will discuss how this general procedure not only offers uniform improvements over state-of-the-art methods but also facilitates the creation of powerful new procedures. Finally, we examine novel strategies for hedging and boosting sequential e-values to increase power, along with the first online true discovery procedures for exchangeable and arbitrarily dependent e-values.
 
 - day: "Day 1 (January 21)"
   # session: "Session 3: TBA"
@@ -106,7 +106,8 @@
   title: "Post-hoc selection of significance level"
   speaker: "황서화 (서울대)"
   abstract: >
-    TBA
+    The validity of classical hypothesis testing requires the significance level α be fixed before any statistical analysis takes place. This presentation begins by discussing why this is a stringent requirement. For instance, it prohibits updating α during (or after) an experiment due to changing concern about the cost of false positives, or to reflect unexpectedly strong evidence against the null. Perhaps most disturbingly, witnessing a p-value p ≪ α vs p = α − ϵ for tiny ϵ > 0 has no (statistical) relevance for any downstream decision-making.Focusing on developments following the recent work of Grünwald (2024), this talk reviews a theory of post-hoc hypothesis testing that enables α to be chosen after seeing and analyzing the data. We examine the concept of Γ-admissibility, introduced to study “good” post-hoc tests, where Γ  is a set of adversaries which map the data to a significance level. The discussion covers the classification of Γ -admissible rules for various sets Γ, highlighting the finding that they must be based on e-values, and demonstrating how they recover the Neyman-Pearson lemma when Γ is the constant map. Finally, we present a Rao-Blackwellization result provided in the literature, which proves that the expected utility of an e-value can be improved (for any concave utility) by conditioning on a sufficient statistic.
+
 
 # Session 4
 - day: "Day 1 (January 21)"
@@ -117,7 +118,7 @@
   title: "Decaying-Step Online Conformal Prediction"
   speaker: "박지호 (서울대)"
   abstract: >
-    TBA
+    This presentation reviews a novel method for online conformal prediction that utilizes decaying step sizes. We discuss how, similar to previous approaches, this method possesses a retrospective guarantee of coverage for arbitrary sequences. However, the presentation highlights a key distinction: unlike previous methods, the proposed approach enables the simultaneous estimation of a population quantile when it exists. We further examine theoretical and experimental results indicating substantially improved practical properties. In particular, we focus on the finding that when the distribution is stable, the coverage remains close to the desired level for every time point, rather than merely on average over the observed sequence.
 
 - day: "Day 1 (January 21)"
   session: "Session 4: TBA"
@@ -160,7 +161,7 @@
   title: "Introduction to compound p-values"
   speaker: "허종원 (서울대)"
   abstract: >
-    TBA
+    In the setting of multiple testing, compound p-values generalize p-values by asking for superuniformity to hold only on average across all true nulls. This presentation reviews the properties of the Benjamini–Hochberg procedure applied to such compound p-values. We examine theoretical results under independence, which establish that the false discovery rate (FDR) is at most 1.93α (where α is the nominal level), and we discuss a specific distribution for which the FDR is shown to be 7α/6. The talk also covers the scenario where all nulls are true, highlighting that the upper bound can be improved to α+2α2, with a corresponding worst-case lower bound of α+α2/4. In contrast, under positive dependence, we discuss findings demonstrating that the FDR can be inflated by a factor of O(log m), where $m$ is the number of hypotheses. Finally, we illustrate numerous examples of settings where compound p-values arise in practice, focusing on cases where sufficient information to compute non-trivial p-values is lacking, or where the approach facilitates a more powerful analysis.
 
 - day: "Day 2 (January 22)"
   # session: "Session 4: Multiple Testing with FDR Control"
@@ -169,7 +170,7 @@
   title: "Symmetrized Aggregation for FDR Control under General Dependence"
   speaker: "김규람 (서울대)"
   abstract: >
-    TBA
+    This presentation reviews a new class of distribution-free multiple testing rules for false discovery rate (FDR) control under general dependence. We discuss a key element of the proposed method: a symmetrized data aggregation (SDA) approach to incorporating the dependence structure via sample splitting, data screening, and information pooling. The talk details how the SDA filter first constructs a sequence of ranking statistics that fulfill global symmetry properties, and then chooses a data-driven threshold along the ranking to control the FDR.We highlight comparative analyses showing that the SDA filter substantially outperforms the knockoff method in power under moderate to strong dependence, and acts more robustly than existing methods based on asymptotic $p$-values. Furthermore, we examine the finite-sample theory developed in the literature which provides an upper bound for the actual FDR under general dependence, as well as the established asymptotic validity of SDA for both the FDR and false discovery proportion (FDP) control under mild regularity conditions. The procedure is implemented in the R package \texttt{SDA}. Finally, we present numerical results that confirm the effectiveness and robustness of SDA in FDR control, demonstrating substantial power gains over existing methods in many settings.
 
 - day: "Day 2 (January 22)"
   # session: "Session 4: Multiple Testing with FDR Control"
