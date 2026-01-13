@@ -3,80 +3,79 @@
   session: "Registration"
   session_id: "register"
   type: "break"
-  session_time: "13:00–13:20"
+  session_time: "13:00–13:10"
 
 - day: "Day 1 (January 21)"
   # session: "현장등록"
   session: "Opening Remark"
   session_id: "opening"
   type: "break"
-  session_time: "13:20–13:30"
+  session_time: "13:10–13:20"
 
 
 # Session 1
 - day: "Day 1 (January 21)"
-  session: "Session 1: TBA"
+  session: "Session 1: Hypothesis Test for High-Dimensional Means"
   session_id: "session-1"
-  session_time: "13:30–14:45"
+  session_time: "13:20–14:35"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Random Direction Tests for a Multivariate Normal Mean under Polyhedral Cone Constraints"
+  speaker: "고준혁 (서울대)"
+  abstract: >
+    We study hypothesis testing for a multivariate normal mean subject to linear inequality constraints, where the parameter space is a polyhedral cone. Classical procedures for one-sided multivariate testing—most notably the generalized likelihood ratio test (GLRT) and O’Brien’s test~\cite{Tang}—are well understood when the cone is the nonnegative orthant, but their behavior can be unstable for general cones and under unknown covariance. Building on an ensemble idea~\cite{Ensemble}, we propose four new tests—the Single Direction Test (SDT), the Ensemble Direction Test (EDT), the Hartung Direction Test (HDT), and the Maximum Direction Test (MDT)—that aggregate $p$-values using randomly generated directions in the cone. Across a wide range of alternatives and covariance structures, our simulations show that the EDT attains higher power than the GLRT, which is often conservative in the unknown-covariance setting. On the other hand, the EDT can exhibit inflated type~I error at moderate significance levels and can be computationally expensive in high-dimensional settings.
+
+- day: "Day 1 (January 21)"
+  # session: "Session 1: TBA"
+  session_id: "session-1"
+  type: "talk"
+  title: "Projection tests for mean vector in high dimension"
+  speaker: "송휘종 (서울대)"
   abstract: >
     Abstract
 
 - day: "Day 1 (January 21)"
-  session: "Session 1: TBA"
+  # session: "Session 1: TBA"
   session_id: "session-1"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Two-Sample Projection Test for High-Dimensional Functional Data"
+  speaker: "김현성 (서울대)"
   abstract: >
-    Abstract
-
-- day: "Day 1 (January 21)"
-  session: "Session 1: TBA"
-  session_id: "session-1"
-  type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
-  abstract: >
-    
-
+    We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions.
 
 # Coffee break
 - day: "Day 1 (January 21)"
   session: "☕ Coffee Break"
   session_id: "coffee-1"
   type: "break"
-  session_time: "14:45–15:00"
+  session_time: "14:35–14:45"
 
 
 # Session 2
 - day: "Day 1 (January 21)"
-  session: "Session 2: TBA"
+  session: "Session 2: Empirical Bayes with Application"
   session_id: "session-2"
-  session_time: "15:00–16:15"
+  session_time: "14:45–16:00"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Sharpening Variance Estimation: An Empirical Bayes Approach under Mean-Variance <br> Dependence"
+  speaker: "송채원 (숙명여대)"
   abstract: >
     TBA
 
 - day: "Day 1 (January 21)"
-  session: "Session 2: TBA"
+  # session: "Session 2: TBA"
   session_id: "session-2"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "모수적 경험적 베이즈의 확장: 이분산성 데이터에서의 SURE,URE 기반의 Robust한 축소추정량"
+  speaker: "홍지민 (숙명여대)"
   abstract: >
     TBA
 
 - day: "Day 1 (January 21)"
-  session: "Session 2: TBA"
+  # session: "Session 2: TBA"
   session_id: "session-2"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Nonparametric maximum likelihood estimation for multivariate normal models and <br> its applications to classification"
+  speaker: "오승연 (서울대)"
   abstract: >
     TBA
 
@@ -86,37 +85,48 @@
   session: "☕ Coffee Break"
   session_id: "coffee-2"
   type: "break"
-  session_time: "16:15–16:30"
+  session_time: "16:00–16:10"
 
 
 # Session 3
 - day: "Day 1 (January 21)" 
-  session: "Session 3: TBA"
+  session: "Session 3: Online Inference with E-values"
   session_id: "session-3"
-  session_time: "16:30–17:45"
+  session_time: "16:10–17:00"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary"
+  speaker: "손유안 (서울대)"
   abstract: >
     TBA
 
 - day: "Day 1 (January 21)"
-  session: "Session 3: TBA"
+  # session: "Session 3: TBA"
   session_id: "session-3"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Post-hoc selection of significance level"
+  speaker: "황서화 (서울대)"
+  abstract: >
+    TBA
+
+# Session 4
+- day: "Day 1 (January 21)"
+  session: "Session 4: Conformal Prediction"
+  session_id: "session-4"
+  session_time: "17:10–18:00"
+  type: "talk"
+  title: "Decaying-Step Online Conformal Prediction"
+  speaker: "박지호 (서울대)"
   abstract: >
     TBA
 
 - day: "Day 1 (January 21)"
-  session: "Session 3: TBA"
-  session_id: "session-3"
+  session: "Session 4: TBA"
+  session_id: "session-4"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Shrinkage-Clustered Conformal Prediction"
+  speaker: "김지수 (서울대)"
   abstract: >
-    TBA
+    Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. 
 
 
 # 저녁식사
@@ -143,30 +153,30 @@
     
 # Session 4
 - day: "Day 2 (January 22)"
-  session: "Session 4: TBA"
+  session: "Session 4: Multiple Testing with FDR Control"
   session_id: "session-4"
   session_time: "09:30–10:45"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Introduction to compound p-values"
+  speaker: "허종원 (서울대)"
   abstract: >
     TBA
 
 - day: "Day 2 (January 22)"
-  session: "Session 4: TBA"
+  # session: "Session 4: Multiple Testing with FDR Control"
   session_id: "session-4"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "Symmetrized Aggregation for FDR Control under General Dependence"
+  speaker: "김규람 (서울대)"
   abstract: >
     TBA
 
 - day: "Day 2 (January 22)"
-  session: "Session 4: TBA"
+  # session: "Session 4: Multiple Testing with FDR Control"
   session_id: "session-4"
   type: "talk"
-  title: "TBA"
-  speaker: "OOO (SNU)"
+  title: "A Brief History of Knockoffs and Their Modern Applications"
+  speaker: "김규환 (서울대)"
   abstract: >
     TBA
 
@@ -186,7 +196,7 @@
   session_time: "11:00–11:50"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (SNU)"
+  speaker: "임예빈 (덕성여대)"
   abstract: >
     TBA
 
@@ -196,7 +206,7 @@
   session_time: "11:00–11:50"
   type: "talk"
   title: "TBA"
-  speaker: "OOO (SNU)"
+  speaker: "정윤주 (덕성여대)"
   abstract: >
     TBA
 

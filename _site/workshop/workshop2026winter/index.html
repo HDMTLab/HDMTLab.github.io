@@ -203,7 +203,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 <p>The <em>2026 Workshop on Robust Inference for High-Dimensional Complex Data</em> aims to bring together researchers to discuss recent advances in robust statistical inference for modern complex data settings. The workshop focuses on methodological developments that ensure reliable inference in the presence of high dimensionality, dependence, and structural complexity.</p>
 
-<p>The sessions will cover a range of contemporary topics, including <em>e-values, conformal prediction, variable selection with false discovery rate (FDR) control, tests of mean, empirical Bayes methods, and other related topics</em>. These methodologies will be discussed in the context of complex data types such as <em>high-dimensional data, online or streaming data, functional data, and tensor-valued data</em>.</p>
+<p>The sessions will cover a range of contemporary topics, including <em>multiple testing, e-values, conformal prediction, false discovery rate (FDR) control, test for means, empirical Bayes, and other related topics</em>. These methodologies will be discussed in the context of complex data types such as <em>high-dimensional data, online or streaming data, functional data, and tensor-valued data</em>.</p>
 
 <p>Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately 25 minutes on their research, followed by a question-and-answer session.</p>
 
@@ -230,28 +230,40 @@ s.setAttribute('data-timestamp', +new Date());
 <h2 class="session-title">
 <span class="session-name">Registration</span>
 
-<span class="session-time">13:00–13:20</span>
+<span class="session-time">13:00–13:10</span>
 
 </h2>
 
 <h2 class="session-title">
 <span class="session-name">Opening Remark</span>
 
-<span class="session-time">13:20–13:30</span>
+<span class="session-time">13:10–13:20</span>
 
 </h2>
 
 <h2 class="session-title">
-<span class="session-name">Session 1: TBA</span>
+<span class="session-name">Session 1: Hypothesis Test for High-Dimensional Means</span>
 
-<span class="session-time">13:30–14:45</span>
+<span class="session-time">13:20–14:35</span>
 
 </h2>
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Random Direction Tests for a Multivariate Normal Mean under Polyhedral Cone Constraints</span>
+    <span class="talk-speaker">고준혁 (서울대)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    We study hypothesis testing for a multivariate normal mean subject to linear inequality constraints, where the parameter space is a polyhedral cone. Classical procedures for one-sided multivariate testing—most notably the generalized likelihood ratio test (GLRT) and O’Brien’s test~\cite{Tang}—are well understood when the cone is the nonnegative orthant, but their behavior can be unstable for general cones and under unknown covariance. Building on an ensemble idea~\cite{Ensemble}, we propose four new tests—the Single Direction Test (SDT), the Ensemble Direction Test (EDT), the Hartung Direction Test (HDT), and the Maximum Direction Test (MDT)—that aggregate $p$-values using randomly generated directions in the cone. Across a wide range of alternatives and covariance structures, our simulations show that the EDT attains higher power than the GLRT, which is often conservative in the unknown-covariance setting. On the other hand, the EDT can exhibit inflated type~I error at moderate significance levels and can be computationally expensive in high-dimensional settings.
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">Projection tests for mean vector in high dimension</span>
+    <span class="talk-speaker">송휘종 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -262,45 +274,34 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Two-Sample Projection Test for High-Dimensional Functional Data</span>
+    <span class="talk-speaker">김현성 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
-    Abstract
+    We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions.
 
-    </div>
-</details>
-
-<details class="talk-card">
-    <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
-    </summary>
-
-    <div class="talk-abstract">
-    
     </div>
 </details>
 
 <h2 class="session-title">
 <span class="session-name">☕ Coffee Break</span>
 
-<span class="session-time">14:45–15:00</span>
+<span class="session-time">14:35–14:45</span>
 
 </h2>
 
 <h2 class="session-title">
-<span class="session-name">Session 2: TBA</span>
+<span class="session-name">Session 2: Empirical Bayes with Application</span>
 
-<span class="session-time">15:00–16:15</span>
+<span class="session-time">14:45–16:00</span>
 
 </h2>
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Sharpening Variance Estimation: An Empirical Bayes Approach under Mean-Variance <br /> Dependence</span>
+    <span class="talk-speaker">송채원 (숙명여대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -311,8 +312,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">모수적 경험적 베이즈의 확장: 이분산성 데이터에서의 SURE,URE 기반의 Robust한 축소추정량</span>
+    <span class="talk-speaker">홍지민 (숙명여대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -323,8 +324,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Nonparametric maximum likelihood estimation for multivariate normal models and <br /> its applications to classification</span>
+    <span class="talk-speaker">오승연 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -336,21 +337,21 @@ s.setAttribute('data-timestamp', +new Date());
 <h2 class="session-title">
 <span class="session-name">☕ Coffee Break</span>
 
-<span class="session-time">16:15–16:30</span>
+<span class="session-time">16:00–16:10</span>
 
 </h2>
 
 <h2 class="session-title">
-<span class="session-name">Session 3: TBA</span>
+<span class="session-name">Session 3: Online Inference with E-values</span>
 
-<span class="session-time">16:30–17:45</span>
+<span class="session-time">16:10–17:00</span>
 
 </h2>
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary</span>
+    <span class="talk-speaker">손유안 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -361,8 +362,27 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Post-hoc selection of significance level</span>
+    <span class="talk-speaker">황서화 (서울대)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">Session 4: Conformal Prediction</span>
+
+<span class="session-time">17:10–18:00</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">Decaying-Step Online Conformal Prediction</span>
+    <span class="talk-speaker">박지호 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -373,12 +393,12 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Shrinkage-Clustered Conformal Prediction</span>
+    <span class="talk-speaker">김지수 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
-    TBA
+    Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. 
 
     </div>
 </details>
@@ -407,7 +427,7 @@ s.setAttribute('data-timestamp', +new Date());
 </h2>
 
 <h2 class="session-title">
-<span class="session-name">Session 4: TBA</span>
+<span class="session-name">Session 4: Multiple Testing with FDR Control</span>
 
 <span class="session-time">09:30–10:45</span>
 
@@ -415,8 +435,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Introduction to compound p-values</span>
+    <span class="talk-speaker">허종원 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -427,8 +447,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">Symmetrized Aggregation for FDR Control under General Dependence</span>
+    <span class="talk-speaker">김규람 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -439,8 +459,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-title">A Brief History of Knockoffs and Their Modern Applications</span>
+    <span class="talk-speaker">김규환 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -466,7 +486,7 @@ s.setAttribute('data-timestamp', +new Date());
 <details class="talk-card">
     <summary>
     <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-speaker">임예빈 (덕성여대)</span>
     </summary>
 
     <div class="talk-abstract">
@@ -478,7 +498,7 @@ s.setAttribute('data-timestamp', +new Date());
 <details class="talk-card">
     <summary>
     <span class="talk-title">TBA</span>
-    <span class="talk-speaker">OOO (SNU)</span>
+    <span class="talk-speaker">정윤주 (덕성여대)</span>
     </summary>
 
     <div class="talk-abstract">
