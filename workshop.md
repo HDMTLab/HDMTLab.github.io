@@ -6,7 +6,7 @@ permalink: /workshop/
 
 
 <header class="masthead text-center">
-    <h1>Lab Workshop</h1>
+    <h1>Workshop</h1>
   </header>
 
 ------
@@ -16,7 +16,7 @@ permalink: /workshop/
 <a href="/workshop/workshop2026winter">HDMT Workshop on January 2026</a>
 </h4> -->
 
-- [HDMT Workshop on January 2026](/workshop/workshop2026winter)
+- [Workshop on Robust Inference for High-Dimensional Complex Data on January 2026](/workshop/workshop2026winter)
 
 <!-- <div class="content list">
   {% for post in site.posts %}

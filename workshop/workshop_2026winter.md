@@ -1,5 +1,5 @@
 ---
-title: 2026 HDMT Winter Workshop
+title: 2026 Workshop on Robust Inference for High-Dimensional Complex Data 
 permalink: /workshop/workshop2026winter/
 ---
 
@@ -89,15 +89,18 @@ permalink: /workshop/workshop2026winter/
 </style>
 
 
-# 2026 HDMT Winter Workshop
+# 2026 Workshop on Robust Inference for High-Dimensional Complex Data
 
 --- 
 
 ## Introduction
 
-The *2026 HDMT Winter Workshop* is organized to promote academic and personal interaction among current members and alumni of the *High-Dimensional Multiple Testing Lab*. Through this workshop, participants are expected to gain a better understanding of each other's research topics and engage in active discussions.
+The *2026 Workshop on Robust Inference for High-Dimensional Complex Data* aims to bring together researchers to discuss recent advances in robust statistical inference for modern complex data settings. The workshop focuses on methodological developments that ensure reliable inference in the presence of high dimensionality, dependence, and structural complexity.
 
-Each participant will give a presentation of approximately *25 minutes* on their research, followed by a question-and-answer session.
+The sessions will cover a range of contemporary topics, including *e-values, conformal prediction, variable selection with false discovery rate (FDR) control, tests of mean, empirical Bayes methods, and other related topics*. These methodologies will be discussed in the context of complex data types such as *high-dimensional data, online or streaming data, functional data, and tensor-valued data*.
+
+Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately 25 minutes on their research, followed by a question-and-answer session.
+
 
 ---
 
@@ -112,30 +115,6 @@ Each participant will give a presentation of approximately *25 minutes* on their
 
 ---
 
-
-<!--
-# 2026 고차원 다중검정 연구실 겨울 워크샵
-
-<br>
-
---- 
-
-## 소개
-
-고차원 다중검정 연구실 구성원과 졸업생들의 연구실 구성원이 인적, 학문적 교류를 하기 위한 워크샵을 개최한다. 이를 통해 서로의 연구 주제에 대해 이해하고 논의해볼 수 있을 것으로 기대한다. 각자의 연구 주제에 대해 25분에 걸쳐 발표하고, 질의응답을 진행한다.
-
-고차원 다중검정 연구실 구성원과 졸업생들의 연구실 구성원이 인적·학문적 교류를 할 수 있도록 HDMT Winter Workshop 2026을 개최한다. 본 워크숍을 통해 서로의 연구 주제에 대해 이해하고 자유롭게 논의할 수 있을 것으로 기대한다.
-
-워크숍에서는 각 참여자가 자신의 연구 주제에 대해 약 25분간 발표를 진행하며, 발표 후에는 질의응답 시간을 통해 연구 내용과 방법론에 대해 토론한다.
-
----
-
-## 일시 및 장소
-
-- 2026년 1월 21일(수) 오후 1시 ~ 1월 22일(목) 오후 12시
-- 서울대학교 시흥캠퍼스 컨벤션센터 806-1호
-
---- -->
 
 
 
@@ -198,7 +177,7 @@ Each participant will give a presentation of approximately *25 minutes* on their
 
 <!-- 3. 실행 스크립트 -->
 <script charset="UTF-8">
-	new daum.roughmap.Lander({
+	new daum.roughmap.Lander({  
 		"timestamp" : "1768018058689",
 		"key" : "fdm46rmtjd8",
 		"mapWidth" : "80%",
