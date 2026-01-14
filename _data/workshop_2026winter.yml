@@ -74,10 +74,10 @@
   # session: "Session 2: TBA"
   session_id: "session-2"
   type: "talk"
-  title: "Nonparametric maximum likelihood estimation for multivariate normal models and <br> its applications to classification"
+  title: "Empirical Bayes via nonparametric maximum likelihood estimation for multivariate and<br>heteroscedastic normal models with applications to tensor classification"
   speaker: "오승연 (서울대)"
   abstract: >
-    TBA
+    Multivariate, heteroscedastic errors complicate statistical inference in many large-scale denoising problems. This presentation begins by discussing why Empirical Bayes is attractive in such settings, while noting that standard parametric approaches often rest on hard-to-justify assumptions about the prior distribution and introduce unnecessary tuning parameters. We review a method that extends the nonparametric maximum-likelihood estimator (NPMLE) for Gaussian location mixture densities to allow for multivariate, heteroscedastic errors. The talk details the methodology where NPMLEs estimate an arbitrary prior by solving an infinite-dimensional, convex optimization problem, and we examine the demonstration that this problem can be tractably approximated by a finite-dimensional version. We highlight that the empirical Bayes posterior means based on an NPMLE exhibit low regret, closely targeting the oracle posterior means one would compute with the true prior in hand. Furthermore, we discuss the theoretical proofs provided in the literature, specifically an oracle inequality implying that the empirical Bayes estimator performs at nearly the optimal level (up to logarithmic factors) for denoising without prior knowledge. The review also covers finite-sample bounds on the average Hellinger accuracy of an NPMLE for estimating marginal densities, as well as the adaptive and nearly optimal properties of NPMLEs for deconvolution. Finally, we present applications of this method to denoising problems in astronomy and hierarchical linear modeling in social science and biology.
 
 
 # # Coffee break
