@@ -12,6 +12,7 @@ joined: 2024-1
 
 <i class="fa fa-envelope-o"></i>  `jisukim@snu.ac.kr`<br>
 <i class="fa fa-building"></i> Building 25 Room 402 <br> 
+<i class="fa fa-github"></i> [GitHub](https://github.com/jisu-kim-stat)
 
 <hr>
 

@@ -12,7 +12,8 @@ joined: 2023-1
 
 <i class="fa fa-envelope-o"></i>  `hyunsung1021@snu.ac.kr`<br>
 <i class="fa fa-building"></i> Building 25 Room 326 <br>
-<i class="fa fa-external-link"></i> [Personal homepage](http://statkim.github.io/hyunsungkim)
+<i class="fa fa-github"></i> [GitHub](https://github.com/statkim) <br>
+<i class="fa fa-external-link"></i> [Personal website](http://statkim.github.io/hyunsungkim)
 
 <hr>
 
