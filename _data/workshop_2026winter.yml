@@ -1,9 +1,9 @@
-# - day: "Day 1 (January 21)"
-#   # session: "현장등록"
-#   session: "Registration"
-#   session_id: "register"
-#   type: "break"
-#   session_time: "12:50–13:00"
+- day: "Day 1 (January 21)"
+  # session: "현장등록"
+  session: "Registration"
+  session_id: "register"
+  type: "break"
+  session_time: "13:00–13:20"
 
 # - day: "Day 1 (January 21)"
 #   session: "Opening Remark"
@@ -16,7 +16,7 @@
 - day: "Day 1 (January 21)"
   session: "Session 1: Projection-based Inference for High-Dimensional Means"
   session_id: "session-1"
-  session_time: "13:00–14:10"
+  session_time: "13:20–14:20"
   type: "talk"
   title: "Random Direction Tests for a Multivariate Normal Mean under Polyhedral Cone Constraints"
   speaker: "고준혁 (서울대)"
@@ -24,7 +24,6 @@
     We study hypothesis testing for a multivariate normal mean subject to linear inequality constraints, where the parameter space is a polyhedral cone. Classical procedures for one-sided multivariate testing—most notably the generalized likelihood ratio test (GLRT) and O’Brien’s test~\cite{Tang}—are well understood when the cone is the nonnegative orthant, but their behavior can be unstable for general cones and under unknown covariance. Building on an ensemble idea~\cite{Ensemble}, we propose four new tests—the Single Direction Test (SDT), the Ensemble Direction Test (EDT), the Hartung Direction Test (HDT), and the Maximum Direction Test (MDT)—that aggregate $p$-values using randomly generated directions in the cone. Across a wide range of alternatives and covariance structures, our simulations show that the EDT attains higher power than the GLRT, which is often conservative in the unknown-covariance setting. On the other hand, the EDT can exhibit inflated type~I error at moderate significance levels and can be computationally expensive in high-dimensional settings.
 
 - day: "Day 1 (January 21)"
-  # session: "Session 1: TBA"
   session_id: "session-1"
   type: "talk"
   title: "Projection tests for mean vector in high dimension"
@@ -33,7 +32,6 @@
     TBA
 
 - day: "Day 1 (January 21)"
-  # session: "Session 1: TBA"
   session_id: "session-1"
   type: "talk"
   title: "Two-Sample Projection Test for High-Dimensional Functional Data"
@@ -41,19 +39,13 @@
   abstract: >
     We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions.
 
-# # Coffee break
-# - day: "Day 1 (January 21)"
-#   session: "☕ Coffee Break"
-#   session_id: "coffee-1"
-#   type: "break"
-#   session_time: "14:35–14:45"
 
 
 # Session 2
 - day: "Day 1 (January 21)"
   session: "Session 2: Empirical Bayes and Robust Estimation"
   session_id: "session-2"
-  session_time: "14:20–15:35"
+  session_time: "14:30–15:30"
   type: "talk"
   title: "Sharpening Variance Estimation: An Empirical Bayes Approach under Mean-Variance <br> Dependence"
   speaker: "송채원 (숙명여대)"
@@ -79,19 +71,19 @@
     Multivariate, heteroscedastic errors complicate statistical inference in many large-scale denoising problems. This presentation begins by discussing why Empirical Bayes is attractive in such settings, while noting that standard parametric approaches often rest on hard-to-justify assumptions about the prior distribution and introduce unnecessary tuning parameters. We review a method that extends the nonparametric maximum-likelihood estimator (NPMLE) for Gaussian location mixture densities to allow for multivariate, heteroscedastic errors. The talk details the methodology where NPMLEs estimate an arbitrary prior by solving an infinite-dimensional, convex optimization problem, and we examine the demonstration that this problem can be tractably approximated by a finite-dimensional version. We highlight that the empirical Bayes posterior means based on an NPMLE exhibit low regret, closely targeting the oracle posterior means one would compute with the true prior in hand. Furthermore, we discuss the theoretical proofs provided in the literature, specifically an oracle inequality implying that the empirical Bayes estimator performs at nearly the optimal level (up to logarithmic factors) for denoising without prior knowledge. The review also covers finite-sample bounds on the average Hellinger accuracy of an NPMLE for estimating marginal densities, as well as the adaptive and nearly optimal properties of NPMLEs for deconvolution. Finally, we present applications of this method to denoising problems in astronomy and hierarchical linear modeling in social science and biology.
 
 
-# # Coffee break
-# - day: "Day 1 (January 21)"
-#   session: "☕ Coffee Break"
-#   session_id: "coffee-2"
-#   type: "break"
-#   session_time: "16:00–16:10"
+# Coffee break
+- day: "Day 1 (January 21)"
+  session: "☕ Coffee Break"
+  session_id: "coffee-1"
+  type: "break"
+  session_time: "15:30–16:10"
 
 
 # Session 3
 - day: "Day 1 (January 21)" 
   session: "Session 3: On Admissibility of E-values"
   session_id: "session-3"
-  session_time: "15:45–16:35"
+  session_time: "16:10–16:50"
   type: "talk"
   title: "Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary"
   speaker: "손유안 (서울대)"
@@ -112,7 +104,7 @@
 - day: "Day 1 (January 21)"
   session: "Session 4: Conformal Prediction and Applications"
   session_id: "session-4"
-  session_time: "16:45–18:00"
+  session_time: "17:00–18:00"
   type: "talk"
   title: "Decaying-Step Online Conformal Prediction"
   speaker: "박지호 (서울대)"
@@ -166,7 +158,7 @@
 - day: "Day 2 (January 22)"
   session: "Session 5: Multiple Testing under Dependence Structures"
   session_id: "session-5"
-  session_time: "10:00–10:50"
+  session_time: "10:00–10:40"
   type: "talk"
   title: "Symmetrized Aggregation for FDR Control under General Dependence"
   speaker: "김규람 (서울대)"
@@ -183,11 +175,19 @@
     TBA
 
 
+# Coffee break
+- day: "Day 2 (January 22)"
+  session: "☕ Coffee Break"
+  session_id: "coffee-2"
+  type: "break"
+  session_time: "10:40–11:10"
+
+
 # Session 5
 - day: "Day 2 (January 22)"
   session: "Session 6: Recent Developments in FDR Control"
   session_id: "session-6"
-  session_time: "11:00–11:50"
+  session_time: "11:10–11:50"
   type: "talk"
   title: "Introduction to compound p-values"
   speaker: "허종원 (서울대)"
