@@ -97,7 +97,7 @@ permalink: /workshop/workshop2026winter/
 
 The *2026 Workshop on Robust Inference for High-Dimensional Complex Data* aims to bring together researchers to discuss recent advances in robust statistical inference for modern complex data settings. The workshop focuses on methodological developments that ensure reliable inference in the presence of high dimensionality, dependence, and structural complexity.
 
-The sessions will cover a range of contemporary topics, including *multiple testing, e-values, conformal prediction, false discovery rate (FDR) control, test for means, empirical Bayes, and other related topics*. These methodologies will be discussed in the context of complex data types such as *high-dimensional data, online or streaming data, functional data, and tensor-valued data*.
+The sessions will cover a range of contemporary topics, including *multiple testing, e-values, false discovery rate (FDR) control, conformal prediction, test for means, empirical Bayes, and other related topics*. These methodologies will be discussed in the context of complex data types such as *high-dimensional data, online or streaming data, functional data, and tensor-valued data*.
 
 Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately 25 minutes on their research, followed by a question-and-answer session.
 
@@ -107,10 +107,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 ## Date & Venue
 
 - January 21, 2026, 13:00 – January 22, 2026, 12:00
-<!-- - 2026.01.21 13:00 - 2026.01.22 12:00 -->
-<!-- - 13:00, Jan 21, 2026 – 12:00, Jan 22, 2026 -->
 - Room 806, Convention Center, Siheung Campus, Seoul National University
-<!-- - 서울대학교 시흥캠퍼스 컨벤션센터 806호 -->
 
 
 ---

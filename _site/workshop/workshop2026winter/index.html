@@ -203,7 +203,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 <p>The <em>2026 Workshop on Robust Inference for High-Dimensional Complex Data</em> aims to bring together researchers to discuss recent advances in robust statistical inference for modern complex data settings. The workshop focuses on methodological developments that ensure reliable inference in the presence of high dimensionality, dependence, and structural complexity.</p>
 
-<p>The sessions will cover a range of contemporary topics, including <em>multiple testing, e-values, conformal prediction, false discovery rate (FDR) control, test for means, empirical Bayes, and other related topics</em>. These methodologies will be discussed in the context of complex data types such as <em>high-dimensional data, online or streaming data, functional data, and tensor-valued data</em>.</p>
+<p>The sessions will cover a range of contemporary topics, including <em>multiple testing, e-values, false discovery rate (FDR) control, conformal prediction, test for means, empirical Bayes, and other related topics</em>. These methodologies will be discussed in the context of complex data types such as <em>high-dimensional data, online or streaming data, functional data, and tensor-valued data</em>.</p>
 
 <p>Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately 25 minutes on their research, followed by a question-and-answer session.</p>
 
@@ -212,11 +212,8 @@ s.setAttribute('data-timestamp', +new Date());
 <h2 id="date--venue">Date &amp; Venue</h2>
 
 <ul>
-  <li>January 21, 2026, 13:00 – January 22, 2026, 12:00
-<!-- - 2026.01.21 13:00 - 2026.01.22 12:00 -->
-<!-- - 13:00, Jan 21, 2026 – 12:00, Jan 22, 2026 --></li>
-  <li>Room 806, Convention Center, Siheung Campus, Seoul National University
-<!-- - 서울대학교 시흥캠퍼스 컨벤션센터 806호 --></li>
+  <li>January 21, 2026, 13:00 – January 22, 2026, 12:00</li>
+  <li>Room 806, Convention Center, Siheung Campus, Seoul National University</li>
 </ul>
 
 <hr />
@@ -228,23 +225,9 @@ s.setAttribute('data-timestamp', +new Date());
 <h1 class="day-title">Day 1 (January 21)</h1>
 
 <h2 class="session-title">
-<span class="session-name">Registration</span>
+<span class="session-name">Session 1: Projection-based Inference for High-Dimensional Means</span>
 
-<span class="session-time">13:00–13:10</span>
-
-</h2>
-
-<h2 class="session-title">
-<span class="session-name">Opening Remark</span>
-
-<span class="session-time">13:10–13:20</span>
-
-</h2>
-
-<h2 class="session-title">
-<span class="session-name">Session 1: Hypothesis Test for High-Dimensional Means</span>
-
-<span class="session-time">13:20–14:35</span>
+<span class="session-time">13:00–14:10</span>
 
 </h2>
 
@@ -285,9 +268,9 @@ s.setAttribute('data-timestamp', +new Date());
 </details>
 
 <h2 class="session-title">
-<span class="session-name">Session 2: Empirical Bayes with Application</span>
+<span class="session-name">Session 2: Empirical Bayes and Robust Estimation</span>
 
-<span class="session-time">14:45–16:00</span>
+<span class="session-time">14:20–15:35</span>
 
 </h2>
 
@@ -328,9 +311,9 @@ s.setAttribute('data-timestamp', +new Date());
 </details>
 
 <h2 class="session-title">
-<span class="session-name">Session 3: Online Inference with E-values</span>
+<span class="session-name">Session 3: Online Inference and E-values</span>
 
-<span class="session-time">16:10–17:00</span>
+<span class="session-time">15:45–16:35</span>
 
 </h2>
 
@@ -359,9 +342,9 @@ s.setAttribute('data-timestamp', +new Date());
 </details>
 
 <h2 class="session-title">
-<span class="session-name">Session 4: Conformal Prediction</span>
+<span class="session-name">Session 4: Conformal Prediction and Applications</span>
 
-<span class="session-time">17:10–18:00</span>
+<span class="session-time">16:45–18:00</span>
 
 </h2>
 
@@ -379,12 +362,26 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
+    <span class="talk-title">Statistically Guaranteed Galaxy Image Classification with Conformal Prediction</span>
+    <span class="talk-speaker">정윤주 (덕성여대)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    Recent advances in space telescopes such as the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST) have led to a rapid growth in high-resolution galaxy image data. Convolutional neural networks (CNNs) have been widely used for automated galaxy morphology classification; however, conventional deep learning models provide limited information about predictive uncertainty. In this study, we propose an uncertainty-aware galaxy image classification framework by integrating Conformal Prediction (CP) with a CNN-based classifier. A ResNet50V2 model was trained on a combined dataset of Galaxy Zoo and Galaxy10 DECaLS, achieving a validation accuracy of 91.20%. Conformal prediction was applied using an independent calibration set to generate statistically valid prediction sets at a confidence level of 95%. The proposed method provides distribution-free uncertainty quantification and mitigates overconfident predictions. We further demonstrate the effectiveness of the framework on JWST observation images under realistic observational conditions.
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
     <span class="talk-title">Shrinkage-Clustered Conformal Prediction</span>
     <span class="talk-speaker">김지수 (서울대)</span>
     </summary>
 
     <div class="talk-abstract">
     Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. 
+
+ 
 
     </div>
 </details>
@@ -413,9 +410,40 @@ s.setAttribute('data-timestamp', +new Date());
 </h2>
 
 <h2 class="session-title">
-<span class="session-name">Session 4: Multiple Testing with FDR Control</span>
+<span class="session-name">Session 4: Multiple Testing under Dependence Structures</span>
 
-<span class="session-time">09:30–10:45</span>
+<span class="session-time">10:00–10:50</span>
+
+</h2>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">Symmetrized Aggregation for FDR Control under General Dependence</span>
+    <span class="talk-speaker">김규람 (서울대)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    This presentation reviews a new class of distribution-free multiple testing rules for false discovery rate (FDR) control under general dependence. We discuss a key element of the proposed method: a symmetrized data aggregation (SDA) approach to incorporating the dependence structure via sample splitting, data screening, and information pooling. The talk details how the SDA filter first constructs a sequence of ranking statistics that fulfill global symmetry properties, and then chooses a data-driven threshold along the ranking to control the FDR.We highlight comparative analyses showing that the SDA filter substantially outperforms the knockoff method in power under moderate to strong dependence, and acts more robustly than existing methods based on asymptotic $p$-values. Furthermore, we examine the finite-sample theory developed in the literature which provides an upper bound for the actual FDR under general dependence, as well as the established asymptotic validity of SDA for both the FDR and false discovery proportion (FDP) control under mild regularity conditions. The procedure is implemented in the R package \texttt{SDA}. Finally, we present numerical results that confirm the effectiveness and robustness of SDA in FDR control, demonstrating substantial power gains over existing methods in many settings.
+
+    </div>
+</details>
+
+<details class="talk-card">
+    <summary>
+    <span class="talk-title">Numerical Comparison of Several Multiple Testing Procedures Under Dependence Structures</span>
+    <span class="talk-speaker">임예빈 (덕성여대)</span>
+    </summary>
+
+    <div class="talk-abstract">
+    TBA
+
+    </div>
+</details>
+
+<h2 class="session-title">
+<span class="session-name">Session 5: Recent Developments in FDR Control</span>
+
+<span class="session-time">11:00–11:50</span>
 
 </h2>
 
@@ -433,18 +461,6 @@ s.setAttribute('data-timestamp', +new Date());
 
 <details class="talk-card">
     <summary>
-    <span class="talk-title">Symmetrized Aggregation for FDR Control under General Dependence</span>
-    <span class="talk-speaker">김규람 (서울대)</span>
-    </summary>
-
-    <div class="talk-abstract">
-    This presentation reviews a new class of distribution-free multiple testing rules for false discovery rate (FDR) control under general dependence. We discuss a key element of the proposed method: a symmetrized data aggregation (SDA) approach to incorporating the dependence structure via sample splitting, data screening, and information pooling. The talk details how the SDA filter first constructs a sequence of ranking statistics that fulfill global symmetry properties, and then chooses a data-driven threshold along the ranking to control the FDR.We highlight comparative analyses showing that the SDA filter substantially outperforms the knockoff method in power under moderate to strong dependence, and acts more robustly than existing methods based on asymptotic $p$-values. Furthermore, we examine the finite-sample theory developed in the literature which provides an upper bound for the actual FDR under general dependence, as well as the established asymptotic validity of SDA for both the FDR and false discovery proportion (FDP) control under mild regularity conditions. The procedure is implemented in the R package \texttt{SDA}. Finally, we present numerical results that confirm the effectiveness and robustness of SDA in FDR control, demonstrating substantial power gains over existing methods in many settings.
-
-    </div>
-</details>
-
-<details class="talk-card">
-    <summary>
     <span class="talk-title">A Brief History of Knockoffs and Their Modern Applications</span>
     <span class="talk-speaker">김규환 (서울대)</span>
     </summary>
@@ -454,51 +470,6 @@ s.setAttribute('data-timestamp', +new Date());
 
     </div>
 </details>
-
-<h2 class="session-title">
-<span class="session-name">☕ Coffee Break</span>
-
-<span class="session-time">10:45–11:00</span>
-
-</h2>
-
-<h2 class="session-title">
-<span class="session-name">Session 5: TBA</span>
-
-<span class="session-time">11:00–11:50</span>
-
-</h2>
-
-<details class="talk-card">
-    <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">임예빈 (덕성여대)</span>
-    </summary>
-
-    <div class="talk-abstract">
-    TBA
-
-    </div>
-</details>
-
-<details class="talk-card">
-    <summary>
-    <span class="talk-title">TBA</span>
-    <span class="talk-speaker">정윤주 (덕성여대)</span>
-    </summary>
-
-    <div class="talk-abstract">
-    TBA
-
-    </div>
-</details>
-
-<h2 class="session-title">
-<span class="session-name">Closing Remark</span>
-
-<span class="session-time">11:50–12:00</span>
-
-</h2>
 
 <h2 class="session-title">
 <span class="session-name">Lunch</span>

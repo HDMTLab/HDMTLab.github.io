@@ -1,23 +1,22 @@
-- day: "Day 1 (January 21)"
-  # session: "현장등록"
-  session: "Registration"
-  session_id: "register"
-  type: "break"
-  session_time: "13:00–13:10"
+# - day: "Day 1 (January 21)"
+#   # session: "현장등록"
+#   session: "Registration"
+#   session_id: "register"
+#   type: "break"
+#   session_time: "12:50–13:00"
 
-- day: "Day 1 (January 21)"
-  # session: "현장등록"
-  session: "Opening Remark"
-  session_id: "opening"
-  type: "break"
-  session_time: "13:10–13:20"
+# - day: "Day 1 (January 21)"
+#   session: "Opening Remark"
+#   session_id: "opening"
+#   type: "break"
+#   session_time: "13:10–13:20"
 
 
 # Session 1
 - day: "Day 1 (January 21)"
-  session: "Session 1: Hypothesis Test for High-Dimensional Means"
+  session: "Session 1: Projection-based Inference for High-Dimensional Means"
   session_id: "session-1"
-  session_time: "13:20–14:35"
+  session_time: "13:00–14:10"
   type: "talk"
   title: "Random Direction Tests for a Multivariate Normal Mean under Polyhedral Cone Constraints"
   speaker: "고준혁 (서울대)"
@@ -52,9 +51,9 @@
 
 # Session 2
 - day: "Day 1 (January 21)"
-  session: "Session 2: Empirical Bayes with Application"
+  session: "Session 2: Empirical Bayes and Robust Estimation"
   session_id: "session-2"
-  session_time: "14:45–16:00"
+  session_time: "14:20–15:35"
   type: "talk"
   title: "Sharpening Variance Estimation: An Empirical Bayes Approach under Mean-Variance <br> Dependence"
   speaker: "송채원 (숙명여대)"
@@ -90,9 +89,9 @@
 
 # Session 3
 - day: "Day 1 (January 21)" 
-  session: "Session 3: Online Inference with E-values"
+  session: "Session 3: Online Inference and E-values"
   session_id: "session-3"
-  session_time: "16:10–17:00"
+  session_time: "15:45–16:35"
   type: "talk"
   title: "Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary"
   speaker: "손유안 (서울대)"
@@ -111,9 +110,9 @@
 
 # Session 4
 - day: "Day 1 (January 21)"
-  session: "Session 4: Conformal Prediction"
+  session: "Session 4: Conformal Prediction and Applications"
   session_id: "session-4"
-  session_time: "17:10–18:00"
+  session_time: "16:45–18:00"
   type: "talk"
   title: "Decaying-Step Online Conformal Prediction"
   speaker: "박지호 (서울대)"
@@ -124,10 +123,22 @@
   session: "Session 4: TBA"
   session_id: "session-4"
   type: "talk"
+  title: "Statistically Guaranteed Galaxy Image Classification with Conformal Prediction"
+  speaker: "정윤주 (덕성여대)"
+  abstract: >
+    Recent advances in space telescopes such as the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST) have led to a rapid growth in high-resolution galaxy image data. Convolutional neural networks (CNNs) have been widely used for automated galaxy morphology classification; however, conventional deep learning models provide limited information about predictive uncertainty. In this study, we propose an uncertainty-aware galaxy image classification framework by integrating Conformal Prediction (CP) with a CNN-based classifier. A ResNet50V2 model was trained on a combined dataset of Galaxy Zoo and Galaxy10 DECaLS, achieving a validation accuracy of 91.20%. Conformal prediction was applied using an independent calibration set to generate statistically valid prediction sets at a confidence level of 95%. The proposed method provides distribution-free uncertainty quantification and mitigates overconfident predictions. We further demonstrate the effectiveness of the framework on JWST observation images under realistic observational conditions.
+
+
+- day: "Day 1 (January 21)"
+  session: "Session 4: TBA"
+  session_id: "session-4"
+  type: "talk"
   title: "Shrinkage-Clustered Conformal Prediction"
   speaker: "김지수 (서울대)"
   abstract: >
     Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. 
+
+     
 
 
 # 저녁식사
@@ -140,7 +151,7 @@
 # 숙박
 - day: "Day 1 (January 21)"
   session: "Accommodation"
-  session_id: "ㅁccommodation"
+  session_id: "Accommodation"
   type: "break"
   session_time: "시흥 웨이브 엠 호텔 웨스트 호텔"
 
@@ -151,12 +162,34 @@
   session_id: "breakfast"
   type: "break"
   session_time: "시흥 웨이브 엠 호텔 웨스트 호텔"
-    
+
+
 # Session 4
 - day: "Day 2 (January 22)"
-  session: "Session 4: Multiple Testing with FDR Control"
+  session: "Session 4: Multiple Testing under Dependence Structures"
   session_id: "session-4"
-  session_time: "09:30–10:45"
+  session_time: "10:00–10:50"
+  type: "talk"
+  title: "Symmetrized Aggregation for FDR Control under General Dependence"
+  speaker: "김규람 (서울대)"
+  abstract: >
+    This presentation reviews a new class of distribution-free multiple testing rules for false discovery rate (FDR) control under general dependence. We discuss a key element of the proposed method: a symmetrized data aggregation (SDA) approach to incorporating the dependence structure via sample splitting, data screening, and information pooling. The talk details how the SDA filter first constructs a sequence of ranking statistics that fulfill global symmetry properties, and then chooses a data-driven threshold along the ranking to control the FDR.We highlight comparative analyses showing that the SDA filter substantially outperforms the knockoff method in power under moderate to strong dependence, and acts more robustly than existing methods based on asymptotic $p$-values. Furthermore, we examine the finite-sample theory developed in the literature which provides an upper bound for the actual FDR under general dependence, as well as the established asymptotic validity of SDA for both the FDR and false discovery proportion (FDP) control under mild regularity conditions. The procedure is implemented in the R package \texttt{SDA}. Finally, we present numerical results that confirm the effectiveness and robustness of SDA in FDR control, demonstrating substantial power gains over existing methods in many settings.
+
+
+- day: "Day 2 (January 22)"
+  session_id: "session-4"
+  type: "talk"
+  title: "Numerical Comparison of Several Multiple Testing Procedures Under Dependence Structures"
+  speaker: "임예빈 (덕성여대)"
+  abstract: >
+    TBA
+
+
+# Session 5
+- day: "Day 2 (January 22)"
+  session: "Session 5: Recent Developments in FDR Control"
+  session_id: "session-5"
+  session_time: "11:00–11:50"
   type: "talk"
   title: "Introduction to compound p-values"
   speaker: "허종원 (서울대)"
@@ -165,16 +198,7 @@
 
 - day: "Day 2 (January 22)"
   # session: "Session 4: Multiple Testing with FDR Control"
-  session_id: "session-4"
-  type: "talk"
-  title: "Symmetrized Aggregation for FDR Control under General Dependence"
-  speaker: "김규람 (서울대)"
-  abstract: >
-    This presentation reviews a new class of distribution-free multiple testing rules for false discovery rate (FDR) control under general dependence. We discuss a key element of the proposed method: a symmetrized data aggregation (SDA) approach to incorporating the dependence structure via sample splitting, data screening, and information pooling. The talk details how the SDA filter first constructs a sequence of ranking statistics that fulfill global symmetry properties, and then chooses a data-driven threshold along the ranking to control the FDR.We highlight comparative analyses showing that the SDA filter substantially outperforms the knockoff method in power under moderate to strong dependence, and acts more robustly than existing methods based on asymptotic $p$-values. Furthermore, we examine the finite-sample theory developed in the literature which provides an upper bound for the actual FDR under general dependence, as well as the established asymptotic validity of SDA for both the FDR and false discovery proportion (FDP) control under mild regularity conditions. The procedure is implemented in the R package \texttt{SDA}. Finally, we present numerical results that confirm the effectiveness and robustness of SDA in FDR control, demonstrating substantial power gains over existing methods in many settings.
-
-- day: "Day 2 (January 22)"
-  # session: "Session 4: Multiple Testing with FDR Control"
-  session_id: "session-4"
+  session_id: "session-5"
   type: "talk"
   title: "A Brief History of Knockoffs and Their Modern Applications"
   speaker: "김규환 (서울대)"
@@ -182,40 +206,20 @@
     TBA
 
 
-# Coffee break
-- day: "Day 2 (January 22)"
-  session: "☕ Coffee Break"
-  session_id: "coffee-3"
-  type: "break"
-  session_time: "10:45–11:00"
+# # Coffee break
+# - day: "Day 2 (January 22)"
+#   session: "☕ Coffee Break"
+#   session_id: "coffee-3"
+#   type: "break"
+#   session_time: "10:45–11:00"
 
 
-# Session 5
-- day: "Day 2 (January 22)"
-  session: "Session 5: TBA"
-  session_id: "session-5"
-  session_time: "11:00–11:50"
-  type: "talk"
-  title: "TBA"
-  speaker: "임예빈 (덕성여대)"
-  abstract: >
-    TBA
 
-- day: "Day 2 (January 22)"
-  session: "Session 5: TBA"
-  session_id: "session-5"
-  session_time: "11:00–11:50"
-  type: "talk"
-  title: "TBA"
-  speaker: "정윤주 (덕성여대)"
-  abstract: >
-    TBA
-
-- day: "Day 2 (January 22)"
-  session: "Closing Remark"
-  session_id: "closing"
-  type: "break"
-  session_time: "11:50–12:00"
+# - day: "Day 2 (January 22)"
+#   session: "Closing Remark"
+#   session_id: "closing"
+#   type: "break"
+#   session_time: "11:50–12:00"
 
 
 # 점심식사
