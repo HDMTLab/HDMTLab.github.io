@@ -89,7 +89,7 @@
 
 # Session 3
 - day: "Day 1 (January 21)" 
-  session: "Session 3: Online Inference and E-values"
+  session: "Session 3: On Admissibility of E-values"
   session_id: "session-3"
   session_time: "15:45–16:35"
   type: "talk"
@@ -120,7 +120,6 @@
     This presentation reviews a novel method for online conformal prediction that utilizes decaying step sizes. We discuss how, similar to previous approaches, this method possesses a retrospective guarantee of coverage for arbitrary sequences. However, the presentation highlights a key distinction: unlike previous methods, the proposed approach enables the simultaneous estimation of a population quantile when it exists. We further examine theoretical and experimental results indicating substantially improved practical properties. In particular, we focus on the finding that when the distribution is stable, the coverage remains close to the desired level for every time point, rather than merely on average over the observed sequence.
 
 - day: "Day 1 (January 21)"
-  session: "Session 4: TBA"
   session_id: "session-4"
   type: "talk"
   title: "Statistically Guaranteed Galaxy Image Classification with Conformal Prediction"
@@ -130,7 +129,6 @@
 
 
 - day: "Day 1 (January 21)"
-  session: "Session 4: TBA"
   session_id: "session-4"
   type: "talk"
   title: "Shrinkage-Clustered Conformal Prediction"
@@ -166,8 +164,8 @@
 
 # Session 4
 - day: "Day 2 (January 22)"
-  session: "Session 4: Multiple Testing under Dependence Structures"
-  session_id: "session-4"
+  session: "Session 5: Multiple Testing under Dependence Structures"
+  session_id: "session-5"
   session_time: "10:00–10:50"
   type: "talk"
   title: "Symmetrized Aggregation for FDR Control under General Dependence"
@@ -177,7 +175,7 @@
 
 
 - day: "Day 2 (January 22)"
-  session_id: "session-4"
+  session_id: "session-5"
   type: "talk"
   title: "Numerical Comparison of Several Multiple Testing Procedures Under Dependence Structures"
   speaker: "임예빈 (덕성여대)"
@@ -187,8 +185,8 @@
 
 # Session 5
 - day: "Day 2 (January 22)"
-  session: "Session 5: Recent Developments in FDR Control"
-  session_id: "session-5"
+  session: "Session 6: Recent Developments in FDR Control"
+  session_id: "session-6"
   session_time: "11:00–11:50"
   type: "talk"
   title: "Introduction to compound p-values"
@@ -197,8 +195,7 @@
     In the setting of multiple testing, compound p-values generalize p-values by asking for superuniformity to hold only on average across all true nulls. This presentation reviews the properties of the Benjamini–Hochberg procedure applied to such compound p-values. We examine theoretical results under independence, which establish that the false discovery rate (FDR) is at most 1.93α (where α is the nominal level), and we discuss a specific distribution for which the FDR is shown to be 7α/6. The talk also covers the scenario where all nulls are true, highlighting that the upper bound can be improved to α+2α2, with a corresponding worst-case lower bound of α+α2/4. In contrast, under positive dependence, we discuss findings demonstrating that the FDR can be inflated by a factor of O(log m), where $m$ is the number of hypotheses. Finally, we illustrate numerous examples of settings where compound p-values arise in practice, focusing on cases where sufficient information to compute non-trivial p-values is lacking, or where the approach facilitates a more powerful analysis.
 
 - day: "Day 2 (January 22)"
-  # session: "Session 4: Multiple Testing with FDR Control"
-  session_id: "session-5"
+  session_id: "session-6"
   type: "talk"
   title: "A Brief History of Knockoffs and Their Modern Applications"
   speaker: "김규환 (서울대)"
