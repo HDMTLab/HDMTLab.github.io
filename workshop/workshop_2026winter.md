@@ -106,7 +106,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 
 ## Date & Venue
 
-- January 21, 2026, 13:00 – January 22, 2026, 12:00
+- January 21, 2026, 13:00 – January 22, 2026, 13:30
 - Room 806, Convention Center, Siheung Campus, Seoul National University
 
 
@@ -116,7 +116,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 
 - No registration fee
 - One night of accommodation provided
-- Three meals provided
+- Three meals provided (1/21(Dinner), 1/22(Breakfast, Lunch))
 
 ---
 

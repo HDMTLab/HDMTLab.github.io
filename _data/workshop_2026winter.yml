@@ -14,7 +14,7 @@
 
 # Session 1
 - day: "Day 1 (January 21)"
-  session: "Session 1: Projection-based Inference for High-Dimensional Means"
+  session: "Session 1: Projection-based Inference for High-Dimensional Means (Chair: Junyong Park)"
   session_id: "session-1"
   session_time: "13:20–14:20"
   type: "talk"
@@ -43,7 +43,7 @@
 
 # Session 2
 - day: "Day 1 (January 21)"
-  session: "Session 2: Empirical Bayes and Robust Estimation"
+  session: "Session 2: Empirical Bayes and Robust Estimation (Chair: Junyong Park)"
   session_id: "session-2"
   session_time: "14:30–15:30"
   type: "talk"
@@ -81,7 +81,7 @@
 
 # Session 3
 - day: "Day 1 (January 21)" 
-  session: "Session 3: On Admissibility of E-values"
+  session: "Session 3: On Admissibility of E-values (Chair: Hoyoung Park)"
   session_id: "session-3"
   session_time: "16:10–16:50"
   type: "talk"
@@ -102,7 +102,7 @@
 
 # Session 4
 - day: "Day 1 (January 21)"
-  session: "Session 4: Conformal Prediction and Applications"
+  session: "Session 4: Conformal Prediction and Applications (Chair: Hoyoung Park)"
   session_id: "session-4"
   session_time: "17:00–18:00"
   type: "talk"
@@ -156,7 +156,7 @@
 
 # Session 4
 - day: "Day 2 (January 22)"
-  session: "Session 5: Multiple Testing under Dependence Structures"
+  session: "Session 5: Multiple Testing under Dependence Structures (Chair: Junsik Kim)"
   session_id: "session-5"
   session_time: "10:00–10:40"
   type: "talk"
@@ -185,7 +185,7 @@
 
 # Session 5
 - day: "Day 2 (January 22)"
-  session: "Session 6: Recent Developments in FDR Control"
+  session: "Session 6: Recent Developments in FDR Control  (Chair: Junsik Kim)"
   session_id: "session-6"
   session_time: "11:10–11:50"
   type: "talk"
@@ -216,3 +216,9 @@
   session_id: "lunch"
   type: "break"
   session_time: "투파인드피터 배곧점"
+
+- day: "Day 2 (January 22)"
+  session: "Closing Remark"
+  session_id: "closing"
+  type: "break"
+  session_time: "13:30–"
