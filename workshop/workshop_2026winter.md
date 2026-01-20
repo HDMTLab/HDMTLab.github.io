@@ -107,7 +107,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 ## Date & Venue
 
 - January 21, 2026, 13:00 – January 22, 2026, 13:30
-- Room 806, Convention Center, Siheung Campus, Seoul National University
+- Room 806-1, Convention Center, Siheung Campus, Seoul National University
 
 
 ---
