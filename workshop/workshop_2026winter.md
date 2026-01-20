@@ -112,7 +112,13 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 
 ---
 
+## Registration & Support
 
+- No registration fee
+- One night of accommodation provided
+- Three meals provided
+
+---
 
 
 ## Program and Schedule
