@@ -166,7 +166,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 <br>
 
 
-#### 서울대학교 시흥캠퍼스 컨벤션센터 806호 (Workshop)
+#### 서울대학교 시흥캠퍼스 컨벤션센터 806-1호 (Workshop)
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
