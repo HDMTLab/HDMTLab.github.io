@@ -6,6 +6,25 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2026 Workshop on Robust Inference for High-Dimensional Complex Data</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2026-winter_workshop/KakaoTalk_Photo_2026-01-23-10-11-50.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;!-- &lt;div&gt;
+&lt;img src=&quot;/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 004.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+&lt;img src=&quot;/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 006.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
+
+&lt;/div&gt; --&gt;
+</description>
+				<pubDate>Thu, 22 Jan 2026 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2026/01/22/2026-winter_workshop.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2026/01/22/2026-winter_workshop.html</guid>
+			</item>
+		
+			<item>
 				<title>2025 Year-End Party &amp; Celebration of Dr. Hwang’s Ph.D. Graduation</title>
         <description>&lt;!-- ## Event 1 --&gt;
 &lt;p&gt;&lt;img src=&quot;/gallery/2025-year_end/KakaoTalk_Photo_2025-12-23-09-26-17.jpeg&quot; /&gt;&lt;/p&gt;
