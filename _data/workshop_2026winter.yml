@@ -21,7 +21,7 @@
   title: "Random Direction Tests for a Multivariate Normal Mean under Polyhedral Cone Constraints"
   speaker: "고준혁 (서울대)"
   abstract: >
-    We study hypothesis testing for a multivariate normal mean subject to linear inequality constraints, where the parameter space is a polyhedral cone. Classical procedures for one-sided multivariate testing—most notably the generalized likelihood ratio test (GLRT) and O’Brien’s test~\cite{Tang}—are well understood when the cone is the nonnegative orthant, but their behavior can be unstable for general cones and under unknown covariance. Building on an ensemble idea~\cite{Ensemble}, we propose four new tests—the Single Direction Test (SDT), the Ensemble Direction Test (EDT), the Hartung Direction Test (HDT), and the Maximum Direction Test (MDT)—that aggregate $p$-values using randomly generated directions in the cone. Across a wide range of alternatives and covariance structures, our simulations show that the EDT attains higher power than the GLRT, which is often conservative in the unknown-covariance setting. On the other hand, the EDT can exhibit inflated type~I error at moderate significance levels and can be computationally expensive in high-dimensional settings.
+    We study hypothesis testing for a multivariate normal mean subject to linear inequality constraints, where the parameter space is a polyhedral cone. Classical procedures for one-sided multivariate testing—most notably the generalized likelihood ratio test (GLRT) and O’Brien’s test~\cite{Tang}—are well understood when the cone is the nonnegative orthant, but their behavior can be unstable for general cones and under unknown covariance. Building on an ensemble idea~\cite{Ensemble}, we propose four new tests—the Single Direction Test (SDT), the Ensemble Direction Test (EDT), the Hartung Direction Test (HDT), and the Maximum Direction Test (MDT)—that aggregate $p$-values using randomly generated directions in the cone. Across a wide range of alternatives and covariance structures, our simulations show that the EDT attains higher power than the GLRT, which is often conservative in the unknown-covariance setting. On the other hand, the EDT can exhibit inflated type~I error at moderate significance levels and can be computationally expensive in high-dimensional settings. <br> <a href="https://drive.google.com/file/d/1W6QatKxJgnLIt_9c-loIPlEFJ6dr7T7e/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   session_id: "session-1"
@@ -29,7 +29,7 @@
   title: "Projection tests for mean vector in high dimension"
   speaker: "송휘종 (서울대)"
   abstract: >
-    TBA
+    <a href="https://drive.google.com/file/d/1l8YbQ3_U6VLL7qKWPUBaeabV9Ab_kc2q/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   session_id: "session-1"
@@ -37,7 +37,7 @@
   title: "Two-Sample Projection Test for High-Dimensional Functional Data"
   speaker: "김현성 (서울대)"
   abstract: >
-    We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions.
+    We propose a novel two-sample test for high-dimensional functional data, termed the Data-Splitting Projection Test for High-dimensional Functional Data (DSPT-HFD). In settings where the number of functional covariates $p$ far exceeds the sample size $n$, existing methods often face computational challenges or lack theoretical guarantees. The proposed method utilizes a data-splitting strategy to estimate an optimal projection direction that maximizes group mean differences using one data subset, and performs a two-sample test on the projected univariate samples using the remaining subset. The optimal projection direction is estimated by solving a penalized least squares problem with a group non-convex penalty. We theoretically establish the consistency of the estimated direction and prove that the asymptotic power of the test converges to one. Extensive simulation studies and applications to ADHD-200 and EEG datasets demonstrate that DSPT-HFD achieves superior power compared to existing methods while robustly controlling type-I error rates, even under violations of standard assumptions. <br> <a href="https://drive.google.com/file/d/1usvpMVZkab_jefjSqwLzFPkt4YnMHiyd/view?usp=drive_link">[Slides]</a>
 
 
 
@@ -50,7 +50,7 @@
   title: "Sharpening Variance Estimation: An Empirical Bayes Approach under Mean-Variance <br> Dependence"
   speaker: "송채원 (숙명여대)"
   abstract: >
-    TBA
+    <a href="https://drive.google.com/file/d/1qhm7Ylz4abAmDd3hOy_CxAsmvf6-YqGg/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   # session: "Session 2: TBA"
@@ -59,7 +59,7 @@
   title: "모수적 경험적 베이즈의 확장: 이분산성 데이터에서의 SURE,URE 기반의 Robust한 축소추정량"
   speaker: "홍지민 (숙명여대)"
   abstract: >
-    TBA
+    <a href="https://drive.google.com/file/d/1-HCkdnlXBmbPYwaJeducv2wuEWSNL4XH/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   # session: "Session 2: TBA"
@@ -68,7 +68,7 @@
   title: "Empirical Bayes via nonparametric maximum likelihood estimation for multivariate and<br>heteroscedastic normal models with applications to tensor classification"
   speaker: "오승연 (서울대)"
   abstract: >
-    Multivariate, heteroscedastic errors complicate statistical inference in many large-scale denoising problems. This presentation begins by discussing why Empirical Bayes is attractive in such settings, while noting that standard parametric approaches often rest on hard-to-justify assumptions about the prior distribution and introduce unnecessary tuning parameters. We review a method that extends the nonparametric maximum-likelihood estimator (NPMLE) for Gaussian location mixture densities to allow for multivariate, heteroscedastic errors. The talk details the methodology where NPMLEs estimate an arbitrary prior by solving an infinite-dimensional, convex optimization problem, and we examine the demonstration that this problem can be tractably approximated by a finite-dimensional version. We highlight that the empirical Bayes posterior means based on an NPMLE exhibit low regret, closely targeting the oracle posterior means one would compute with the true prior in hand. Furthermore, we discuss the theoretical proofs provided in the literature, specifically an oracle inequality implying that the empirical Bayes estimator performs at nearly the optimal level (up to logarithmic factors) for denoising without prior knowledge. The review also covers finite-sample bounds on the average Hellinger accuracy of an NPMLE for estimating marginal densities, as well as the adaptive and nearly optimal properties of NPMLEs for deconvolution. Finally, we present applications of this method to denoising problems in astronomy and hierarchical linear modeling in social science and biology.
+    Multivariate, heteroscedastic errors complicate statistical inference in many large-scale denoising problems. This presentation begins by discussing why Empirical Bayes is attractive in such settings, while noting that standard parametric approaches often rest on hard-to-justify assumptions about the prior distribution and introduce unnecessary tuning parameters. We review a method that extends the nonparametric maximum-likelihood estimator (NPMLE) for Gaussian location mixture densities to allow for multivariate, heteroscedastic errors. The talk details the methodology where NPMLEs estimate an arbitrary prior by solving an infinite-dimensional, convex optimization problem, and we examine the demonstration that this problem can be tractably approximated by a finite-dimensional version. We highlight that the empirical Bayes posterior means based on an NPMLE exhibit low regret, closely targeting the oracle posterior means one would compute with the true prior in hand. Furthermore, we discuss the theoretical proofs provided in the literature, specifically an oracle inequality implying that the empirical Bayes estimator performs at nearly the optimal level (up to logarithmic factors) for denoising without prior knowledge. The review also covers finite-sample bounds on the average Hellinger accuracy of an NPMLE for estimating marginal densities, as well as the adaptive and nearly optimal properties of NPMLEs for deconvolution. Finally, we present applications of this method to denoising problems in astronomy and hierarchical linear modeling in social science and biology. <br> <a href="https://drive.google.com/file/d/1ODOdjUf1DIfYGuT2esrDW19wcR0LKYDW/view?usp=drive_link">[Slides]</a>
 
 
 # Coffee break
@@ -88,7 +88,7 @@
   title: "Admissible Online True Discovery Guarantees: Closed Testing and Why e-Values Are Necessary"
   speaker: "손유안 (서울대)"
   abstract: >
-    In contemporary research, data scientists often test an infinite sequence of hypotheses $H_1, H_2, \dots$ one by one, requiring real-time decisions without knowledge of future hypotheses or data. This presentation reviews recent developments in online multiple testing, specifically focusing on the goal of providing simultaneous lower bounds for the number of true discoveries in data-adaptively chosen rejection sets.While it has been established in offline multiple testing that simultaneous inference is admissible if and only if it proceeds through closed testing, this talk discusses the extension of this result to the online setting using the recent online closure principle. We explore the key theoretical insight that utilizing an anytime-valid test for each intersection hypothesis is necessary, thereby connecting two distinct branches of literature: online testing of multiple hypotheses and sequential anytime-valid testing of a single hypothesis.The review further covers the construction of a new online closed testing procedure and a corresponding short-cut with a true discovery guarantee based on multiplying sequential e-values. We will discuss how this general procedure not only offers uniform improvements over state-of-the-art methods but also facilitates the creation of powerful new procedures. Finally, we examine novel strategies for hedging and boosting sequential e-values to increase power, along with the first online true discovery procedures for exchangeable and arbitrarily dependent e-values.
+    In contemporary research, data scientists often test an infinite sequence of hypotheses $H_1, H_2, \dots$ one by one, requiring real-time decisions without knowledge of future hypotheses or data. This presentation reviews recent developments in online multiple testing, specifically focusing on the goal of providing simultaneous lower bounds for the number of true discoveries in data-adaptively chosen rejection sets.While it has been established in offline multiple testing that simultaneous inference is admissible if and only if it proceeds through closed testing, this talk discusses the extension of this result to the online setting using the recent online closure principle. We explore the key theoretical insight that utilizing an anytime-valid test for each intersection hypothesis is necessary, thereby connecting two distinct branches of literature: online testing of multiple hypotheses and sequential anytime-valid testing of a single hypothesis.The review further covers the construction of a new online closed testing procedure and a corresponding short-cut with a true discovery guarantee based on multiplying sequential e-values. We will discuss how this general procedure not only offers uniform improvements over state-of-the-art methods but also facilitates the creation of powerful new procedures. Finally, we examine novel strategies for hedging and boosting sequential e-values to increase power, along with the first online true discovery procedures for exchangeable and arbitrarily dependent e-values. <br> <a href="https://drive.google.com/file/d/1FvdnbCtr6udvJpVyGYyXCap7moT0D6C2/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   # session: "Session 3: TBA"
@@ -97,7 +97,7 @@
   title: "Post-hoc selection of significance level"
   speaker: "황서화 (서울대)"
   abstract: >
-    The validity of classical hypothesis testing requires the significance level α be fixed before any statistical analysis takes place. This presentation begins by discussing why this is a stringent requirement. For instance, it prohibits updating α during (or after) an experiment due to changing concern about the cost of false positives, or to reflect unexpectedly strong evidence against the null. Perhaps most disturbingly, witnessing a p-value p ≪ α vs p = α − ϵ for tiny ϵ > 0 has no (statistical) relevance for any downstream decision-making.Focusing on developments following the recent work of Grünwald (2024), this talk reviews a theory of post-hoc hypothesis testing that enables α to be chosen after seeing and analyzing the data. We examine the concept of Γ-admissibility, introduced to study “good” post-hoc tests, where Γ  is a set of adversaries which map the data to a significance level. The discussion covers the classification of Γ -admissible rules for various sets Γ, highlighting the finding that they must be based on e-values, and demonstrating how they recover the Neyman-Pearson lemma when Γ is the constant map. Finally, we present a Rao-Blackwellization result provided in the literature, which proves that the expected utility of an e-value can be improved (for any concave utility) by conditioning on a sufficient statistic.
+    The validity of classical hypothesis testing requires the significance level α be fixed before any statistical analysis takes place. This presentation begins by discussing why this is a stringent requirement. For instance, it prohibits updating α during (or after) an experiment due to changing concern about the cost of false positives, or to reflect unexpectedly strong evidence against the null. Perhaps most disturbingly, witnessing a p-value p ≪ α vs p = α − ϵ for tiny ϵ > 0 has no (statistical) relevance for any downstream decision-making.Focusing on developments following the recent work of Grünwald (2024), this talk reviews a theory of post-hoc hypothesis testing that enables α to be chosen after seeing and analyzing the data. We examine the concept of Γ-admissibility, introduced to study “good” post-hoc tests, where Γ  is a set of adversaries which map the data to a significance level. The discussion covers the classification of Γ -admissible rules for various sets Γ, highlighting the finding that they must be based on e-values, and demonstrating how they recover the Neyman-Pearson lemma when Γ is the constant map. Finally, we present a Rao-Blackwellization result provided in the literature, which proves that the expected utility of an e-value can be improved (for any concave utility) by conditioning on a sufficient statistic. <br> <a href="https://drive.google.com/file/d/1E-oWol2NQv7AA4KfYqLQk6Z8IlUW6OwB/view?usp=drive_link">[Slides]</a>
 
 
 # Session 4
@@ -109,7 +109,7 @@
   title: "Decaying-Step Online Conformal Prediction"
   speaker: "박지호 (서울대)"
   abstract: >
-    This presentation reviews a novel method for online conformal prediction that utilizes decaying step sizes. We discuss how, similar to previous approaches, this method possesses a retrospective guarantee of coverage for arbitrary sequences. However, the presentation highlights a key distinction: unlike previous methods, the proposed approach enables the simultaneous estimation of a population quantile when it exists. We further examine theoretical and experimental results indicating substantially improved practical properties. In particular, we focus on the finding that when the distribution is stable, the coverage remains close to the desired level for every time point, rather than merely on average over the observed sequence.
+    This presentation reviews a novel method for online conformal prediction that utilizes decaying step sizes. We discuss how, similar to previous approaches, this method possesses a retrospective guarantee of coverage for arbitrary sequences. However, the presentation highlights a key distinction: unlike previous methods, the proposed approach enables the simultaneous estimation of a population quantile when it exists. We further examine theoretical and experimental results indicating substantially improved practical properties. In particular, we focus on the finding that when the distribution is stable, the coverage remains close to the desired level for every time point, rather than merely on average over the observed sequence. <br> <a href="https://drive.google.com/file/d/1jY8D7Cb3NZqf_XVQ8qQ7nttgWZVolByy/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 1 (January 21)"
   session_id: "session-4"
@@ -117,7 +117,7 @@
   title: "Statistically Guaranteed Galaxy Image Classification with Conformal Prediction"
   speaker: "정윤주 (덕성여대)"
   abstract: >
-    Recent advances in space telescopes such as the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST) have led to a rapid growth in high-resolution galaxy image data. Convolutional neural networks (CNNs) have been widely used for automated galaxy morphology classification; however, conventional deep learning models provide limited information about predictive uncertainty. In this study, we propose an uncertainty-aware galaxy image classification framework by integrating Conformal Prediction (CP) with a CNN-based classifier. A ResNet50V2 model was trained on a combined dataset of Galaxy Zoo and Galaxy10 DECaLS, achieving a validation accuracy of 91.20%. Conformal prediction was applied using an independent calibration set to generate statistically valid prediction sets at a confidence level of 95%. The proposed method provides distribution-free uncertainty quantification and mitigates overconfident predictions. We further demonstrate the effectiveness of the framework on JWST observation images under realistic observational conditions.
+    Recent advances in space telescopes such as the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST) have led to a rapid growth in high-resolution galaxy image data. Convolutional neural networks (CNNs) have been widely used for automated galaxy morphology classification; however, conventional deep learning models provide limited information about predictive uncertainty. In this study, we propose an uncertainty-aware galaxy image classification framework by integrating Conformal Prediction (CP) with a CNN-based classifier. A ResNet50V2 model was trained on a combined dataset of Galaxy Zoo and Galaxy10 DECaLS, achieving a validation accuracy of 91.20%. Conformal prediction was applied using an independent calibration set to generate statistically valid prediction sets at a confidence level of 95%. The proposed method provides distribution-free uncertainty quantification and mitigates overconfident predictions. We further demonstrate the effectiveness of the framework on JWST observation images under realistic observational conditions. <br> <a href="https://drive.google.com/file/d/1B4cOPZerGU0Goaj4w5NZJx2x2AxvAhy3/view?usp=drive_link">[Slides]</a>
 
 
 - day: "Day 1 (January 21)"
@@ -126,7 +126,7 @@
   title: "Shrinkage Clustered Conformal Prediction (SCCP) : Conformal Prediction under Class Imbalance"
   speaker: "김지수 (서울대)"
   abstract: >
-    Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. 
+    Standard conformal prediction provides valid marginal coverage but often fails to ensure fairness or conditional reliability across classes. Class-conditional conformal prediction (CC-CP) mitigates this issue by calibrating within each class or class cluster. Although its performance deteriorates when calibration data are limited for minority classes, leading to unstable or excessively large prediction sets. We propose Shrinkage Class-Clustered Conformal Prediction (SCC—CP), a distribution free method that constructs conformal prediction sets by adaptively shrinking cluster-level conformal quantile toward a global conformal quantile using data-driven weights. <br> <a href="https://drive.google.com/file/d/1cub2HbbwdE3JYRtE2JS00CVRoahIL9M8/view?usp=drive_link">[Slides]</a>
 
      
 
@@ -163,7 +163,7 @@
   title: "Multiple Testing under Complex Dependence Structures via Density Estimation"
   speaker: "김규람 (서울대)"
   abstract: >
-    TBA
+    <a href="https://drive.google.com/file/d/1uAKTA-aS1yXBYw1h4LKYX6K6i3fKsdjy/view?usp=drive_link">[Slides]</a>
 
 
 - day: "Day 2 (January 22)"
@@ -172,7 +172,7 @@
   title: "Numerical Comparison of Several Multiple Testing Procedures Under Dependence Structures"
   speaker: "임예빈 (덕성여대)"
   abstract: >
-    TBA
+    
 
 
 # Coffee break
@@ -192,7 +192,7 @@
   title: "Introduction to compound p-values"
   speaker: "허종원 (서울대)"
   abstract: >
-    In the setting of multiple testing, compound p-values generalize p-values by asking for superuniformity to hold only on average across all true nulls. This presentation reviews the properties of the Benjamini–Hochberg procedure applied to such compound p-values. We examine theoretical results under independence, which establish that the false discovery rate (FDR) is at most 1.93α (where α is the nominal level), and we discuss a specific distribution for which the FDR is shown to be 7α/6. The talk also covers the scenario where all nulls are true, highlighting that the upper bound can be improved to α+2α2, with a corresponding worst-case lower bound of α+α2/4. In contrast, under positive dependence, we discuss findings demonstrating that the FDR can be inflated by a factor of O(log m), where $m$ is the number of hypotheses. Finally, we illustrate numerous examples of settings where compound p-values arise in practice, focusing on cases where sufficient information to compute non-trivial p-values is lacking, or where the approach facilitates a more powerful analysis.
+    In the setting of multiple testing, compound p-values generalize p-values by asking for superuniformity to hold only on average across all true nulls. This presentation reviews the properties of the Benjamini–Hochberg procedure applied to such compound p-values. We examine theoretical results under independence, which establish that the false discovery rate (FDR) is at most 1.93α (where α is the nominal level), and we discuss a specific distribution for which the FDR is shown to be 7α/6. The talk also covers the scenario where all nulls are true, highlighting that the upper bound can be improved to α+2α2, with a corresponding worst-case lower bound of α+α2/4. In contrast, under positive dependence, we discuss findings demonstrating that the FDR can be inflated by a factor of O(log m), where $m$ is the number of hypotheses. Finally, we illustrate numerous examples of settings where compound p-values arise in practice, focusing on cases where sufficient information to compute non-trivial p-values is lacking, or where the approach facilitates a more powerful analysis. <br> <a href="https://drive.google.com/file/d/1fsChPom-U__603ZASQsmxFvfg2-bpWZh/view?usp=drive_link">[Slides]</a>
 
 - day: "Day 2 (January 22)"
   session_id: "session-6"
@@ -200,7 +200,7 @@
   title: "A Brief History of Knockoffs and Their Modern Applications"
   speaker: "김규환 (서울대)"
   abstract: >
-    TBA
+    <a href="https://drive.google.com/file/d/1oCmEDX4dqYFO8T930RcUDhHTjyRNOlyM/view?usp=drive_link">[Slides]</a>
 
 
 # - day: "Day 2 (January 22)"
