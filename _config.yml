@@ -18,8 +18,8 @@ highlighter:        rouge
  
 # Navigation
 nav:
-  - name:           "Home"
-    href:           "/"
+  # - name:           "Home"
+  #   href:           "/"
   - name:           "Research"
     href:           "/research"
   - name:           "Publications"
