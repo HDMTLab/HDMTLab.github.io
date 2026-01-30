@@ -11,6 +11,10 @@ permalink: /publication/
 
 ### _Submitted_ / _Revision_
 
+_Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
+Hwang, S.<sup>*</sup> and Park, J. <br>
+Submitted.
+
 _Two-Sample Projection Test for High-Dimensional Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Submitted.
@@ -21,11 +25,11 @@ Submitted.
 
 _Conformal Outlier Detection for Multivariate Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
-Submitted.
+Under Revision.
 
 _Online FDR Controlling procedures for statistical SIS Model and its application to COVID19 data_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
-Submitted.
+Under Revision. 
 
 _Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
 Kim, J. and Park, J. <br>
