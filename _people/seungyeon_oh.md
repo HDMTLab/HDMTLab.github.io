@@ -24,9 +24,9 @@ Hello, my name is Seungyeon Oh. I am a Ph.D. student in Statistics with interest
 
 * Seoul National University (2026.03 ~ Present)
     - Ph.D. Student in Statistics
-* Sookmyung Women’s university (2022.08 ~ 2024.08)
+* Sookmyung Women’s University (2022.08 ~ 2024.08)
     - M.S. in Statistics
-* Sookmyung Women’s university (2018.03 ~ 2022.02)
+* Sookmyung Women’s University (2018.03 ~ 2022.02)
     - B.S. in Statistics
 
 <hr>

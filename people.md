@@ -77,7 +77,9 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
-| Seohwa Hwang | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher of Statistics at SNU |
+| Seohwa Hwang | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
+| Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
+| Joonhyeok Ko | MS Student (2024 - 2026) | TBA |
 | Yeji Seong | MS Student (2023 - 2025) | LG CNS |
 | Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
 | Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
@@ -85,7 +87,7 @@ table th:nth-of-type(3) {
 | Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
-| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor of Statistics at Sookmyung Women's University |
+| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor at Sookmyung Women's University |
 
 <!-- | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|

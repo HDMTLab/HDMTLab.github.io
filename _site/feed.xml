@@ -6,6 +6,28 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2026 Winter Graduation Ceremony</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-17-07.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-19-34.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-18-55.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;img src=&quot;/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-18-16.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-20-52.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;/div&gt;
+</description>
+				<pubDate>Wed, 25 Feb 2026 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2026/02/25/2026-winter_graduate.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2026/02/25/2026-winter_graduate.html</guid>
+			</item>
+		
+			<item>
 				<title>2026 Workshop on Robust Inference for High-Dimensional Complex Data</title>
         <description>&lt;!-- ## Event 1 --&gt;
 
