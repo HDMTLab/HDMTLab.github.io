@@ -79,7 +79,7 @@ table th:nth-of-type(3) {
 | :------------- |:-------------| :----------|
 | Seohwa Hwang | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
 | Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
-| Joonhyeok Ko | MS Student (2024 - 2026) | TBA |
+| Junhyeok Ko | MS Student (2024 - 2026) | TBA |
 | Yeji Seong | MS Student (2023 - 2025) | LG CNS |
 | Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
 | Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
