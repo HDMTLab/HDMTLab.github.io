@@ -15,7 +15,8 @@ joined: 2025-1
 
 <hr>
 
-Hello, my name is Jiho Park and I’m graduate student in High Dimensional Multiple Testing Lab (2025.06~). I’m interested in Multiple Testing and Conformal Prediction.
+Hello, my name is Jiho Park and I’m graduate student in High Dimensional Multiple Testing Lab, with a research focus on Conformal Prediction and Multiple Testing. If you have any questions about my research or our lab, please feel free to reach out anytime! [📬](mailto:fisnu1030@snu.ac.kr)
+
 
 <hr>
 
@@ -30,5 +31,5 @@ Hello, my name is Jiho Park and I’m graduate student in High Dimensional Multi
 
 ### Research Interests
 
-* Multiple Testing
 * Conformal Prediction
+* Multiple Testing
