@@ -11,10 +11,6 @@ permalink: /publication/
 
 ### _Submitted_ / _Revision_
 
-_Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
-Hwang, S.<sup>*</sup> and Park, J. <br>
-Submitted.
-
 _Two-Sample Projection Test for High-Dimensional Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Submitted.
@@ -58,6 +54,10 @@ Under Revision.
 
 
 ### _Accepted Papers_ 
+
+_Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
+Hwang, S.<sup>*</sup> and Park, J. <br>
+The 43rd International Conference on Machine Learning (ICML 2026).
 
 _Classification of Multivariate Functional Data with an application to ADHD fMRI Data_
 <br>
