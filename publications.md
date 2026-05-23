@@ -19,10 +19,6 @@ _FDR Control via Neural Networks under Covariate-Dependent Symmetric Nulls_<br>
 Kim, T.<sup>*</sup>, Hwang, S.<sup>*</sup> and Park, J. <br>
 Submitted.
 
-_Conformal Outlier Detection for Multivariate Functional Data_<br>
-Kim, H.<sup>*</sup> and Park, J. <br>
-Under Revision.
-
 _Online FDR Controlling procedures for statistical SIS Model and its application to COVID19 data_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
 Under Revision. 
@@ -55,19 +51,22 @@ Under Revision.
 
 ### _Accepted Papers_ 
 
+_Conformal Outlier Detection for Multivariate Functional Data_<br>
+Kim, H.<sup>*</sup> and Park, J. <br>
+Computational Statistics.
+
 _Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
 The 43rd International Conference on Machine Learning (ICML 2026).
+
+_Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
+Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
+Biometrical Journal. 
 
 _Classification of Multivariate Functional Data with an application to ADHD fMRI Data_
 <br>
 Seong, Y.<sup>*</sup>, Gauran, I. I., Kim, H.<sup>*</sup>, Ombao, H. and Park, J. <br>
 Journal of Applied Statistics.
-
-
-_Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
-Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
-Biometrical Journal. 
 
 
 ### 2025
