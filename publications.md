@@ -51,10 +51,6 @@ Under Revision.
 
 ### _Accepted Papers_ 
 
-_Conformal Outlier Detection for Multivariate Functional Data_<br>
-Kim, H.<sup>*</sup> and Park, J. <br>
-Computational Statistics.
-
 _Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
 The 43rd International Conference on Machine Learning (ICML 2026).
@@ -68,6 +64,12 @@ _Classification of Multivariate Functional Data with an application to ADHD fMRI
 Seong, Y.<sup>*</sup>, Gauran, I. I., Kim, H.<sup>*</sup>, Ombao, H. and Park, J. <br>
 Journal of Applied Statistics.
 
+
+### 2026
+
+_Conformal Outlier Detection for Multivariate Functional Data_<br>
+Kim, H.<sup>*</sup> and Park, J. <br>
+Computational Statistics, 41(4), 88. [[Article Link]](https://link.springer.com/article/10.1007/s00180-026-01763-1)
 
 ### 2025
 

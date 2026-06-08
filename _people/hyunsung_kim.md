@@ -37,6 +37,5 @@ My research interests include functional, high-dimensional data analysis.
 ### Research Interests
 
 * Functional data analysis
-* Two-sample test for high-dimensional functional data
-* Discriminant analysis for high-dimensional functional data
+* High-dimensional data analysis
 

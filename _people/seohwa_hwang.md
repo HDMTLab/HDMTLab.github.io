@@ -43,3 +43,9 @@ Hello, my name is Seohwa Hwang and I am a post-doctoral researcher of Statistics
 * copula
 * Online FDR
 * Statistical Methods available for small sample sizes
+
+<hr>
+
+### Reasearch Grants
+
+- Growth-Type Postdoctoral Researcher Support Program (Post-Doc. 성장형 연구지원), National Research Foundation (NRF) of Korea (2026.06 ~ 2029.05)
