@@ -59,17 +59,17 @@ _Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and 
 Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
 Biometrical Journal. 
 
-_Classification of Multivariate Functional Data with an application to ADHD fMRI Data_
-<br>
-Seong, Y.<sup>*</sup>, Gauran, I. I., Kim, H.<sup>*</sup>, Ombao, H. and Park, J. <br>
-Journal of Applied Statistics.
-
 
 ### 2026
 
 _Conformal Outlier Detection for Multivariate Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Computational Statistics, 41(4), 88. [[Article Link]](https://link.springer.com/article/10.1007/s00180-026-01763-1)
+
+_Classification of Multivariate Functional Data with an application to ADHD fMRI Data_
+<br>
+Seong, Y.<sup>*</sup>, Gauran, I. I., Kim, H.<sup>*</sup>, Ombao, H. and Park, J. <br>
+Journal of Applied Statistics, 53(8), 1515-1537. [[Article Link]](https://doi.org/10.1080/02664763.2025.2567979)
 
 ### 2025
 
