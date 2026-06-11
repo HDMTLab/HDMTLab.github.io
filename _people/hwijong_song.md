@@ -1,9 +1,9 @@
 ---
 name: Hwijong Song
-position: ms
+position: phd
 avatar: hwijong_song.jpeg
 twitter:
-joined: 2024-2
+joined: 2026-2
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
@@ -21,8 +21,10 @@ Hello, my name is Hwijong Song and I'm graduate student in High Dimensional Mult
 
 ### Education
 
-* Seoul National University (2024.09 ~ Present)
-    - M.S. Student in Statistics
+* Seoul National University (2026.09 ~ Present)
+    - Ph.D. Student in Statistics
+* Seoul National University (2024.09 ~ 2026.08)
+    - M.S. in Statistics
 * Hanyang University (2021.03 ~ 2024.08)
 	- B.S. in Mathematics (minor in Finance)
 	- Summa Cum Laude
