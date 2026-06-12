@@ -77,7 +77,8 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
-| Seohwa Hwang | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
+| Hwijong Song | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
+| [Seohwa Hwang](https://iamshhwang.github.io/) | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
 | Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
 | Junhyeok Ko | MS Student (2024 - 2026) | Ph.D. Student at University of Missouri |
 | Yeji Seong | MS Student (2023 - 2025) | LG CNS |
