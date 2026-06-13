@@ -82,7 +82,7 @@ table th:nth-of-type(3) {
 | Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
 | Junhyeok Ko | MS Student (2024 - 2026) | Ph.D. Student at University of Missouri |
 | Yeji Seong | MS Student (2023 - 2025) | LG CNS |
-| Dayeon Jung | MS Student (2022 - 2024) | Samsung Electronics |
+| Dayeon Jung | MS Student (2022 - 2024) | Ph.D. Student at The Ohio State University |
 | Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
 | Seungyeop Hyun | MS Student (2021 - 2023) | Samsung Electronics |
 | Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
