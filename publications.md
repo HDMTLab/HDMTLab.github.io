@@ -55,12 +55,12 @@ _Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
 The 43rd International Conference on Machine Learning (ICML 2026).
 
-_Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
-Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
-Biometrical Journal. 
-
 
 ### 2026
+
+_Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
+Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
+Biometrical Journal, 68(3), e70142. [[Article Link]](https://onlinelibrary.wiley.com/doi/10.1002/bimj.70142)
 
 _Conformal Outlier Detection for Multivariate Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
