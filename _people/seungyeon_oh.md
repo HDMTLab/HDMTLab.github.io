@@ -11,7 +11,7 @@ joined: 2026-1
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `syoh523@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room 326
+<i class="fa fa-building"></i> Building 25 Room 306
 
 <hr>
 
