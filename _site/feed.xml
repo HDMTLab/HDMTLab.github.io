@@ -6,6 +6,35 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Burger Party</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 005.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+
+&lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-29 002.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 006.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;!-- &lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-29 003.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+&lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 004.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;!-- &lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 005.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+
+
+&lt;!-- &lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 007.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+
+&lt;img src=&quot;/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-29 001.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Tue, 16 Jun 2026 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2026/06/16/2026-burger_party.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2026/06/16/2026-burger_party.html</guid>
+			</item>
+		
+			<item>
 				<title>2026 Teacher&apos;s Day</title>
         <description>&lt;!-- ### Teacher&apos;s day --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
