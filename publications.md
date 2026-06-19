@@ -13,7 +13,7 @@ permalink: /publication/
 
 _Two-Sample Projection Test for High-Dimensional Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
-Submitted.
+Under Revision. 
 
 _FDR Control via Neural Networks under Covariate-Dependent Symmetric Nulls_<br>
 Kim, T.<sup>*</sup>, Hwang, S.<sup>*</sup> and Park, J. <br>
