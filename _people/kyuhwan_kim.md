@@ -1,6 +1,6 @@
 ---
 name: Kyuhwan Kim
-position: phd
+position: postdoc
 avatar: kyuhwan_kim.png
 twitter:
 joined: 2021-2
@@ -15,14 +15,14 @@ joined: 2021-2
 
 <hr>
 
-Hi! My name is Kyuhwan Kim and I am a Ph.D candidate in statistics. I’ve had interests in multiple hypothese testing and high-dimenstional variable selection methods
+Hi! My name is Kyuhwan Kim and I am a post-doctoral researcher of Statistics at Seoul National University. I’ve had interests in multiple hypothese testing and high-dimenstional variable selection methods
 
 <hr>
 
 ### Education
 
-* Seoul National University (2021.09 ~ Present)
-    - Ph.D Candidate in Statistics
+* Seoul National University (2021.09 ~ 2026.08)
+    - Ph.D in Statistics
 * Chung-Ang University (2019.03 ~ 2021.02)
     - M.A. in  Statistics
 * Chung-Ang University (2015.03 ~ 2019.02)

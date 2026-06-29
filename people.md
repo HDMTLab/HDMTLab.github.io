@@ -77,6 +77,7 @@ table th:nth-of-type(3) {
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
+| Kyuhwan Kim | Ph.D. Student (2021 - 2026) | Postdoctoral Researcher at HDMT Lab |
 | Hwijong Song | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
 | [Seohwa Hwang](https://iamshhwang.github.io/) | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
 | Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
