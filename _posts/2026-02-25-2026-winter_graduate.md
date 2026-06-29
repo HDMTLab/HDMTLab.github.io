@@ -2,7 +2,7 @@
 title: 2026 Winter Graduation Ceremony
 description: 2026 Winter Graduation Ceremony
 categories: gallery
-header-img: gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-17-07.jpeg
+header-img: gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-19-34.jpeg
 ---
 
 
