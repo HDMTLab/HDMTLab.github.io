@@ -4,6 +4,7 @@ position: phd
 avatar: seungyeon_oh.jpeg
 twitter:
 joined: 2026-1
+newbie: true
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

@@ -4,6 +4,7 @@ position: phd
 avatar: hwijong_song.jpeg
 twitter:
 joined: 2026-2
+# lab_admin: true
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">

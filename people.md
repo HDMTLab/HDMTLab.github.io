@@ -30,6 +30,25 @@ permalink: /people/
 {% endif %}
 </div>
 
+<!-- 왕관 로고 관련 style -->
+<style>
+  /* 컨테이너 (기준점) */
+.list-item-people {
+  position: relative;
+  display: inline-block;
+}
+
+/* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
+.layer-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  transform: translate(-10%, -10%);
+  z-index: 2; /* 메인 이미지(1)보다 위에 배치 */
+}
+</style>
+
 {% if role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
@@ -37,11 +56,27 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+            <!-- <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a> -->
+            <a href="{{ site.baseurl }}{{ profile.url }}">                     
+              <img class="profile-thumbnail " src="{{site.baseurl}}/images/people/{{profile.avatar}}">
+              <!-- 방장인 경우, 왕관 로고 추가 --> 
+              {% if profile.lab_admin %}
+              <img src="{{site.baseurl}}/images/crown_logo.png" class="layer-1">              
+              {% endif %}
+              <!-- 신입생인 경우, 새싹 로고 추가 --> 
+              {% if profile.newbie %}
+              <img src="{{site.baseurl}}/images/newbie_logo.png" class="layer-1">              
+              {% endif %}
+            </a>
           {% else %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %}
+          <!-- 방장인 경우, 이름에 이모지 추가 --> 
+          {% if profile.lab_admin %}
+            <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }} 👑</a>             
+          {% else %}
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+          {% endif %}
         </p>
       </div>    
     {% endif %}
