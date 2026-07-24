@@ -12,11 +12,20 @@ permalink: /workshop/
 ------
 
 
-<!-- <h4>
-<a href="/workshop/workshop2026winter">HDMT Workshop on January 2026</a>
-</h4> -->
+{% assign workshop_list = site.workshop | sort: 'joined' %}
 
-- [Workshop on Robust Inference for High-Dimensional Complex Data on January 2026](/workshop/workshop2026winter)
+<div class="content list">
+{% for workshop_ind in workshop_list %}
+<!-- <div class="list-item">
+<p><a href="{{ site.baseurl }}{{ workshop_ind.url }}"><h5>{{ workshop_ind.title }}</h5></a></p>
+</div> -->
+
+<ul>
+<li><a href="{{ site.baseurl }}{{ workshop_ind.url }}"><strong>{{ workshop_ind.title }}</strong></a></li>
+</ul>
+
+{% endfor %}
+</div>
 
 <!-- <div class="content list">
   {% for post in site.posts %}

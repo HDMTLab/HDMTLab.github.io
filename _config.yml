@@ -57,10 +57,19 @@ defaults:
       type:         "people"
     values:
       layout:       "profile"
-
+  -
+    scope:
+      path:         ""
+      type:         "workshop"
+    values:
+      layout:       "page"
 
 collections:
   people:
     output: true
-    permalink: /people/:title/index.html
+    # permalink: /people/:title/index.html
+    permalink: /people/:title/
 
+  workshop:
+    output: true
+    permalink: /workshop/:title/
