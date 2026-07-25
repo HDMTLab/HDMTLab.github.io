@@ -11,12 +11,12 @@ session:
   # Session 1
   - day: "Day 1 (August 26)"
     session: "Session 1: TBA"
-    session_chair: Seohwa Hwang
+    session_chair: OOO
     session_id: "session-1"
     session_time: "10:00–10:50"
     type: "talk"
-    title: "Empirical Bayes functional principal component analysis"
-    speaker: "Hyunsung Kim (Seoul National University)"
+    title: "OOO"
+    speaker: "OOO (Seoul National University)"
     abstract: >
       xxx
 
@@ -330,7 +330,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 ## Date & Venue
 
 - August 26, 2026, 10:00 – August 27, 2026, 13:00
-- Room 405, Building 25, Kwanak Campus, Seoul National University
+- Room 405, Building 25, Gwanak Campus, Seoul National University
 
 
 ---
@@ -391,7 +391,7 @@ Through presentations and discussions, the workshop seeks to foster the exchange
 <br>
 
 #### 서울대학교 관악캠퍼스 25동 405호 (Workshop)
-<!-- #### Room 405, Building 25, Kwanak Campus, Seoul National University (Workshop) -->
+<!-- #### Room 405, Building 25, Gwanak Campus, Seoul National University (Workshop) -->
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c9f72cdd9e3cb%3A0x3379617f1b60985e!2z7ISc7Jq464yA7ZWZ6rWQIDI164-ZIOyekOyXsOqzvO2Vmeq0gDc!5e0!3m2!1sko!2skr!4v1784865364287!5m2!1sko!2skr" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
