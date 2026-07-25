@@ -45,16 +45,16 @@
 
 
 
-Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)
 
-
-
-
-
-
-
-
-" />
+  
+    
+    
+      🔒
+        
+    
+    
+      
+        Summer Workshop on Robust Inference for High-Dimensional Com..." />
   <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
@@ -132,684 +132,65 @@ s.setAttribute('data-timestamp', +new Date());
 <div class="content list">
 
 <!-- <div class="list-item">
-<p><a href="/workshop/2026winter/"><h5>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</h5></a></p>
+<p><a href="/workshop/2026summer/"><h5>Summer Workshop on Robust Inference for High-Dimensional Complex Data (July 2026)</h5></a></p>
 </div> -->
+<!-- hidden: true 이면 비밀번호 요청; 비밀번호: hdmt -->
 
 <ul>
-<li><a href="/workshop/2026winter/"><strong>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</strong></a></li>
+  <li>
+    <!-- 자물쇠 아이콘: 클릭 시 checkPassword 함수를 실행합니다. -->
+    <span style="cursor: pointer; font-size: 0.8em; color: #888;" title="비밀번호 입력" onclick="checkPassword(this)">
+      🔒
+    </span>    
+    <!-- 숨겨진 내용: 처음에는 display: none; 으로 안 보이게 설정합니다. -->
+    <span class="hidden-content" style="display: none;">
+      <a href="/workshop/2026summer/">
+        <strong>Summer Workshop on Robust Inference for High-Dimensional Complex Data (July 2026)</strong>
+      </a>
+    </span>
+  </li>
+</ul>
+
+
+<!-- <div class="list-item">
+<p><a href="/workshop/2026winter/"><h5>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</h5></a></p>
+</div> -->
+<!-- hidden: true 이면 비밀번호 요청; 비밀번호: hdmt -->
+
+<ul>
+  <li>
+    <a href="/workshop/2026winter/">
+      <strong>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</strong>
+    </a>
+  </li>
 </ul>
 
 
 </div>
 
-<!-- <div class="content list">
+<!-- 기능 작동을 위한 자바스크립트 (파일 맨 아래에 한 번만 넣어주세요) -->
+<script>
+function checkPassword(iconElement) {
+  // 1. 비밀번호를 묻는 알림창 띄우기
+  var userInput = prompt("비밀번호를 입력하세요:");
   
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2026/07/04/2026-summer-KSS.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2026-summer_KSS/KakaoTalk_Photo_2026-07-04-10-26-17.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2026 KSS Summer Conference (Gyeongju HICO)
-                    </h3>
-                    <p class="list-detail" >
-                      
+  // 2. 비밀번호 확인 (원하는 비밀번호로 '1234' 부분을 수정하세요)
+  var correctPassword = "hdmt"; 
+
+  if (userInput === correctPassword) {
+    // 3. 비밀번호가 맞으면 자물쇠 옆의 숨겨진 태그를 찾아서 보여줌
+    var hiddenContent = iconElement.nextElementSibling;
+    if (hiddenContent) {
+      hiddenContent.style.display = "inline";
+      iconElement.style.display = "none"; // 열린 후에는 자물쇠 아이콘 숨기기 (선택 사항)
+    }
+  } else if (userInput !== null) {
+    // 4. 취소를 누르지 않았는데 틀린 경우
+    alert("비밀번호가 틀렸습니다.");
+  }
+}
+</script>
 
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2026/06/16/2026-burger_party.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2026-burger_party/KakaoTalk_Photo_2026-06-17-08-48-30 005.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        The Burger Party
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2026/05/14/2026-teachers-day.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2026-teachers_day/KakaoTalk_Photo_2026-05-16-10-11-17.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2026 Teacher's Day
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2026/02/25/2026-winter_graduate.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2026-winter_graduate/KakaoTalk_Photo_2026-02-25-14-19-34.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2026 Winter Graduation Ceremony
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2026/01/22/2026-winter_workshop.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2026-winter_workshop/KakaoTalk_Photo_2026-01-23-10-11-50.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2026 Workshop on Robust Inference for High-Dimensional Complex Data
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2025/12/22/2025-year_end.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2025-year_end/KakaoTalk_Photo_2025-12-23-09-26-17.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2025 Year-End Party & Celebration of Dr. Hwang’s Ph.D. Graduation
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2025/12/19/2025-winter_kss.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2025-winter_kss/KakaoTalk_Photo_2025-12-20-12-59-47.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2025 KSS Winter Conference (SNU)
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2025/06/19/2025-summer-KSS.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2025_summer_KSS/KakaoTalk_Photo_2025-06-20-14-48-24 005.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2025 KSS Summer Conference (The-K Hotel Gyeongju)
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2025/05/14/2024-teachers-day.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2025_teachers_day/KakaoTalk_Photo_2025-05-15-12-57-14.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2025 Teacher's Day
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2025/02/26/2025-graduation.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2025_02_graduate/KakaoTalk_Photo_2025-02-26-16-15-54 002.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        Yeji graduated our Lab.
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2024/11/22/2024-winter-KSS.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2024_Winter_KSS/main.png">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2024 KSS Winter Conference (KAIST)
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2024/05/14/2024-teachers-day.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2024_teachers_day/KakaoTalk_Photo_2024-05-20-11-00-47 003.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2024 Teacher's Day
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2024/02/29/2024-graduation.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2024_spring_grad/KakaoTalk_Photo_2024-04-09-13-55-30 015.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        Kyurhi and Dayeon are graduated our Lab.
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2023/06/29/2023-welcome.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2023_summer/KakaoTalk_Photo_2024-04-09-16-23-01.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        Yeji has joined our Lab.
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2023/03/01/2023-graduation.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2023_Spring_grad/2023_spring_14.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        Soyeon, Dohyup, and Myungjun are graduated our Lab.
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2022/12/03/2022-winter-KSS.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2022_Winter_KSS/2022_winter_6.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        2022 KSS Winter Conference
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-    <div class="list-item">
-      <p class="list-post-title">
-        <a href="/2022/06/29/2022-welcome.html">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="/gallery/2022_summer/KakaoTalk_Photo_2024-04-09-16-23-58.jpeg">
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="post-title">
-                        Kyurhi and Dayeon have joined our Lab.
-                    </h3>
-                    <p class="list-detail" >
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </p>
-                </div>
-            </div>
-            <hr/>
-        </a>
-      </p>
-    </div>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-</div> -->
 
 </div>
 

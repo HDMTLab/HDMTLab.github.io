@@ -1,5 +1,6 @@
 ---
 title: Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)
+hidden: false   # true이면 workshop 페이지에서는 비밀번호가 필요함; 일정 확정되면 false로 바꾸기
 session:
   - day: "Day 1 (January 21)"
     # session: "현장등록"
