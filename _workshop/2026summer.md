@@ -1,5 +1,5 @@
 ---
-title: Summer Workshop on Robust Inference for High-Dimensional Complex Data (July 2026)
+title: Summer Workshop on Robust Inference for High-Dimensional Complex Data (August 2026)
 hidden: true   # true이면 workshop 페이지에서는 비밀번호가 필요함; 일정 확정되면 false로 바꾸기
 session:
   - day: "Day 1 (August 26)"
@@ -28,12 +28,12 @@ session:
     abstract: >
       xxx
 
-  # Coffee break
-  - day: "Day 1 (August 26)"
-    session: "☕ Coffee Break"
-    session_id: "coffee-1"
-    type: "break"
-    session_time: "10:50–11:10"
+  # # Coffee break
+  # - day: "Day 1 (August 26)"
+  #   session: "☕ Coffee Break"
+  #   session_id: "coffee-1"
+  #   type: "break"
+  #   session_time: "10:50–11:00"
 
 
   # Session 2
@@ -41,7 +41,7 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-2"
-    session_time: "11:10–12:00"
+    session_time: "11:00–11:50"
     type: "talk"
     title: "TBA"
     speaker: "OOO (Seoul National University)"
@@ -69,7 +69,7 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-3"
-    session_time: "14:00–15:00"
+    session_time: "14:00–14:50"
     type: "talk"
     title: "TBA"
     speaker: "OOO (Seoul National University)"
@@ -84,12 +84,12 @@ session:
     abstract: >
       xxx
 
-  # Coffee break
-  - day: "Day 1 (August 26)"
-    session: "☕ Coffee Break"
-    session_id: "coffee-2"
-    type: "break"
-    session_time: "15:00–15:30"
+  # # Coffee break
+  # - day: "Day 1 (August 26)"
+  #   session: "☕ Coffee Break"
+  #   session_id: "coffee-2"
+  #   type: "break"
+  #   session_time: "15:00–15:30"
 
 
   # Session 4
@@ -97,7 +97,7 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-4"
-    session_time: "15:30–16:30"
+    session_time: "15:00–15:50"
     type: "talk"
     title: "TBA"
     speaker: "OOO (Seoul National University)"
@@ -118,7 +118,7 @@ session:
     session: "☕ Coffee Break"
     session_id: "coffee-3"
     type: "break"
-    session_time: "16:30–16:50"
+    session_time: "15:50–16:50"
 
 
   # Session 5
@@ -175,12 +175,12 @@ session:
     abstract: >
       xxx
 
-  # Coffee break
-  - day: "Day 2 (August 27)"
-    session: "☕ Coffee Break"
-    session_id: "coffee-5"
-    type: "break"
-    session_time: "10:50–11:10"
+  # # Coffee break
+  # - day: "Day 2 (August 27)"
+  #   session: "☕ Coffee Break"
+  #   session_id: "coffee-5"
+  #   type: "break"
+  #   session_time: "10:50–11:10"
 
 
   # Session 7
@@ -188,7 +188,7 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-7"
-    session_time: "11:10–12:00"
+    session_time: "11:00–11:50"
     type: "talk"
     title: "TBA"
     speaker: "OOO (Seoul National University)"
@@ -322,7 +322,7 @@ The *2026 Summer Workshop on Robust Inference for High-Dimensional Complex Data*
 
 The sessions will cover a range of contemporary topics, including *multiple testing, e-values, false discovery rate (FDR) control, conformal prediction, test for means, empirical Bayes, and other related topics*. These methodologies will be discussed in the context of complex data types such as *high-dimensional data, online or streaming data, functional data, and tensor-valued data*.
 
-Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately 20 minutes on their research, followed by a question-and-answer session.
+Through presentations and discussions, the workshop seeks to foster the exchange of ideas on unifying principles and practical challenges in robust inference, and to encourage collaboration among researchers working on theoretical foundations as well as methodological and applied aspects of modern statistics. Each participant will give a presentation of approximately **15~25 minutes** on their research, followed by a question-and-answer session.
 
 
 ---
