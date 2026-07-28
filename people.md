@@ -124,7 +124,7 @@ table th:nth-of-type(3) {
 | Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
 | Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
 | Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
-| [Hoyoung Park](https://sites.google.com/view/hoyoung-park/home?authuser=0) | Ph.D. Student (2020 - 2021) | Assistant Professor at Sookmyung Women's University |
+| [Hoyoung Park](https://hoyoungparks.github.io/hoyoung-homepage/) | Ph.D. Student (2020 - 2021) | Assistant Professor at Sookmyung Women's University |
 
 <!-- | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :----------|
