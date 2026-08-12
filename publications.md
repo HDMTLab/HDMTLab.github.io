@@ -23,9 +23,6 @@ _Online FDR Controlling procedures for statistical SIS Model and its application
 Hwang, S.<sup>*</sup> and Park, J. <br>
 Under Revision. 
 
-_Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
-Kim, J. and Park, J. <br>
-Submitted.
 
 _Semiparametric empirical Bayes method for Normal mean estimation of the hierarchical Normal model with unknown heteroscedastic variances_ <br>
 Park, H. and Park, J. <br>
@@ -50,6 +47,11 @@ Under Revision.
 
 
 ### _Accepted Papers_ 
+
+_Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
+Kim, J. and Park, J. <br>
+Statistical Methods in Medical Research.
+
 
 _Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
