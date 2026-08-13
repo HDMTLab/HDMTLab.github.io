@@ -6,7 +6,7 @@ session:
     session: "Registration"
     session_id: "register"
     type: "break"
-    session_time: "09:50–10:00"
+    session_time: "09:30–10:00"
 
   # Session 1
   - day: "Day 1 (August 26)"

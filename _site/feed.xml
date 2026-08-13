@@ -13,10 +13,14 @@
 &lt;!-- ### Photos --&gt;
 
 &lt;div&gt;
-&lt;!-- &lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-41.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt;
-&lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-33.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
 &lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-47.jpeg&quot; /&gt;
-&lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-33.jpeg&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-47.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+&lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-33.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;!-- &lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-47.jpeg&quot;&gt;
+&lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-33.jpeg&quot;/&gt; --&gt;
+
+&lt;!-- &lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-13-15-22-08.jpeg&quot; style=&quot;width:50%; float:left;&quot;/&gt; --&gt;
+&lt;img src=&quot;/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-13-15-22-16.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
 &lt;/div&gt;
 </description>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
