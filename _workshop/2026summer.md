@@ -13,20 +13,20 @@ session:
     session: "Session 1: TBA"
     session_chair: OOO
     session_id: "session-1"
-    session_time: "10:00–10:50"
+    session_time: "10:00–10:40"
     type: "talk"
-    title: "OOO"
-    speaker: "OOO (Seoul National University)"
+    title: "Modern Developments in Sequential Testing and E-Processes"
+    speaker: "박동현 (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-1"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Active Hypothesis Testing"
+    speaker: "Seohwa Hwang (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   # # Coffee break
   # - day: "Day 1 (August 26)"
@@ -41,20 +41,28 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-2"
-    session_time: "11:00–11:50"
+    session_time: "11:00–12:00"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Transfer Learning for Variable Selection and FDR Control"
+    speaker: "YuAn Son (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-2"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Controlling the False Discovery Rate: Knockoffs and Their Application"
+    speaker: "강병조 (Seoul National University)"
     abstract: >
-      xxx
+      TBA
+
+  - day: "Day 1 (August 26)"
+    session_id: "session-2"
+    type: "talk"
+    title: "FDR Control of Mirror and Knockoff+ Thresholds under Dependence"
+    speaker: "Kyuhwan Kim (Seoul National University)"
+    abstract: >
+      TBA
 
 
   # 점심식사
@@ -69,20 +77,20 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-3"
-    session_time: "14:00–14:50"
+    session_time: "14:00–14:45"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Robust Conformal Prediction via Simes Aggregation of Multiple p-values"
+    speaker: "Jiho Park (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-3"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "From Marginal to Conditional PAC Tolerance Intervals via Pivotal Scores"
+    speaker: "Jisu Kim (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   # # Coffee break
   # - day: "Day 1 (August 26)"
@@ -97,20 +105,20 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-4"
-    session_time: "15:00–15:50"
+    session_time: "15:00–15:45"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Empirical Bayes Principal Fitted Components"
+    speaker: "Jongwon Heo (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-4"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Empirical Bayes Functional Principal Component Analysis"
+    speaker: "Hyunsung Kim (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
 
   # Coffee break
@@ -118,7 +126,7 @@ session:
     session: "☕ Coffee Break"
     session_id: "coffee-3"
     type: "break"
-    session_time: "15:50–16:50"
+    session_time: "15:45–16:50"
 
 
   # Session 5
@@ -128,18 +136,18 @@ session:
     session_id: "session-5"
     session_time: "16:50–17:40"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Classification of High-Dimensional Tensor Data"
+    speaker: "Seungyeon Oh (Seoul National University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-5"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Robust Null Density Estimation via Adaptive Tail Reconstruction for Large-scale Multiple Testing"
+    speaker: "Kyuram Kim (Seoul National University)"
     abstract: >
-      xxx
+      TBA
   
 
 
@@ -160,20 +168,28 @@ session:
     session: "Session: TBA"
     session_chair: OOO
     session_id: "session-6"
-    session_time: "10:00–10:50"
+    session_time: "10:30–11:25"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Nonparametric Empirical Bayes Inference for Linear Mixed Models with Mean-Variance Dependence"
+    speaker: "홍지민 (Sookmyung Women's University)"
     abstract: >
-      xxx
+      TBA
 
   - day: "Day 2 (August 27)"
     session_id: "session-6"
     type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
+    title: "Empirical Bayes for Dependent Data"
+    speaker: "Hwijong Song (Seoul National University)"
     abstract: >
-      xxx
+      TBA
+
+  - day: "Day 2 (August 27)"
+    session_id: "session-6"
+    type: "talk"
+    title: "An Adaptive Empirical Bayes Confidence Interval for Mean Estimation under Mean-Variance Dependence"
+    speaker: "송채원 (Sookmyung Women's University)"
+    abstract: >
+      TBA
 
   # # Coffee break
   # - day: "Day 2 (August 27)"
@@ -183,25 +199,25 @@ session:
   #   session_time: "10:50–11:10"
 
 
-  # Session 7
-  - day: "Day 2 (August 27)"
-    session: "Session: TBA"
-    session_chair: OOO
-    session_id: "session-7"
-    session_time: "11:00–11:50"
-    type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
-    abstract: >
-      xxx
+  # # Session 7
+  # - day: "Day 2 (August 27)"
+  #   session: "Session: TBA"
+  #   session_chair: OOO
+  #   session_id: "session-7"
+  #   session_time: "11:00–11:50"
+  #   type: "talk"
+  #   title: "TBA"
+  #   speaker: "OOO (Seoul National University)"
+  #   abstract: >
+  #     TBA
 
-  - day: "Day 2 (August 27)"
-    session_id: "session-7"
-    type: "talk"
-    title: "TBA"
-    speaker: "OOO (Seoul National University)"
-    abstract: >
-      xxx
+  # - day: "Day 2 (August 27)"
+  #   session_id: "session-7"
+  #   type: "talk"
+  #   title: "TBA"
+  #   speaker: "OOO (Seoul National University)"
+  #   abstract: >
+  #     TBA
 
   # 점심식사
   - day: "Day 2 (August 27)"
