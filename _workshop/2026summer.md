@@ -10,10 +10,10 @@ session:
 
   # Session 1
   - day: "Day 1 (August 26)"
-    session: "Session 1: TBA"
-    session_chair: OOO
+    session: "Session 1"
+    session_chair: 황서화
     session_id: "session-1"
-    session_time: "10:00–10:40"
+    session_time: "10:00–10:45"
     type: "talk"
     title: "Modern Developments in Sequential Testing and E-Processes"
     speaker: "박동현 (Seoul National University)"
@@ -23,8 +23,16 @@ session:
   - day: "Day 1 (August 26)"
     session_id: "session-1"
     type: "talk"
-    title: "Active Hypothesis Testing"
-    speaker: "Seohwa Hwang (Seoul National University)"
+    title: "Nonparametric Empirical Bayes Inference for Linear Mixed Models with Mean-Variance Dependence"
+    speaker: "홍지민 (Sookmyung Women's University)"
+    abstract: >
+      TBA
+
+  - day: "Day 1 (August 26)"
+    session_id: "session-1"
+    type: "talk"
+    title: "Controlling the False Discovery Rate: Knockoffs and Their Application"
+    speaker: "강병조 (Seoul National University)"
     abstract: >
       TBA
 
@@ -38,29 +46,21 @@ session:
 
   # Session 2
   - day: "Day 1 (August 26)"
-    session: "Session: TBA"
-    session_chair: OOO
+    session: "Session 2"
+    session_chair: 김규환
     session_id: "session-2"
-    session_time: "11:00–12:00"
+    session_time: "11:00–11:45"
     type: "talk"
-    title: "Transfer Learning for Variable Selection and FDR Control"
-    speaker: "YuAn Son (Seoul National University)"
+    title: "Robust Conformal Prediction via Simes Aggregation of Multiple p-values"
+    speaker: "박지호 (Seoul National University)"
     abstract: >
       TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-2"
     type: "talk"
-    title: "Controlling the False Discovery Rate: Knockoffs and Their Application"
-    speaker: "강병조 (Seoul National University)"
-    abstract: >
-      TBA
-
-  - day: "Day 1 (August 26)"
-    session_id: "session-2"
-    type: "talk"
-    title: "FDR Control of Mirror and Knockoff+ Thresholds under Dependence"
-    speaker: "Kyuhwan Kim (Seoul National University)"
+    title: "From Marginal to Conditional PAC Tolerance Intervals via Pivotal Scores"
+    speaker: "김지수 (Seoul National University)"
     abstract: >
       TBA
 
@@ -74,80 +74,67 @@ session:
 
   # Session 3
   - day: "Day 1 (August 26)"
-    session: "Session: TBA"
-    session_chair: OOO
+    session: "Session 3"
+    session_chair: 김현성
     session_id: "session-3"
-    session_time: "14:00–14:45"
+    session_time: "14:00–15:10"
     type: "talk"
-    title: "Robust Conformal Prediction via Simes Aggregation of Multiple p-values"
-    speaker: "Jiho Park (Seoul National University)"
+    title: "Transfer Learning for Variable Selection and FDR Control"
+    speaker: "손유안 (Seoul National University)"
     abstract: >
       TBA
 
   - day: "Day 1 (August 26)"
     session_id: "session-3"
     type: "talk"
-    title: "From Marginal to Conditional PAC Tolerance Intervals via Pivotal Scores"
-    speaker: "Jisu Kim (Seoul National University)"
-    abstract: >
-      TBA
-
-  # # Coffee break
-  # - day: "Day 1 (August 26)"
-  #   session: "☕ Coffee Break"
-  #   session_id: "coffee-2"
-  #   type: "break"
-  #   session_time: "15:00–15:30"
-
-
-  # Session 4
-  - day: "Day 1 (August 26)"
-    session: "Session: TBA"
-    session_chair: OOO
-    session_id: "session-4"
-    session_time: "15:00–15:45"
-    type: "talk"
-    title: "Empirical Bayes Principal Fitted Components"
-    speaker: "Jongwon Heo (Seoul National University)"
+    title: "FDR Control of Mirror and Knockoff+ Thresholds under Dependences"
+    speaker: "김규환 박사 (Seoul National University)"
     abstract: >
       TBA
 
   - day: "Day 1 (August 26)"
-    session_id: "session-4"
+    session_id: "session-3"
     type: "talk"
-    title: "Empirical Bayes Functional Principal Component Analysis"
-    speaker: "Hyunsung Kim (Seoul National University)"
+    title: "Active Hypothesis Testing"
+    speaker: "황서화 박사 (Seoul National University)"
     abstract: >
       TBA
-
 
   # Coffee break
   - day: "Day 1 (August 26)"
     session: "☕ Coffee Break"
-    session_id: "coffee-3"
+    session_id: "coffee-2"
     type: "break"
-    session_time: "15:45–16:50"
+    session_time: "15:10–16:20"
 
 
-  # Session 5
+  # Session 4
   - day: "Day 1 (August 26)"
-    session: "Session: TBA"
-    session_chair: OOO
-    session_id: "session-5"
-    session_time: "16:50–17:40"
-    type: "talk"
-    title: "Classification of High-Dimensional Tensor Data"
-    speaker: "Seungyeon Oh (Seoul National University)"
-    abstract: >
-      TBA
-
-  - day: "Day 1 (August 26)"
-    session_id: "session-5"
+    session: "Session 4"
+    session_chair: 송휘종
+    session_id: "session-4"
+    session_time: "16:20–17:05"
     type: "talk"
     title: "Robust Null Density Estimation via Adaptive Tail Reconstruction for Large-scale Multiple Testing"
-    speaker: "Kyuram Kim (Seoul National University)"
+    speaker: "김규람 (Seoul National University)"
     abstract: >
       TBA
+
+  - day: "Day 1 (August 26)"
+    session_id: "session-4"
+    type: "talk"
+    title: "Classification of High-Dimensional Tensor Data"
+    speaker: "오승연 (Seoul National University)"
+    abstract: >
+      TBA
+
+
+  # # Coffee break
+  # - day: "Day 1 (August 26)"
+  #   session: "☕ Coffee Break"
+  #   session_id: "coffee-3"
+  #   type: "break"
+  #   session_time: "15:45–16:50"
   
 
 
@@ -163,31 +150,23 @@ session:
 
 
   ### Day 2
-  # Session 6
+  # Session 5
   - day: "Day 2 (August 27)"
-    session: "Session: TBA"
-    session_chair: OOO
-    session_id: "session-6"
-    session_time: "10:30–11:25"
-    type: "talk"
-    title: "Nonparametric Empirical Bayes Inference for Linear Mixed Models with Mean-Variance Dependence"
-    speaker: "홍지민 (Sookmyung Women's University)"
-    abstract: >
-      TBA
-
-  - day: "Day 2 (August 27)"
-    session_id: "session-6"
-    type: "talk"
-    title: "Empirical Bayes for Dependent Data"
-    speaker: "Hwijong Song (Seoul National University)"
-    abstract: >
-      TBA
-
-  - day: "Day 2 (August 27)"
-    session_id: "session-6"
+    session: "Session 5"
+    session_chair: 김지수
+    session_id: "session-5"
+    session_time: "10:00–10:40"
     type: "talk"
     title: "An Adaptive Empirical Bayes Confidence Interval for Mean Estimation under Mean-Variance Dependence"
     speaker: "송채원 (Sookmyung Women's University)"
+    abstract: >
+      TBA
+
+  - day: "Day 2 (August 27)"
+    session_id: "session-5"
+    type: "talk"
+    title: "Empirical Bayes for Dependent Data"
+    speaker: "송휘종 (Seoul National University)"
     abstract: >
       TBA
 
@@ -196,28 +175,28 @@ session:
   #   session: "☕ Coffee Break"
   #   session_id: "coffee-5"
   #   type: "break"
-  #   session_time: "10:50–11:10"
+  #   session_time: "10:40–11:00"
 
 
-  # # Session 7
-  # - day: "Day 2 (August 27)"
-  #   session: "Session: TBA"
-  #   session_chair: OOO
-  #   session_id: "session-7"
-  #   session_time: "11:00–11:50"
-  #   type: "talk"
-  #   title: "TBA"
-  #   speaker: "OOO (Seoul National University)"
-  #   abstract: >
-  #     TBA
+  # Session 6
+  - day: "Day 2 (August 27)"
+    session: "Session 6"
+    session_chair: 오승연
+    session_id: "session-6"
+    session_time: "11:00–11:45"
+    type: "talk"
+    title: "Empirical Bayes Principal Fitted Components"
+    speaker: "허종원 (Seoul National University)"
+    abstract: >
+      TBA
 
-  # - day: "Day 2 (August 27)"
-  #   session_id: "session-7"
-  #   type: "talk"
-  #   title: "TBA"
-  #   speaker: "OOO (Seoul National University)"
-  #   abstract: >
-  #     TBA
+  - day: "Day 2 (August 27)"
+    session_id: "session-6"
+    type: "talk"
+    title: "Empirical Bayes Functional Principal Component Analysis"
+    speaker: "김현성 (Seoul National University)"
+    abstract: >
+      TBA
 
   # 점심식사
   - day: "Day 2 (August 27)"
