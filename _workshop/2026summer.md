@@ -1,6 +1,6 @@
 ---
 title: Summer Workshop on Robust Inference for High-Dimensional Complex Data (August 2026)
-hidden: true   # true이면 workshop 페이지에서는 비밀번호가 필요함; 일정 확정되면 false로 바꾸기
+hidden: false   # true이면 workshop 페이지에서는 비밀번호가 필요함; 일정 확정되면 false로 바꾸기
 session:
   - day: "Day 1 (August 26)"
     session: "Registration"
@@ -59,7 +59,7 @@ session:
   - day: "Day 1 (August 26)"
     session_id: "session-2"
     type: "talk"
-    title: "From Marginal to Conditional PAC Tolerance Intervals via Pivotal Scores"
+    title: "PAC-calibrated Regression Tolerance Intervals: From Marginal to Conditional Guarantees"
     speaker: "김지수 (Seoul National University)"
     abstract: >
       TBA
