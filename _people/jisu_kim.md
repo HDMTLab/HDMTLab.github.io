@@ -4,7 +4,7 @@ position: phd
 avatar: jisu_kim.jpeg
 twitter:
 joined: 2024-1
-lab_admin: true
+lab_admin: false
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
