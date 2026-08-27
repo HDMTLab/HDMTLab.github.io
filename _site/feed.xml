@@ -6,6 +6,30 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2026 Summer Graduation Ceremony</title>
+        <description>&lt;!-- ## Event 1 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-05-04.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ### Photos --&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-06-36.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-07-46.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-12-24.jpeg&quot; /&gt;
+
+&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-12-47.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+&lt;img src=&quot;/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-12-53.jpeg&quot; style=&quot;width:50%; float:left;&quot; /&gt;
+
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/2026/08/27/2026-summer_graduate.html</link>
+				<guid isPermaLink="true">http://localhost:4000/2026/08/27/2026-summer_graduate.html</guid>
+			</item>
+		
+			<item>
 				<title>2026 Summer Workshop on Robust Inference for High-Dimensional Complex Data</title>
         <description>&lt;!-- ## Event 1 --&gt;
 
