@@ -12,7 +12,7 @@ lab_admin: true
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `hjsong@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room 303-1 <br> 
+<i class="fa fa-building"></i> Building 25 Room 326 <br> 
 
 <hr>
 

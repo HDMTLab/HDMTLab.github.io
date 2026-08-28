@@ -11,7 +11,7 @@ joined: 2022-1
 ### Contact
 
 <i class="fa fa-envelope-o"></i>  `westshine28@snu.ac.kr`<br>
-<i class="fa fa-building"></i> Building 25 Room 326 <br>
+<i class="fa fa-building"></i> Building 24 Room 225-1 <br>
 <i class="fa fa-external-link"></i> [Personal website](https://iamshhwang.github.io/)
 
 <hr>
