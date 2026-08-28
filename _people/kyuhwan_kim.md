@@ -15,7 +15,8 @@ joined: 2021-2
 
 <hr>
 
-Hi! My name is Kyuhwan Kim and I am a post-doctoral researcher of Statistics at Seoul National University. I’ve had interests in multiple hypothese testing and high-dimenstional variable selection methods
+Hi! My name is Kyuhwan Kim and I am a post-doctoral researcher of Institute for Data Innovation in Science (IDIS) at Seoul National University. 
+I’ve had interests in multiple hypothese testing and high-dimenstional variable selection methods
 
 <hr>
 

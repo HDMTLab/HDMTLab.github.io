@@ -22,7 +22,7 @@ permalink: /people/
 {% elsif role == 'postdoc' %}
 <h3>Postdoctoral Researcher</h3>
 {% elsif role == 'phd' %}
-<h3>Ph.D. Students</h3>
+<h3>Ph.D. Students</h3> <p>(👑: Lab admin)</p>
 {% elsif role == 'ms' %}
 <h3>Master's Students</h3>
 {% elsif role == 'alumni' %}
