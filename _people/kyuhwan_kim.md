@@ -20,6 +20,13 @@ I’ve had interests in multiple hypothese testing and high-dimenstional variabl
 
 <hr>
 
+### Experience
+
+* Institute for Data Innovation in Science, SNU (2026.09 ~ )
+    - Post-doctoral researcher
+
+<hr>
+
 ### Education
 
 * Seoul National University (2021.09 ~ 2026.08)
