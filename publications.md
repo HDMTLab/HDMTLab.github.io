@@ -53,12 +53,13 @@ Kim, J. and Park, J. <br>
 Statistical Methods in Medical Research.
 
 
-_Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
-Hwang, S.<sup>*</sup> and Park, J. <br>
-The 43rd International Conference on Machine Learning (ICML 2026).
-
 
 ### 2026
+
+_Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
+Hwang, S.<sup>*</sup> and Park, J. <br>
+The 43rd International Conference on Machine Learning (ICML 2026). [[Article Link]](https://openreview.net/pdf?id=XoONWh8fbL)
+
 
 _Two-Stage Multiple Test Procedures Controlling FDR with auxiliary variable and their Application to Set4&Delta; Mutant Data_ <br>
 Hwang, S.<sup>*</sup>, Ramos, M.L., Park, D., Park, J., Lim, J. and Green, E. <br>
