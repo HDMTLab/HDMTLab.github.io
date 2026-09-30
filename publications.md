@@ -11,6 +11,10 @@ permalink: /publication/
 
 ### _Submitted_ / _Revision_
 
+_Predictable Weighting for Derandomized Knockoffs: Asymptotic Validity and Power Guarantees_ <br>
+Kim, K.<sup>*</sup> and Park, J. <br>
+Submitted.
+
 _Two-Sample Projection Test for High-Dimensional Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Under Revision. 
