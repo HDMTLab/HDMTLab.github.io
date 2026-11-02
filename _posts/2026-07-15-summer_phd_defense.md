@@ -1,6 +1,6 @@
 ---
-title: Celebration of Dr. Kim’s Ph.D. Graduation
-description: Celebration of Dr. Kim’s Ph.D. Graduation
+title: Celebration of Dr. Kim’s Ph.D. Defense
+description: Celebration of Dr. Kim’s Ph.D. Defense
 categories: gallery
 header-img: gallery/2026-summer_phd_graduate/KakaoTalk_Photo_2026-08-13-17-48-11.jpeg
 ---
