@@ -15,10 +15,6 @@ _Predictable Weighting for Derandomized Knockoffs: Asymptotic Validity and Power
 Kim, K.<sup>*</sup> and Park, J. <br>
 Submitted.
 
-_Two-Sample Projection Test for High-Dimensional Functional Data_<br>
-Kim, H.<sup>*</sup> and Park, J. <br>
-Under Revision. 
-
 _FDR Control via Neural Networks under Covariate-Dependent Symmetric Nulls_<br>
 Kim, T.<sup>*</sup>, Hwang, S.<sup>*</sup> and Park, J. <br>
 Submitted.
@@ -51,6 +47,10 @@ Under Revision.
 
 
 ### _Accepted Papers_ 
+
+_Two-Sample Projection Test for High-Dimensional Functional Data_<br>
+Kim, H.<sup>*</sup> and Park, J. <br>
+Annals of the Institute of Statistical Mathematics. 
 
 _Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
 Kim, J. and Park, J. <br>
