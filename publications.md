@@ -52,13 +52,15 @@ _Two-Sample Projection Test for High-Dimensional Functional Data_<br>
 Kim, H.<sup>*</sup> and Park, J. <br>
 Annals of the Institute of Statistical Mathematics. 
 
-_Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
-Kim, J. and Park, J. <br>
-Statistical Methods in Medical Research.
+
 
 
 
 ### 2026
+
+_Combining dependent p-values with transformation using empirical distribution of correlated variables_<br>
+Kim, J. and Park, J. <br>
+Statistical Methods in Medical Research, 35(10), 2129-2146. [[Article Link]](https://doi.org/10.1177/09622802261480383) 
 
 _Box Thirding: Anytime Best Arm Identification under Insufficient Sampling_<br>
 Hwang, S.<sup>*</sup> and Park, J. <br>
