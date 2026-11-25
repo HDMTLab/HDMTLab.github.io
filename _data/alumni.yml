@@ -1,0 +1,89 @@
+# 졸업생 목록 (People 페이지의 Alumni 섹션)
+# - degree: phd 또는 ms
+# - start / end: 재학 시작·종료 연도
+# - now: 현재 소속
+# - homepage, email: 있으면 적고, 없으면 줄째로 생략
+# 최신 졸업생이 위로 오도록 위쪽에 추가하세요.
+
+# ---------- Ph.D. ----------
+- name: Kyuhwan Kim
+  degree: phd
+  start: 2021
+  end: 2026
+  now: Postdoctoral Researcher at IDIS
+
+- name: Seohwa Hwang
+  degree: phd
+  start: 2022
+  end: 2026
+  now: Postdoctoral Researcher at HDMT Lab
+  homepage: https://iamshhwang.github.io/
+
+- name: Hoyoung Park
+  degree: phd
+  start: 2020
+  end: 2021
+  now: Assistant Professor of Statistics at Sookmyung Women's University
+  homepage: https://hoyoungparks.github.io/hoyoung-homepage/
+
+# ---------- M.S. ----------
+- name: Hwijong Song
+  degree: ms
+  start: 2024
+  end: 2026
+  now: Ph.D. Student at HDMT Lab
+
+- name: Jisu Kim
+  degree: ms
+  start: 2024
+  end: 2026
+  now: Ph.D. Student at HDMT Lab
+
+- name: Junhyeok Ko
+  degree: ms
+  start: 2024
+  end: 2026
+  now: Ph.D. Student at University of Missouri
+  email: jkttw@umsystem.edu
+
+- name: Yeji Seong
+  degree: ms
+  start: 2023
+  end: 2025
+  now: LG CNS
+
+- name: Dayeon Jung
+  degree: ms
+  start: 2022
+  end: 2024
+  now: Ph.D. Student at The Ohio State University
+
+- name: Kyurhi Kim
+  degree: ms
+  start: 2022
+  end: 2024
+  now: Ph.D. Student at Emory University
+
+- name: Seungyeop Hyun
+  degree: ms
+  start: 2021
+  end: 2023
+  now: Samsung Electronics
+
+- name: Myungjun Kim
+  degree: ms
+  start: 2021
+  end: 2023
+  now: Samsung Electronics
+
+- name: Dohyup Shin
+  degree: ms
+  start: 2021
+  end: 2023
+  now: LG U+
+
+- name: Soyeon Lim
+  degree: ms
+  start: 2020
+  end: 2023
+  now: Korea Energy Agency

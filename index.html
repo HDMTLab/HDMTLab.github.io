@@ -12,34 +12,27 @@ layout: default
 
       <!-- 메인 이미지 슬라이드 -->
       <!-- https://velog.io/@wswy17/CSS-animation-%ED%99%9C%EC%9A%A9%ED%95%B4-slider-%EB%A7%8C%EB%93%A4%EA%B8%B0 -->
-      <div class="slider"> 
-        {% for post in site.posts %}
-          {% if post.categories contains 'gallery' %}
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            {% if forloop.index < 4 %}
-              <div class="slide"><img src="/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}"></div>
-             {% endif %}
-          {% endif %}
+      <!-- 효과 선택: class에 fade / kenburns / blur 중 하나를 적으세요 -->
+      <div class="slider kenburns">
+        <!-- Gallery 게시물만 먼저 골라낸 뒤, 그중 최신 3개만 게시 -->
+        {% assign gallery_posts = site.posts | where_exp: "post", "post.categories contains 'gallery'" %}
+        {% for post in gallery_posts limit: 3 %}
+          <div class="slide"><img src="/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}"></div>
         {% endfor %}
       </div>
 
 
       <style>
         img{
-          /* position: absolute;  */
-          /* top:0; left: 0; */
           width: auto;
           height: 100%;
           margin: auto;
         }
         .slider {
+          --dur: 7.5s;            /* 한 바퀴(사진 3장) 전체 시간. 사진 1장당 = --dur / 3 */
           position: relative;
           overflow: hidden;
-          
-          /* width: 800px; */
-          /* height: 600px; */
           width: 100%;
-          /* height: 80%; */
           padding-bottom: 80%;
         }
 
@@ -49,44 +42,51 @@ layout: default
           left: 0;
           width: 100%;
           height: 100%;
-          /* background-size: cover; */
-          /* background-position: center; */
-
-          animation: slider 7.5s infinite linear;
+          opacity: 0;
+          animation-duration: var(--dur);
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
         }
 
-        .slide:nth-child(1) {
-          /* background-image: url("/gallery/2024_Winter_KSS/main.png"); */
-          animation-delay: 0s;
-        }
-        .slide:nth-child(2) {
-          /* background-image: url("/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-02 004.jpeg"); */
-          animation-delay: -5s;
-        }
-        .slide:nth-child(3) {
-          /* background-image: url("/gallery/2024_teachers_day/KakaoTalk_Photo_2024-05-20-11-00-47 003.jpeg"); */
-          animation-delay: -2.5s;
+        /* 순서: 1 → 2 → 3 (기존과 동일한 delay 방식) */
+        .slide:nth-child(1) { animation-delay: 0s; }
+        .slide:nth-child(2) { animation-delay: calc(var(--dur) * -2 / 3); }
+        .slide:nth-child(3) { animation-delay: calc(var(--dur) * -1 / 3); }
+
+        .slider.fade     .slide { animation-name: hdmt-fade; }
+        .slider.kenburns .slide { animation-name: hdmt-kenburns; }
+        .slider.blur     .slide { animation-name: hdmt-blur; }
+
+        /* 1) 크로스페이드: 이전 사진이 사라지면서 다음 사진이 겹쳐 나타남 */
+        @keyframes hdmt-fade {
+          0%   { opacity: 1; }
+          28%  { opacity: 1; }
+          33%  { opacity: 0; }
+          95%  { opacity: 0; }
+          100% { opacity: 1; }
         }
 
-        @keyframes slider {
-          0% {
-            transform: translateX(0);
-          }
+        /* 2) 켄 번즈: 크로스페이드 + 보이는 동안 천천히 확대 */
+        @keyframes hdmt-kenburns {
+          0%   { opacity: 1; transform: scale(1); }
+          28%  { opacity: 1; }
+          33%  { opacity: 0; transform: scale(1.08); }
+          95%  { opacity: 0; transform: scale(1); }
+          100% { opacity: 1; transform: scale(1); }
+        }
 
-          26% {
-            transform: translateX(0);
-          }
-          33% {
-            transform: translateX(-100%);
-            animation-timing-function: step-end;
-          }
-          93% {
-            transform: translateX(100%);
-          }
+        /* 3) 블러 디졸브: 흐려지며 사라지고 선명해지며 나타남 */
+        @keyframes hdmt-blur {
+          0%   { opacity: 1; filter: blur(0); }
+          28%  { opacity: 1; filter: blur(0); }
+          33%  { opacity: 0; filter: blur(12px); }
+          95%  { opacity: 0; filter: blur(12px); }
+          100% { opacity: 1; filter: blur(0); }
+        }
 
-          100% {
-            transform: translateX(0);
-          }
+        /* 움직임 줄이기 설정을 켠 방문자에게는 확대/블러 없이 페이드만 */
+        @media (prefers-reduced-motion: reduce) {
+          .slider .slide { animation-name: hdmt-fade; }
         }
       </style>
      
@@ -113,32 +113,30 @@ layout: default
         <a href="mailto:junyongpark@snu.ac.kr"><i class="fa fa-envelope-o"></i> junyongpark@snu.ac.kr</a>
       </p>
 
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u> Happenings of the last six months. 
-            Updated {{'now' | date: '%Y'}}-{{'now' | date: '%m'}}-{{'now' | date: '%d'}}</u>
-            <!-- Updated {{'now' | date: '%d'}}/{{'now' | date: '%m'}}/{{'now' | date: '%Y'}}</u> -->
-          <!-- <u> Happenings of the last two months. Updated 07/12/2022</u> -->
-          <span style="display: block; margin-bottom: 0em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 15811200 }}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  {% if date > now and forloop.index < 4 %}
-                    <li> {{ new.date }}.
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>              
-          </div>
-        </div >
-      </div>
+      <section class="recent-news">
+        <div class="recent-news-head">
+          <h3>Recent News</h3>
+          <p class="recent-news-meta">
+            Happenings of the last six months. Updated {{ 'now' | date: '%Y.%m.%d' }}
+          </p>
+        </div>
+
+        {% capture now %}{{'now' | date: '%s' | minus: 15811200 }}{% endcapture %}
+        <ul class="news-list">
+          {% for new in site.data.news %}
+            {% capture date %}{{new.date | date: '%s' | plus: 0 }}{% endcapture %}
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            {% if date > now and forloop.index < 4 %}
+              <li class="news-item">
+                <time class="news-date" datetime="{{ new.date | date: '%Y-%m-%d' }}">{{ new.date | date: '%Y.%m.%d' }}</time>
+                <div class="news-body">{{ new.details }}</div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <a class="news-more" href="/news/">See all news &rarr;</a>
+      </section>
+
 
     </header>
 </div>

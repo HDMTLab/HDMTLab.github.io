@@ -40,16 +40,21 @@
 
       
       
-       
+      
+      
+        
+        
         
           
-            
-            
-              
-             
+        
           
         
-        ..." />
+          
+        
+      
+
+
+ ..." />
   <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
@@ -126,146 +131,31 @@ s.setAttribute('data-timestamp', +new Date());
 
       <!-- 메인 이미지 슬라이드 -->
       <!-- https://velog.io/@wswy17/CSS-animation-%ED%99%9C%EC%9A%A9%ED%95%B4-slider-%EB%A7%8C%EB%93%A4%EA%B8%B0 -->
-      <div class="slider"> 
+      <!-- 효과 선택: class에 fade / kenburns / blur 중 하나를 적으세요 -->
+      <div class="slider kenburns">
+        <!-- Gallery 게시물만 먼저 골라낸 뒤, 그중 최신 3개만 게시 -->
         
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-              <div class="slide"><img src="/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-05-04.jpeg"></div>
-             
-          
         
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-              <div class="slide"><img src="/gallery/2026-summer_workshop/KakaoTalk_Photo_2026-08-27-08-32-36.jpeg"></div>
-             
-          
+          <div class="slide"><img src="/gallery/2026-summer_graduate/KakaoTalk_Photo_2026-08-27-18-05-04.jpeg"></div>
         
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-              <div class="slide"><img src="/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-41.jpeg"></div>
-             
-          
+          <div class="slide"><img src="/gallery/2026-summer_workshop/KakaoTalk_Photo_2026-08-27-08-32-36.jpeg"></div>
         
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-            <!-- Gallery의 main 사진들 중 최신 3개만 게시 -->
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
+          <div class="slide"><img src="/gallery/2026-ecosta/KakaoTalk_Photo_2026-08-10-10-03-41.jpeg"></div>
         
       </div>
 
 
       <style>
         img{
-          /* position: absolute;  */
-          /* top:0; left: 0; */
           width: auto;
           height: 100%;
           margin: auto;
         }
         .slider {
+          --dur: 7.5s;            /* 한 바퀴(사진 3장) 전체 시간. 사진 1장당 = --dur / 3 */
           position: relative;
           overflow: hidden;
-          
-          /* width: 800px; */
-          /* height: 600px; */
           width: 100%;
-          /* height: 80%; */
           padding-bottom: 80%;
         }
 
@@ -275,44 +165,51 @@ s.setAttribute('data-timestamp', +new Date());
           left: 0;
           width: 100%;
           height: 100%;
-          /* background-size: cover; */
-          /* background-position: center; */
-
-          animation: slider 7.5s infinite linear;
+          opacity: 0;
+          animation-duration: var(--dur);
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
         }
 
-        .slide:nth-child(1) {
-          /* background-image: url("/gallery/2024_Winter_KSS/main.png"); */
-          animation-delay: 0s;
-        }
-        .slide:nth-child(2) {
-          /* background-image: url("/gallery/2024_Winter_KSS/KakaoTalk_Photo_2024-11-29-16-14-02 004.jpeg"); */
-          animation-delay: -5s;
-        }
-        .slide:nth-child(3) {
-          /* background-image: url("/gallery/2024_teachers_day/KakaoTalk_Photo_2024-05-20-11-00-47 003.jpeg"); */
-          animation-delay: -2.5s;
+        /* 순서: 1 → 2 → 3 (기존과 동일한 delay 방식) */
+        .slide:nth-child(1) { animation-delay: 0s; }
+        .slide:nth-child(2) { animation-delay: calc(var(--dur) * -2 / 3); }
+        .slide:nth-child(3) { animation-delay: calc(var(--dur) * -1 / 3); }
+
+        .slider.fade     .slide { animation-name: hdmt-fade; }
+        .slider.kenburns .slide { animation-name: hdmt-kenburns; }
+        .slider.blur     .slide { animation-name: hdmt-blur; }
+
+        /* 1) 크로스페이드: 이전 사진이 사라지면서 다음 사진이 겹쳐 나타남 */
+        @keyframes hdmt-fade {
+          0%   { opacity: 1; }
+          28%  { opacity: 1; }
+          33%  { opacity: 0; }
+          95%  { opacity: 0; }
+          100% { opacity: 1; }
         }
 
-        @keyframes slider {
-          0% {
-            transform: translateX(0);
-          }
+        /* 2) 켄 번즈: 크로스페이드 + 보이는 동안 천천히 확대 */
+        @keyframes hdmt-kenburns {
+          0%   { opacity: 1; transform: scale(1); }
+          28%  { opacity: 1; }
+          33%  { opacity: 0; transform: scale(1.08); }
+          95%  { opacity: 0; transform: scale(1); }
+          100% { opacity: 1; transform: scale(1); }
+        }
 
-          26% {
-            transform: translateX(0);
-          }
-          33% {
-            transform: translateX(-100%);
-            animation-timing-function: step-end;
-          }
-          93% {
-            transform: translateX(100%);
-          }
+        /* 3) 블러 디졸브: 흐려지며 사라지고 선명해지며 나타남 */
+        @keyframes hdmt-blur {
+          0%   { opacity: 1; filter: blur(0); }
+          28%  { opacity: 1; filter: blur(0); }
+          33%  { opacity: 0; filter: blur(12px); }
+          95%  { opacity: 0; filter: blur(12px); }
+          100% { opacity: 1; filter: blur(0); }
+        }
 
-          100% {
-            transform: translateX(0);
-          }
+        /* 움직임 줄이기 설정을 켠 방문자에게는 확대/블러 없이 페이드만 */
+        @media (prefers-reduced-motion: reduce) {
+          .slider .slide { animation-name: hdmt-fade; }
         }
       </style>
      
@@ -339,140 +236,136 @@ s.setAttribute('data-timestamp', +new Date());
         <a href="mailto:junyongpark@snu.ac.kr"><i class="fa fa-envelope-o"></i> junyongpark@snu.ac.kr</a>
       </p>
 
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u> Happenings of the last six months. 
-            Updated 2026-11-24</u>
-            <!-- Updated 24/11/2026</u> -->
-          <!-- <u> Happenings of the last two months. Updated 07/12/2022</u> -->
-          <span style="display: block; margin-bottom: 0em"></span>
-          <div class="news">
-              
-              <ul style="list-style-position:outside;padding:20px" >
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                    <li> 2026.12.13.
-                      <span>
-                        Prof. Junyong Park will give an invited talk at CFE-CMStatistics 2026, held at HTW Berlin in Germany.
-                      </span>
-                    </li>
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                    <li> 2026.11.24.
-                      <span>
-                        Hyunsung successfully defended his Ph.D. dissertation, "Projection-Based Inference and Data-Adaptive Dimension Reduction for High-Dimensional Functional Data"!
-                      </span>
-                    </li>
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                    <li> 2026.11.02.
-                      <span>
-                        Prof. Junyong Park gave an invited talk in Department of Statistics at Sookmyung Women's University.
-                      </span>
-                    </li>
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-                  
-                  <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
-                  
-                
-              </ul>              
-          </div>
-        </div >
-      </div>
+      <section class="recent-news">
+        <div class="recent-news-head">
+          <h3>Recent News</h3>
+          <p class="recent-news-meta">
+            Happenings of the last six months. Updated 2026.11.25
+          </p>
+        </div>
+
+        
+        <ul class="news-list">
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+              <li class="news-item">
+                <time class="news-date" datetime="2026-12-13">2026.12.13</time>
+                <div class="news-body">Prof. Junyong Park will give an invited talk at CFE-CMStatistics 2026, held at HTW Berlin in Germany.</div>
+              </li>
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+              <li class="news-item">
+                <time class="news-date" datetime="2026-11-24">2026.11.24</time>
+                <div class="news-body">Hyunsung successfully defended his Ph.D. dissertation, "Projection-Based Inference and Data-Adaptive Dimension Reduction for High-Dimensional Functional Data"!</div>
+              </li>
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+              <li class="news-item">
+                <time class="news-date" datetime="2026-11-02">2026.11.02</time>
+                <div class="news-body">Prof. Junyong Park gave an invited talk in Department of Statistics at Sookmyung Women's University.</div>
+              </li>
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+            
+            <!-- 최근 6개월 이내의 news 중 최신 3개만 게시 -->
+            
+          
+        </ul>
+        <a class="news-more" href="/news/">See all news &rarr;</a>
+      </section>
+
 
     </header>
 </div>

@@ -2,19 +2,19 @@
 title: People
 permalink: /people/
 ---
-
+ 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|phd|ms|alumni" | split: "|" %}
-
+{% assign role_array = "pi|postdoc|phd|ms" | split: "|" %}
+ 
 {% for role in role_array %}
-
+ 
 {% assign people_in_role = people_sorted | where: 'position', role %}
-
+ 
 <!-- Skip section if there's nobody -->
 {% if people_in_role.size == 0 %}
   {% continue %}
 {% endif %}
-
+ 
 <div class="pos_header">
 {% if role == 'pi' %}
 <h3>Professor</h3>
@@ -25,11 +25,8 @@ permalink: /people/
 <h3>Ph.D. Students</h3> <p>(👑: Lab admin)</p>
 {% elsif role == 'ms' %}
 <h3>Master's Students</h3>
-{% elsif role == 'alumni' %}
-<h3>Alumni</h3>
 {% endif %}
 </div>
-
 <!-- 왕관 로고 관련 style -->
 <style>
   /* 컨테이너 (기준점) */
@@ -37,7 +34,6 @@ permalink: /people/
   position: relative;
   display: inline-block;
 }
-
 /* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
 .layer-1 {
   position: absolute;
@@ -48,8 +44,7 @@ permalink: /people/
   z-index: 2; /* 메인 이미지(1)보다 위에 배치 */
 }
 </style>
-
-{% if role != 'alumni' %}
+ 
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -83,46 +78,35 @@ permalink: /people/
   {% endfor %}
 </div>
 <hr>
-
-{% else %}
-
-{% endif %}
 {% endfor %}
-
-
-
-<!-- Alumni parts; Extract it from "if" and "for loop" -->
-<style>
-table th:first-of-type {
-    width: 18%;
-}
-table th:nth-of-type(2) {
-    width: 27%;
-}
-table th:nth-of-type(3) {
-    width: 55%;
-}
-</style>
-
+ 
+ 
+ 
+<!-- Alumni: 데이터는 _data/alumni.yml, 스타일은 style.scss의 Alumni 섹션 -->
 <div class="pos_header">
-
 <h3>Alumni</h3>
-<br>
 </div>
-
-| Who are they | When were they here | Where they went |
-| :------------- |:-------------| :----------|
-| Kyuhwan Kim | Ph.D. Student (2021 - 2026) | Postdoctoral Researcher at IDIS |
-| Hwijong Song | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
-| [Seohwa Hwang](https://iamshhwang.github.io/) | Ph.D. Student (2022 - 2026) | Postdoctoral Researcher at HDMT Lab |
-| Jisu Kim | MS Student (2024 - 2026) | Ph.D. Student at HDMT Lab |
-| Junhyeok Ko [@](mailto:jkttw@umsystem.edu) | MS Student (2024 - 2026) | Ph.D. Student at University of Missouri |
-| Yeji Seong | MS Student (2023 - 2025) | LG CNS |
-| Dayeon Jung | MS Student (2022 - 2024) | Ph.D. Student at The Ohio State University |
-| Kyurhi Kim | MS Student (2022 - 2024) | Ph.D. Student at Emory University |
-| Seungyeop Hyun | MS Student (2021 - 2023) | Samsung Electronics |
-| Myungjun Kim | MS Student (2021 - 2023) | Samsung Electronics |
-| Dohyup Shin | MS Student (2021 - 2023) | LG U+ |
-| Soyeon Lim | MS Student (2020 - 2023) | Korea Energy Agency |
-| [Hoyoung Park](https://hoyoungparks.github.io/hoyoung-homepage/) | Ph.D. Student (2020 - 2021) | Assistant Professor at Sookmyung Women's University |
-
+<div class="alumni">
+{%- assign alumni_degrees = "phd|ms" | split: "|" -%}
+{%- for degree in alumni_degrees -%}
+  {%- assign alumni_group = site.data.alumni | where: "degree", degree -%}
+  {%- if alumni_group.size > 0 %}
+  <div class="alumni-group">
+    <h4 class="alumni-degree">{% if degree == 'phd' %}Ph.D.{% else %}M.S.{% endif %}</h4>
+    <ul class="news-list">
+    {%- for alum in alumni_group %}
+      <li class="news-item">
+        <span class="news-date">{{ alum.start }}–{{ alum.end }}</span>
+        <div class="alumni-body">
+          <span class="alumni-name">{% if alum.homepage %}<a href="{{ alum.homepage }}">{{ alum.name }}</a>{% else %}{{ alum.name }}{% endif %}</span>
+          {%- if alum.email %} <a class="alumni-email" href="mailto:{{ alum.email }}" aria-label="Email {{ alum.name }}" title="{{ alum.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>{% endif %}
+          <span class="alumni-now">{{ alum.now }}</span>
+        </div>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
+  {%- endif %}
+{%- endfor %}
+</div>
+ 

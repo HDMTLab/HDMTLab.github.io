@@ -41,24 +41,13 @@
 
 
 
-
-
-
-
-
   
     
-      Summer Workshop on Robust Inference for High-Dimensional Complex Data (August 2026)
+      Aug 2026
+      26–27
     
-  
-
-
-
-
-
-
-
-  ..." />
+    
+      Summer Workshop on Robust Inference for High-Dimensional Complex Data..." />
   <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
@@ -130,63 +119,44 @@ s.setAttribute('data-timestamp', +new Date());
   <header class="masthead text-center">
     <h1>Workshop</h1>
   </header>
-
 <hr />
 
-<div class="content list">
-
-<!-- <div class="list-item">
-<p><a href="/workshop/2026summer/"><h5>Summer Workshop on Robust Inference for High-Dimensional Complex Data (August 2026)</h5></a></p>
-</div> -->
-<!-- hidden: true 이면 비밀번호 요청; 비밀번호: hdmt -->
-
-<ul>
-  <li>
-    <a href="/workshop/2026summer/">
-      <strong>Summer Workshop on Robust Inference for High-Dimensional Complex Data (August 2026)</strong>
-    </a>
-  </li>
-</ul>
-
-
-<!-- <div class="list-item">
-<p><a href="/workshop/2026winter/"><h5>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</h5></a></p>
-</div> -->
-<!-- hidden: true 이면 비밀번호 요청; 비밀번호: hdmt -->
-
-<ul>
-  <li>
-    <a href="/workshop/2026winter/">
-      <strong>Workshop on Robust Inference for High-Dimensional Complex Data (January 2026)</strong>
-    </a>
-  </li>
-</ul>
-
-
+<!--
+  각 워크숍 파일(_workshop/*.md) 맨 위에 start_date, end_date, venue를 적으면
+  날짜·장소가 카드에 표시되고, start_date 기준 최신순으로 정렬됩니다.
+  일수와 발표 수는 session 데이터에서 자동으로 계산됩니다.
+  스타일은 style.scss의 Workshop 섹션에 있습니다.
+-->
+<div class="workshop-list">
+  <div class="workshop-card">
+    <div class="workshop-when">
+      <span class="workshop-month">Aug 2026</span>
+      <span class="workshop-days">26–27</span>
+    </div>
+    <div class="workshop-main">
+      <h3 class="workshop-title"><a href="/workshop/2026summer/">Summer Workshop on Robust Inference for High-Dimensional Complex Data</a></h3>
+      <p class="workshop-venue">Room 405, Building 25, Gwanak Campus, Seoul National University</p>
+      <p class="workshop-meta">
+        <span>2 days · 14 talks</span>
+        <a class="workshop-more" href="/workshop/2026summer/">View program &rarr;</a>
+      </p>
+    </div>
+  </div>
+  <div class="workshop-card">
+    <div class="workshop-when">
+      <span class="workshop-month">Jan 2026</span>
+      <span class="workshop-days">21–22</span>
+    </div>
+    <div class="workshop-main">
+      <h3 class="workshop-title"><a href="/workshop/2026winter/">Workshop on Robust Inference for High-Dimensional Complex Data</a></h3>
+      <p class="workshop-venue">Room 806-1, Convention Center, Siheung Campus, Seoul National University</p>
+      <p class="workshop-meta">
+        <span>2 days · 15 talks</span>
+        <a class="workshop-more" href="/workshop/2026winter/">View program &rarr;</a>
+      </p>
+    </div>
+  </div>
 </div>
-
-<!-- 기능 작동을 위한 자바스크립트 (파일 맨 아래에 한 번만 넣어주세요) -->
-<script>
-function checkPassword(iconElement) {
-  // 1. 비밀번호를 묻는 알림창 띄우기
-  var userInput = prompt("비밀번호를 입력하세요:");
-  
-  // 2. 비밀번호 확인 (원하는 비밀번호로 '1234' 부분을 수정하세요)
-  var correctPassword = "hdmt"; 
-
-  if (userInput === correctPassword) {
-    // 3. 비밀번호가 맞으면 자물쇠 옆의 숨겨진 태그를 찾아서 보여줌
-    var hiddenContent = iconElement.nextElementSibling;
-    if (hiddenContent) {
-      hiddenContent.style.display = "inline";
-      iconElement.style.display = "none"; // 열린 후에는 자물쇠 아이콘 숨기기 (선택 사항)
-    }
-  } else if (userInput !== null) {
-    // 4. 취소를 누르지 않았는데 틀린 경우
-    alert("비밀번호가 틀렸습니다.");
-  }
-}
-</script>
 
 
 </div>

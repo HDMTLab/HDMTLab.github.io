@@ -2,58 +2,29 @@
 title: News
 permalink: /news/
 ---
-
+ 
 <!-- ## **News** -->
-
+ 
 <header class="masthead text-center">
     <h1>News</h1>
 </header>
-
 ------
-
-
-<style>
-table td:first-of-type {
-    width: 15%;
-}
-table td:nth-of-type(2) {
-    width: 85%;
-}
-td {
-  font-size: 15px !important;
-}
-</style>
-
-
-<table>
-  <tr>
-    <td> <b>Date</b> </td>
-    <td> <b>Event</b> </td>
-  </tr>
-  {% for new in site.data.news %}
-  <tr>
-    <td> {{ new.date }} </td>
-    <td> {{ new.details }} </td>
-  </tr>
- {% endfor %}
-</table>
-
-
-
-
-<!--
-  <div class="news">
-    <ul style="list-style-position:outside;padding:20px">
-      {% for new in site.data.news %}
-      <h4>
-          <li> {{ new.date }} | 
-            <span>
-              {{ new.details }}
-            </span>
-          </li>
-      </h4>
-      <br>
-      {% endfor %}
+ 
+<!-- 항목 모양은 style.scss의 News 섹션에서 홈의 Recent News와 함께 관리 -->
+<div class="news-archive">
+{%- assign news_by_year = site.data.news | group_by_exp: "new", "new.date | date: '%Y'" -%}
+{%- for year in news_by_year %}
+  <div class="news-year-group">
+    <h2 class="news-year">{{ year.name }}</h2>
+    <ul class="news-list">
+    {%- for new in year.items %}
+      <li class="news-item">
+        <time class="news-date" datetime="{{ new.date | date: '%Y-%m-%d' }}">{{ new.date | date: '%Y.%m.%d' }}</time>
+        <div class="news-body">{{ new.details }}</div>
+      </li>
+    {%- endfor %}
     </ul>
   </div>
--->      
+{%- endfor %}
+</div>
+ 

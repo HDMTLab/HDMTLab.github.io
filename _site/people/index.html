@@ -47,7 +47,6 @@ Professor
 
 
 
-
   
     
       
@@ -57,7 +56,7 @@ Professor
                                  
               
                
-     ..." />
+      ..." />
   <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
@@ -135,7 +134,6 @@ s.setAttribute('data-timestamp', +new Date());
 <!-- <h3>Principal Investigator</h3> -->
 
 </div>
-
 <!-- 왕관 로고 관련 style -->
 <style>
   /* 컨테이너 (기준점) */
@@ -143,7 +141,6 @@ s.setAttribute('data-timestamp', +new Date());
   position: relative;
   display: inline-block;
 }
-
 /* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
 .layer-1 {
   position: absolute;
@@ -208,7 +205,6 @@ s.setAttribute('data-timestamp', +new Date());
 <h3>Postdoctoral Researcher</h3>
 
 </div>
-
 <!-- 왕관 로고 관련 style -->
 <style>
   /* 컨테이너 (기준점) */
@@ -216,7 +212,6 @@ s.setAttribute('data-timestamp', +new Date());
   position: relative;
   display: inline-block;
 }
-
 /* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
 .layer-1 {
   position: absolute;
@@ -300,7 +295,6 @@ s.setAttribute('data-timestamp', +new Date());
 <h3>Ph.D. Students</h3> <p>(👑: Lab admin)</p>
 
 </div>
-
 <!-- 왕관 로고 관련 style -->
 <style>
   /* 컨테이너 (기준점) */
@@ -308,7 +302,6 @@ s.setAttribute('data-timestamp', +new Date());
   position: relative;
   display: inline-block;
 }
-
 /* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
 .layer-1 {
   position: absolute;
@@ -453,7 +446,6 @@ s.setAttribute('data-timestamp', +new Date());
 <h3>Master's Students</h3>
 
 </div>
-
 <!-- 왕관 로고 관련 style -->
 <style>
   /* 컨테이너 (기준점) */
@@ -461,7 +453,6 @@ s.setAttribute('data-timestamp', +new Date());
   position: relative;
   display: inline-block;
 }
-
 /* 2층: 메인 이미지 위에 올라가는 첫 번째 요소 */
 .layer-1 {
   position: absolute;
@@ -557,103 +548,113 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 <hr />
 
-<!-- Skip section if there's nobody -->
-
-<!-- Alumni parts; Extract it from "if" and "for loop" -->
-<style>
-table th:first-of-type {
-    width: 18%;
-}
-table th:nth-of-type(2) {
-    width: 27%;
-}
-table th:nth-of-type(3) {
-    width: 55%;
-}
-</style>
-
+<!-- Alumni: 데이터는 _data/alumni.yml, 스타일은 style.scss의 Alumni 섹션 -->
 <div class="pos_header">
-
 <h3>Alumni</h3>
-<br />
 </div>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Who are they</th>
-      <th style="text-align: left">When were they here</th>
-      <th style="text-align: left">Where they went</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Kyuhwan Kim</td>
-      <td style="text-align: left">Ph.D. Student (2021 - 2026)</td>
-      <td style="text-align: left">Postdoctoral Researcher at IDIS</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Hwijong Song</td>
-      <td style="text-align: left">MS Student (2024 - 2026)</td>
-      <td style="text-align: left">Ph.D. Student at HDMT Lab</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://iamshhwang.github.io/">Seohwa Hwang</a></td>
-      <td style="text-align: left">Ph.D. Student (2022 - 2026)</td>
-      <td style="text-align: left">Postdoctoral Researcher at HDMT Lab</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Jisu Kim</td>
-      <td style="text-align: left">MS Student (2024 - 2026)</td>
-      <td style="text-align: left">Ph.D. Student at HDMT Lab</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Junhyeok Ko <a href="mailto:jkttw@umsystem.edu">@</a></td>
-      <td style="text-align: left">MS Student (2024 - 2026)</td>
-      <td style="text-align: left">Ph.D. Student at University of Missouri</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Yeji Seong</td>
-      <td style="text-align: left">MS Student (2023 - 2025)</td>
-      <td style="text-align: left">LG CNS</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Dayeon Jung</td>
-      <td style="text-align: left">MS Student (2022 - 2024)</td>
-      <td style="text-align: left">Ph.D. Student at The Ohio State University</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Kyurhi Kim</td>
-      <td style="text-align: left">MS Student (2022 - 2024)</td>
-      <td style="text-align: left">Ph.D. Student at Emory University</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Seungyeop Hyun</td>
-      <td style="text-align: left">MS Student (2021 - 2023)</td>
-      <td style="text-align: left">Samsung Electronics</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Myungjun Kim</td>
-      <td style="text-align: left">MS Student (2021 - 2023)</td>
-      <td style="text-align: left">Samsung Electronics</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Dohyup Shin</td>
-      <td style="text-align: left">MS Student (2021 - 2023)</td>
-      <td style="text-align: left">LG U+</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Soyeon Lim</td>
-      <td style="text-align: left">MS Student (2020 - 2023)</td>
-      <td style="text-align: left">Korea Energy Agency</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://hoyoungparks.github.io/hoyoung-homepage/">Hoyoung Park</a></td>
-      <td style="text-align: left">Ph.D. Student (2020 - 2021)</td>
-      <td style="text-align: left">Assistant Professor at Sookmyung Women’s University</td>
-    </tr>
-  </tbody>
-</table>
+<div class="alumni">
+  <div class="alumni-group">
+    <h4 class="alumni-degree">Ph.D.</h4>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">2021–2026</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Kyuhwan Kim</span>
+          <span class="alumni-now">Postdoctoral Researcher at IDIS</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2022–2026</span>
+        <div class="alumni-body">
+          <span class="alumni-name"><a href="https://iamshhwang.github.io/">Seohwa Hwang</a></span>
+          <span class="alumni-now">Postdoctoral Researcher at HDMT Lab</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2020–2021</span>
+        <div class="alumni-body">
+          <span class="alumni-name"><a href="https://hoyoungparks.github.io/hoyoung-homepage/">Hoyoung Park</a></span>
+          <span class="alumni-now">Assistant Professor of Statistics at Sookmyung Women's University</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="alumni-group">
+    <h4 class="alumni-degree">M.S.</h4>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">2024–2026</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Hwijong Song</span>
+          <span class="alumni-now">Ph.D. Student at HDMT Lab</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2024–2026</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Jisu Kim</span>
+          <span class="alumni-now">Ph.D. Student at HDMT Lab</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2024–2026</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Junhyeok Ko</span> <a class="alumni-email" href="mailto:jkttw@umsystem.edu" aria-label="Email Junhyeok Ko" title="jkttw@umsystem.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          <span class="alumni-now">Ph.D. Student at University of Missouri</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2023–2025</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Yeji Seong</span>
+          <span class="alumni-now">LG CNS</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2022–2024</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Dayeon Jung</span>
+          <span class="alumni-now">Ph.D. Student at The Ohio State University</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2022–2024</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Kyurhi Kim</span>
+          <span class="alumni-now">Ph.D. Student at Emory University</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2021–2023</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Seungyeop Hyun</span>
+          <span class="alumni-now">Samsung Electronics</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2021–2023</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Myungjun Kim</span>
+          <span class="alumni-now">Samsung Electronics</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2021–2023</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Dohyup Shin</span>
+          <span class="alumni-now">LG U+</span>
+        </div>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2020–2023</span>
+        <div class="alumni-body">
+          <span class="alumni-name">Soyeon Lim</span>
+          <span class="alumni-now">Korea Energy Agency</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
 
 
 </div>
