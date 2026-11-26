@@ -96,7 +96,8 @@ permalink: /people/
     <ul class="news-list">
     {%- for alum in alumni_group %}
       <li class="news-item">
-        <span class="news-date">{{ alum.start }}–{{ alum.end }}</span>
+        <!-- <span class="news-date">{{ alum.graduated | replace: "-", "." }}</span> -->
+        <span class="news-date">{{ alum.graduated | append: "-01" | date: "%b %Y" }}</span>
         <div class="alumni-body">
           <span class="alumni-name">{% if alum.homepage %}<a href="{{ alum.homepage }}">{{ alum.name }}</a>{% else %}{{ alum.name }}{% endif %}</span>
           {%- if alum.email %} <a class="alumni-email" href="mailto:{{ alum.email }}" aria-label="Email {{ alum.name }}" title="{{ alum.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>{% endif %}
